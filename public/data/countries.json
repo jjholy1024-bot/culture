@@ -1,0 +1,1775 @@
+[
+  {
+    "iso_code": "AFG",
+    "country_kr": "아프가니스탄",
+    "country_en": "Afghanistan",
+    "lat": 33,
+    "lng": 65,
+    "flag_image": "images/AFG.gif",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "AGO",
+    "country_kr": "앙골라",
+    "country_en": "Angola",
+    "lat": -12.5,
+    "lng": 18.5,
+    "flag_image": "images/AGO.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "ALB",
+    "country_kr": "알바니아",
+    "country_en": "Albania",
+    "lat": 41,
+    "lng": 20,
+    "flag_image": "images/ALB.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "AND",
+    "country_kr": "안도라",
+    "country_en": "Andorra",
+    "lat": 42.5,
+    "lng": 1.5,
+    "flag_image": "images/AND.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "ARE",
+    "country_kr": "아랍에미리트",
+    "country_en": "United Arab Emirates",
+    "lat": 24,
+    "lng": 54,
+    "flag_image": "images/ARE.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "ARG",
+    "country_kr": "아르헨티나",
+    "country_en": "Argentina",
+    "lat": -34,
+    "lng": -64,
+    "flag_image": "images/ARG.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "ARM",
+    "country_kr": "아르메니아",
+    "country_en": "Armenia",
+    "lat": 40,
+    "lng": 45,
+    "flag_image": "images/ARM.gif",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "ATG",
+    "country_kr": "앤티가바부다",
+    "country_en": "Antigua and Barbuda",
+    "lat": 17.05,
+    "lng": -61.8,
+    "flag_image": "images/ATG.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "AUS",
+    "country_kr": "호주",
+    "country_en": "Australia",
+    "lat": -27,
+    "lng": 133,
+    "flag_image": "images/AUS.jpg",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "AUT",
+    "country_kr": "오스트리아",
+    "country_en": "Austria",
+    "lat": 47.33333333,
+    "lng": 13.33333333,
+    "flag_image": "images/AUT.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "AZE",
+    "country_kr": "아제르바이잔",
+    "country_en": "Azerbaijan",
+    "lat": 40.5,
+    "lng": 47.5,
+    "flag_image": "images/AZE.gif",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "BDI",
+    "country_kr": "부룬디",
+    "country_en": "Burundi",
+    "lat": -3.5,
+    "lng": 30,
+    "flag_image": "images/BDI.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "BEL",
+    "country_kr": "벨기에",
+    "country_en": "Belgium",
+    "lat": 50.83333333,
+    "lng": 4,
+    "flag_image": "images/BEL.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "BEN",
+    "country_kr": "베냉",
+    "country_en": "Benin",
+    "lat": 9.5,
+    "lng": 2.25,
+    "flag_image": "images/BEN.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "BFA",
+    "country_kr": "부르키나파소",
+    "country_en": "Burkina Faso",
+    "lat": 13,
+    "lng": -2,
+    "flag_image": "images/BFA.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "BGD",
+    "country_kr": "방글라데시",
+    "country_en": "Bangladesh",
+    "lat": 24,
+    "lng": 90,
+    "flag_image": "images/BGD.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "BGR",
+    "country_kr": "불가리아",
+    "country_en": "Bulgaria",
+    "lat": 43,
+    "lng": 25,
+    "flag_image": "images/BGR.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "BHR",
+    "country_kr": "바레인",
+    "country_en": "Bahrain",
+    "lat": 26,
+    "lng": 50.55,
+    "flag_image": "images/BHR.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "BHS",
+    "country_kr": "바하마",
+    "country_en": "Bahamas",
+    "lat": 24.25,
+    "lng": -76,
+    "flag_image": "images/BHS.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "BIH",
+    "country_kr": "보스니아헤르체고비나",
+    "country_en": "Bosnia and Herzegovina",
+    "lat": 44,
+    "lng": 18,
+    "flag_image": "images/BIH.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "BLR",
+    "country_kr": "벨라루스",
+    "country_en": "Belarus",
+    "lat": 53,
+    "lng": 28,
+    "flag_image": "images/BLR.gif",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "BLZ",
+    "country_kr": "벨리즈",
+    "country_en": "Belize",
+    "lat": 17.25,
+    "lng": -88.75,
+    "flag_image": "images/BLZ.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "BOL",
+    "country_kr": "볼리비아",
+    "country_en": "Bolivia",
+    "lat": -17,
+    "lng": -65,
+    "flag_image": "images/BOL.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "BRA",
+    "country_kr": "브라질",
+    "country_en": "Brazil",
+    "lat": -10,
+    "lng": -55,
+    "flag_image": "images/BRA.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "BRB",
+    "country_kr": "바베이도스",
+    "country_en": "Barbados",
+    "lat": 13.16666666,
+    "lng": -59.53333333,
+    "flag_image": "images/BRB.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "BRN",
+    "country_kr": "브루나이",
+    "country_en": "Brunei",
+    "lat": 4.5,
+    "lng": 114.66666666,
+    "flag_image": "images/BRN.png",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "BTN",
+    "country_kr": "부탄",
+    "country_en": "Bhutan",
+    "lat": 27.5,
+    "lng": 90.5,
+    "flag_image": "images/BTN.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "BWA",
+    "country_kr": "보츠와나",
+    "country_en": "Botswana",
+    "lat": -22,
+    "lng": 24,
+    "flag_image": "images/BWA.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "CAF",
+    "country_kr": "중앙아프리카공화국",
+    "country_en": "Central African Republic",
+    "lat": 7,
+    "lng": 21,
+    "flag_image": "images/CAF.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "CAN",
+    "country_kr": "캐나다",
+    "country_en": "Canada",
+    "lat": 60,
+    "lng": -95,
+    "flag_image": "images/CAN.png",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "CHE",
+    "country_kr": "스위스",
+    "country_en": "Switzerland",
+    "lat": 47,
+    "lng": 8,
+    "flag_image": "images/CHE.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "CHL",
+    "country_kr": "칠레",
+    "country_en": "Chile",
+    "lat": -30,
+    "lng": -71,
+    "flag_image": "images/CHL.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "CHN",
+    "country_kr": "중국",
+    "country_en": "China",
+    "lat": 35,
+    "lng": 105,
+    "flag_image": "images/CHN.jpeg",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "CIV",
+    "country_kr": "코트디부아르",
+    "country_en": "Cote d Ivoire",
+    "lat": 8,
+    "lng": -5,
+    "flag_image": "images/CIV.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "CMR",
+    "country_kr": "카메룬",
+    "country_en": "Cameroon",
+    "lat": 6,
+    "lng": 12,
+    "flag_image": "images/CMR.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "COD",
+    "country_kr": "콩고민주공화국",
+    "country_en": "Democratic Republic of the Congo",
+    "lat": 0,
+    "lng": 25,
+    "flag_image": "images/COD.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "COG",
+    "country_kr": "콩고",
+    "country_en": "Republic of Congo",
+    "lat": -1,
+    "lng": 15,
+    "flag_image": "images/COG.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "COK",
+    "country_kr": "쿡제도",
+    "country_en": "Cook Island",
+    "lat": -21.23333333,
+    "lng": -159.76666666,
+    "flag_image": "images/COK.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "COL",
+    "country_kr": "콜롬비아",
+    "country_en": "Colombia",
+    "lat": 4,
+    "lng": -72,
+    "flag_image": "images/COL.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "COM",
+    "country_kr": "코모로",
+    "country_en": "Comoros ",
+    "lat": -12.16666666,
+    "lng": 44.25,
+    "flag_image": "images/COM.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "CPV",
+    "country_kr": "카보베르데",
+    "country_en": "CapeVerde",
+    "lat": 16,
+    "lng": -24,
+    "flag_image": "images/CPV.png",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "CRI",
+    "country_kr": "코스타리카",
+    "country_en": "CostaRica",
+    "lat": 10,
+    "lng": -84,
+    "flag_image": "images/CRI.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "CUB",
+    "country_kr": "쿠바",
+    "country_en": "Cuba",
+    "lat": 21.5,
+    "lng": -80,
+    "flag_image": "images/CUB.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "CYP",
+    "country_kr": "사이프러스",
+    "country_en": "Cyprus",
+    "lat": 35,
+    "lng": 33,
+    "flag_image": "images/CYP.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "CZE",
+    "country_kr": "체코",
+    "country_en": "Czech Republic",
+    "lat": 49.75,
+    "lng": 15.5,
+    "flag_image": "images/CZE.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "DEU",
+    "country_kr": "독일",
+    "country_en": "Germany",
+    "lat": 51,
+    "lng": 9,
+    "flag_image": "images/DEU.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "DJI",
+    "country_kr": "지부티",
+    "country_en": "Djibouti",
+    "lat": 11.5,
+    "lng": 43,
+    "flag_image": "images/DJI.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "DMA",
+    "country_kr": "도미니카연방",
+    "country_en": "Dominica",
+    "lat": 15.41666666,
+    "lng": -61.33333333,
+    "flag_image": "images/DMA.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "DNK",
+    "country_kr": "덴마크",
+    "country_en": "Denmark",
+    "lat": 56,
+    "lng": 10,
+    "flag_image": "images/DNK.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "DOM",
+    "country_kr": "도미니카공화국",
+    "country_en": "Dominican Republic",
+    "lat": 19,
+    "lng": -70.66666666,
+    "flag_image": "images/DOM.bmp",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "DZA",
+    "country_kr": "알제리",
+    "country_en": "Algeria",
+    "lat": 28,
+    "lng": 3,
+    "flag_image": "images/DZA.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "ECU",
+    "country_kr": "에콰도르",
+    "country_en": "Ecuador",
+    "lat": -2,
+    "lng": -77.5,
+    "flag_image": "images/ECU.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "EGY",
+    "country_kr": "이집트",
+    "country_en": "Egypt",
+    "lat": 27,
+    "lng": 30,
+    "flag_image": "images/EGY.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "ERI",
+    "country_kr": "에리트레아",
+    "country_en": "Eritrea",
+    "lat": 15,
+    "lng": 39,
+    "flag_image": "images/ERI.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "ESP",
+    "country_kr": "스페인",
+    "country_en": "Spain",
+    "lat": 40,
+    "lng": -4,
+    "flag_image": "images/ESP.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "EST",
+    "country_kr": "에스토니아",
+    "country_en": "Estonia",
+    "lat": 59,
+    "lng": 26,
+    "flag_image": "images/EST.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "ETH",
+    "country_kr": "에티오피아",
+    "country_en": "Ethiopia",
+    "lat": 8,
+    "lng": 38,
+    "flag_image": "images/ETH.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "FIN",
+    "country_kr": "핀란드",
+    "country_en": "Finland",
+    "lat": 64,
+    "lng": 26,
+    "flag_image": "images/FIN.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "FJI",
+    "country_kr": "피지",
+    "country_en": "Fiji",
+    "lat": -18,
+    "lng": 175,
+    "flag_image": "images/FJI.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "FRA",
+    "country_kr": "프랑스",
+    "country_en": "France",
+    "lat": 46,
+    "lng": 2,
+    "flag_image": "images/FRA.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "FSM",
+    "country_kr": "마이크로네시아",
+    "country_en": "Micronesia",
+    "lat": 6.91666666,
+    "lng": 158.25,
+    "flag_image": "images/FSM.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "GAB",
+    "country_kr": "가봉",
+    "country_en": "Gabon",
+    "lat": -1,
+    "lng": 11.75,
+    "flag_image": "images/GAB.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "GBR",
+    "country_kr": "영국",
+    "country_en": "United Kingdom",
+    "lat": 54,
+    "lng": -2,
+    "flag_image": "images/GBR.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "GEO",
+    "country_kr": "조지아",
+    "country_en": "Georgia",
+    "lat": 42,
+    "lng": 43.5,
+    "flag_image": "images/GEO.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "GHA",
+    "country_kr": "가나",
+    "country_en": "Ghana",
+    "lat": 8,
+    "lng": -2,
+    "flag_image": "images/GHA.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "GIN",
+    "country_kr": "기니",
+    "country_en": "Guinea",
+    "lat": 11,
+    "lng": -10,
+    "flag_image": "images/GIN.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "GMB",
+    "country_kr": "감비아",
+    "country_en": "Gambia",
+    "lat": 13.46666666,
+    "lng": -16.56666666,
+    "flag_image": "images/GMB.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "GNB",
+    "country_kr": "기니비사우",
+    "country_en": "Guinea-Bissau",
+    "lat": 12,
+    "lng": -15,
+    "flag_image": "images/GNB.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "GNQ",
+    "country_kr": "적도기니",
+    "country_en": "Equatorial Guinea",
+    "lat": 2,
+    "lng": 10,
+    "flag_image": "images/GNQ.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "GRC",
+    "country_kr": "그리스",
+    "country_en": "Greece",
+    "lat": 39,
+    "lng": 22,
+    "flag_image": "images/GRC.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "GRD",
+    "country_kr": "그레나다",
+    "country_en": "Grenada",
+    "lat": 12.11666666,
+    "lng": -61.66666666,
+    "flag_image": "images/GRD.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "GTM",
+    "country_kr": "과테말라",
+    "country_en": "Guatemala",
+    "lat": 15.5,
+    "lng": -90.25,
+    "flag_image": "images/GTM.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "GUY",
+    "country_kr": "가이아나공화국",
+    "country_en": "Guyana",
+    "lat": 5,
+    "lng": -59,
+    "flag_image": "images/GUY.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "HKG",
+    "country_kr": "홍콩",
+    "country_en": "hongkong",
+    "lat": 22.267,
+    "lng": 114.188,
+    "flag_image": "images/HKG.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "HND",
+    "country_kr": "온두라스",
+    "country_en": "Honduras",
+    "lat": 15,
+    "lng": -86.5,
+    "flag_image": "images/HND.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "HRV",
+    "country_kr": "크로아티아",
+    "country_en": "Croatia",
+    "lat": 45.16666666,
+    "lng": 15.5,
+    "flag_image": "images/HRV.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "HTI",
+    "country_kr": "아이티",
+    "country_en": "Haiti",
+    "lat": 19,
+    "lng": -72.41666666,
+    "flag_image": "images/HTI.gif",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "HUN",
+    "country_kr": "헝가리",
+    "country_en": "Hungary",
+    "lat": 47,
+    "lng": 20,
+    "flag_image": "images/HUN.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "IDN",
+    "country_kr": "인도네시아",
+    "country_en": "Indonesia",
+    "lat": -5,
+    "lng": 120,
+    "flag_image": "images/IDN.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "IND",
+    "country_kr": "인도",
+    "country_en": "India",
+    "lat": 20,
+    "lng": 77,
+    "flag_image": "images/IND.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "IRL",
+    "country_kr": "아일랜드",
+    "country_en": "Ireland",
+    "lat": 53,
+    "lng": -8,
+    "flag_image": "images/IRL.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "IRN",
+    "country_kr": "이란",
+    "country_en": "Iran",
+    "lat": 32,
+    "lng": 53,
+    "flag_image": "images/IRN.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "IRQ",
+    "country_kr": "이라크",
+    "country_en": "Iraq",
+    "lat": 33,
+    "lng": 44,
+    "flag_image": "images/IRQ.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "ISL",
+    "country_kr": "아이슬란드",
+    "country_en": "Iceland",
+    "lat": 65,
+    "lng": -18,
+    "flag_image": "images/ISL.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "ISR",
+    "country_kr": "이스라엘",
+    "country_en": "Israel",
+    "lat": 31.47,
+    "lng": 35.13,
+    "flag_image": "images/ISR.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "ITA",
+    "country_kr": "이탈리아",
+    "country_en": "Italy",
+    "lat": 42.83333333,
+    "lng": 12.83333333,
+    "flag_image": "images/ITA.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "JAM",
+    "country_kr": "자메이카",
+    "country_en": "Jamaica",
+    "lat": 18.25,
+    "lng": -77.5,
+    "flag_image": "images/JAM.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "JOR",
+    "country_kr": "요르단",
+    "country_en": "Jordan",
+    "lat": 31,
+    "lng": 36,
+    "flag_image": "images/JOR.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "JPN",
+    "country_kr": "일본",
+    "country_en": "Japan",
+    "lat": 36,
+    "lng": 138,
+    "flag_image": "images/JPN.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "KAZ",
+    "country_kr": "카자흐스탄",
+    "country_en": "Kazakhstan",
+    "lat": 48,
+    "lng": 68,
+    "flag_image": "images/KAZ.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "KEN",
+    "country_kr": "케냐",
+    "country_en": "Kenya",
+    "lat": 1,
+    "lng": 38,
+    "flag_image": "images/KEN.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "KGZ",
+    "country_kr": "키르기즈공화국",
+    "country_en": "Kyrgyzstan",
+    "lat": 41,
+    "lng": 75,
+    "flag_image": "images/KGZ.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "KHM",
+    "country_kr": "캄보디아",
+    "country_en": "Cambodia",
+    "lat": 13,
+    "lng": 105,
+    "flag_image": "images/KHM.jpg",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "KIR",
+    "country_kr": "키리바시",
+    "country_en": "Kiribati",
+    "lat": 1.41666666,
+    "lng": 173,
+    "flag_image": "images/KIR.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "KNA",
+    "country_kr": "세인트키츠네비스",
+    "country_en": "Saint Kitts and Nevis",
+    "lat": 17.33333333,
+    "lng": -62.75,
+    "flag_image": "images/KNA.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "KWT",
+    "country_kr": "쿠웨이트",
+    "country_en": "Kuwait",
+    "lat": 29.5,
+    "lng": 45.75,
+    "flag_image": "images/KWT.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "LAO",
+    "country_kr": "라오스",
+    "country_en": "Laos",
+    "lat": 18,
+    "lng": 105,
+    "flag_image": "images/LAO.jpg",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "LBN",
+    "country_kr": "레바논",
+    "country_en": "Lebanon",
+    "lat": 33.83333333,
+    "lng": 35.83333333,
+    "flag_image": "images/LBN.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "LBR",
+    "country_kr": "라이베리아",
+    "country_en": "Liberia",
+    "lat": 6.5,
+    "lng": -9.5,
+    "flag_image": "images/LBR.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "LBY",
+    "country_kr": "리비아",
+    "country_en": "Libya",
+    "lat": 25,
+    "lng": 17,
+    "flag_image": "images/LBY.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "LCA",
+    "country_kr": "세인트루시아",
+    "country_en": "Saint Lucia",
+    "lat": 13.88333333,
+    "lng": -60.96666666,
+    "flag_image": "images/LCA.bmp",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "LIE",
+    "country_kr": "리히텐슈타인",
+    "country_en": "Liechtenstein",
+    "lat": 47.26666666,
+    "lng": 9.53333333,
+    "flag_image": "images/LIE.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "LKA",
+    "country_kr": "스리랑카",
+    "country_en": "Sri Lanka",
+    "lat": 7,
+    "lng": 81,
+    "flag_image": "images/LKA.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "LSO",
+    "country_kr": "레소토",
+    "country_en": "Lesotho",
+    "lat": -29.5,
+    "lng": 28.5,
+    "flag_image": "images/LSO.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "LTU",
+    "country_kr": "리투아니아",
+    "country_en": "Lithuania",
+    "lat": 56,
+    "lng": 24,
+    "flag_image": "images/LTU.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "LUX",
+    "country_kr": "룩셈부르크",
+    "country_en": "Luxembourg",
+    "lat": 49.75,
+    "lng": 6.16666666,
+    "flag_image": "images/LUX.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "LVA",
+    "country_kr": "라트비아",
+    "country_en": "Latvia",
+    "lat": 57,
+    "lng": 25,
+    "flag_image": "images/LVA.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "MAR",
+    "country_kr": "모로코",
+    "country_en": "Morocco",
+    "lat": 32,
+    "lng": -5,
+    "flag_image": "images/MAR.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "MCO",
+    "country_kr": "모나코",
+    "country_en": "Monaco",
+    "lat": 43.73333333,
+    "lng": 7.4,
+    "flag_image": "images/MCO.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "MDA",
+    "country_kr": "몰도바",
+    "country_en": "Moldova",
+    "lat": 47,
+    "lng": 29,
+    "flag_image": "images/MDA.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "MDG",
+    "country_kr": "마다가스카르",
+    "country_en": "Madagascar",
+    "lat": -20,
+    "lng": 47,
+    "flag_image": "images/MDG.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "MDV",
+    "country_kr": "몰디브",
+    "country_en": "Maldives",
+    "lat": 3.25,
+    "lng": 73,
+    "flag_image": "images/MDV.jpg",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "MEX",
+    "country_kr": "멕시코",
+    "country_en": "Mexico",
+    "lat": 23,
+    "lng": -102,
+    "flag_image": "images/MEX.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "MHL",
+    "country_kr": "마셜제도",
+    "country_en": "Marshall Islands",
+    "lat": 9,
+    "lng": 168,
+    "flag_image": "images/MHL.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "MKD",
+    "country_kr": "북마케도니아",
+    "country_en": "North Macedonia",
+    "lat": 41.83333333,
+    "lng": 22,
+    "flag_image": "images/MKD.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "MLI",
+    "country_kr": "말리",
+    "country_en": "Mali",
+    "lat": 17,
+    "lng": -4,
+    "flag_image": "images/MLI.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "MLT",
+    "country_kr": "몰타",
+    "country_en": "Malta",
+    "lat": 35.83333333,
+    "lng": 14.58333333,
+    "flag_image": "images/MLT.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "MMR",
+    "country_kr": "미얀마",
+    "country_en": "Myanmar",
+    "lat": 22,
+    "lng": 98,
+    "flag_image": "images/MMR.jpg",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "MNE",
+    "country_kr": "몬테네그로",
+    "country_en": "Montenegro",
+    "lat": 42.5,
+    "lng": 19.3,
+    "flag_image": "images/MNE.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "MNG",
+    "country_kr": "몽골",
+    "country_en": "Mongolia",
+    "lat": 46,
+    "lng": 105,
+    "flag_image": "images/MNG.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "MOZ",
+    "country_kr": "모잠비크",
+    "country_en": "Mozambique",
+    "lat": -18.25,
+    "lng": 35,
+    "flag_image": "images/MOZ.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "MRT",
+    "country_kr": "모리타니아",
+    "country_en": "Mauritania",
+    "lat": 20,
+    "lng": -12,
+    "flag_image": "images/MRT.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "MUS",
+    "country_kr": "모리셔스",
+    "country_en": "Mauritius",
+    "lat": -20.28333333,
+    "lng": 57.55,
+    "flag_image": "images/MUS.png",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "MWI",
+    "country_kr": "말라위",
+    "country_en": "Malawi",
+    "lat": -13.5,
+    "lng": 34,
+    "flag_image": "images/MWI.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "MYS",
+    "country_kr": "말레이시아",
+    "country_en": "Malaysia",
+    "lat": 2.5,
+    "lng": 112.5,
+    "flag_image": "images/MYS.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "NAM",
+    "country_kr": "나미비아",
+    "country_en": "Namibia",
+    "lat": -22,
+    "lng": 17,
+    "flag_image": "images/NAM.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "NER",
+    "country_kr": "니제르",
+    "country_en": "Niger",
+    "lat": 16,
+    "lng": 8,
+    "flag_image": "images/NER.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "NGA",
+    "country_kr": "나이지리아",
+    "country_en": "Nigeria",
+    "lat": 10,
+    "lng": 8,
+    "flag_image": "images/NGA.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "NIC",
+    "country_kr": "니카라과",
+    "country_en": "Nicaragua",
+    "lat": 13,
+    "lng": -85,
+    "flag_image": "images/NIC.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "NIU",
+    "country_kr": "니우에",
+    "country_en": "Niue",
+    "lat": -19.03333333,
+    "lng": -169.86666666,
+    "flag_image": "images/NIU.png",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "NLD",
+    "country_kr": "네덜란드",
+    "country_en": "Netherlands",
+    "lat": 52.5,
+    "lng": 5.75,
+    "flag_image": "images/NLD.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "NOR",
+    "country_kr": "노르웨이",
+    "country_en": "Norway",
+    "lat": 62,
+    "lng": 10,
+    "flag_image": "images/NOR.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "NPL",
+    "country_kr": "네팔",
+    "country_en": "Nepal",
+    "lat": 28,
+    "lng": 84,
+    "flag_image": "images/NPL.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "NRU",
+    "country_kr": "나우루",
+    "country_en": "Nauru",
+    "lat": -0.53333333,
+    "lng": 166.91666666,
+    "flag_image": "images/NRU.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "NZL",
+    "country_kr": "뉴질랜드",
+    "country_en": "New Zealand",
+    "lat": -41,
+    "lng": 174,
+    "flag_image": "images/NZL.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "OMN",
+    "country_kr": "오만",
+    "country_en": "Oman",
+    "lat": 21,
+    "lng": 57,
+    "flag_image": "images/OMN.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "PAK",
+    "country_kr": "파키스탄",
+    "country_en": "Pakistan",
+    "lat": 30,
+    "lng": 70,
+    "flag_image": "images/PAK.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "PAN",
+    "country_kr": "파나마",
+    "country_en": "Panama",
+    "lat": 9,
+    "lng": -80,
+    "flag_image": "images/PAN.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "PER",
+    "country_kr": "페루",
+    "country_en": "Peru",
+    "lat": -10,
+    "lng": -76,
+    "flag_image": "images/PER.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "PHL",
+    "country_kr": "필리핀",
+    "country_en": "Philippines",
+    "lat": 13,
+    "lng": 122,
+    "flag_image": "images/PHL.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "PLW",
+    "country_kr": "팔라우",
+    "country_en": "Palau",
+    "lat": 7.5,
+    "lng": 134.5,
+    "flag_image": "images/PLW.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "PNG",
+    "country_kr": "파푸아뉴기니",
+    "country_en": "Papua New Guinea",
+    "lat": -6,
+    "lng": 147,
+    "flag_image": "images/PNG.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "POL",
+    "country_kr": "폴란드",
+    "country_en": "Poland",
+    "lat": 52,
+    "lng": 20,
+    "flag_image": "images/POL.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "PRT",
+    "country_kr": "포르투갈",
+    "country_en": "Portugal",
+    "lat": 39.5,
+    "lng": -8,
+    "flag_image": "images/PRT.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "PRY",
+    "country_kr": "파라과이",
+    "country_en": "Paraguay",
+    "lat": -23,
+    "lng": -58,
+    "flag_image": "images/PRY.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "PSE",
+    "country_kr": "팔레스타인-자치지역",
+    "country_en": "Palestine",
+    "lat": 31.9,
+    "lng": 35.2,
+    "flag_image": "images/PSE.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "QAT",
+    "country_kr": "카타르",
+    "country_en": "Qatar",
+    "lat": 25.5,
+    "lng": 51.25,
+    "flag_image": "images/QAT.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "ROU",
+    "country_kr": "루마니아",
+    "country_en": "Romania",
+    "lat": 46,
+    "lng": 25,
+    "flag_image": "images/ROU.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "RUS",
+    "country_kr": "러시아",
+    "country_en": "Russia",
+    "lat": 60,
+    "lng": 100,
+    "flag_image": "images/RUS.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "RWA",
+    "country_kr": "르완다",
+    "country_en": "Rwanda",
+    "lat": -2,
+    "lng": 30,
+    "flag_image": "images/RWA.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "SAU",
+    "country_kr": "사우디아라비아",
+    "country_en": "Saudi Arabia",
+    "lat": 25,
+    "lng": 45,
+    "flag_image": "images/SAU.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "SDN",
+    "country_kr": "수단",
+    "country_en": "Sudan",
+    "lat": 15,
+    "lng": 30,
+    "flag_image": "images/SDN.gif",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "SEN",
+    "country_kr": "세네갈",
+    "country_en": "Senegal",
+    "lat": 14,
+    "lng": -14,
+    "flag_image": "images/SEN.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "SGP",
+    "country_kr": "싱가포르",
+    "country_en": "Singapore",
+    "lat": 1.36666666,
+    "lng": 103.8,
+    "flag_image": "images/SGP.png",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "SLB",
+    "country_kr": "솔로몬제도",
+    "country_en": "Solomon lslands",
+    "lat": -8,
+    "lng": 159,
+    "flag_image": "images/SLB.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "SLE",
+    "country_kr": "시에라리온",
+    "country_en": "Sierra Leone",
+    "lat": 8.5,
+    "lng": -11.5,
+    "flag_image": "images/SLE.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "SLV",
+    "country_kr": "엘살바도르",
+    "country_en": "El Salvador",
+    "lat": 13.83333333,
+    "lng": -88.91666666,
+    "flag_image": "images/SLV.bmp",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "SMR",
+    "country_kr": "산마리노",
+    "country_en": "San Marino",
+    "lat": 43.76666666,
+    "lng": 12.41666666,
+    "flag_image": "images/SMR.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "SOM",
+    "country_kr": "소말리아",
+    "country_en": "Somalia",
+    "lat": 10,
+    "lng": 49,
+    "flag_image": "images/SOM.gif",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "SRB",
+    "country_kr": "세르비아",
+    "country_en": "Serbia",
+    "lat": 44,
+    "lng": 21,
+    "flag_image": "images/SRB.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "SSD",
+    "country_kr": "남수단",
+    "country_en": "Republic of South Sudan",
+    "lat": 7,
+    "lng": 30,
+    "flag_image": "images/SSD.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "STP",
+    "country_kr": "상투메프린시페",
+    "country_en": "Sao Tome and Principe",
+    "lat": 1,
+    "lng": 7,
+    "flag_image": "images/STP.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "SUR",
+    "country_kr": "수리남",
+    "country_en": "Suriname",
+    "lat": 4,
+    "lng": -56,
+    "flag_image": "images/SUR.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "SVK",
+    "country_kr": "슬로바키아",
+    "country_en": "Slovakia",
+    "lat": 48.66666666,
+    "lng": 19.5,
+    "flag_image": "images/SVK.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "SVN",
+    "country_kr": "슬로베니아",
+    "country_en": "Slovenia",
+    "lat": 46.11666666,
+    "lng": 14.81666666,
+    "flag_image": "images/SVN.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "SWE",
+    "country_kr": "스웨덴",
+    "country_en": "Sweden",
+    "lat": 62,
+    "lng": 15,
+    "flag_image": "images/SWE.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "SWZ",
+    "country_kr": "에스와티니",
+    "country_en": "Kingdom of Eswatini",
+    "lat": -26.5,
+    "lng": 31.5,
+    "flag_image": "images/SWZ.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "SYC",
+    "country_kr": "세이셸",
+    "country_en": "Seychelles ",
+    "lat": -4.58333333,
+    "lng": 55.66666666,
+    "flag_image": "images/SYC.png",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "SYR",
+    "country_kr": "시리아",
+    "country_en": "Syria",
+    "lat": 35,
+    "lng": 38,
+    "flag_image": "images/SYR.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "TCD",
+    "country_kr": "차드",
+    "country_en": "Chad",
+    "lat": 15,
+    "lng": 19,
+    "flag_image": "images/TCD.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "TGO",
+    "country_kr": "토고",
+    "country_en": "Togo",
+    "lat": 8,
+    "lng": 1.16666666,
+    "flag_image": "images/TGO.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "THA",
+    "country_kr": "태국",
+    "country_en": "Thailand",
+    "lat": 15,
+    "lng": 100,
+    "flag_image": "images/THA.jpg",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "TJK",
+    "country_kr": "타지키스탄",
+    "country_en": "Tajikistan",
+    "lat": 39,
+    "lng": 71,
+    "flag_image": "images/TJK.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "TKM",
+    "country_kr": "투르크메니스탄",
+    "country_en": "Turkmenistan",
+    "lat": 40,
+    "lng": 60,
+    "flag_image": "images/TKM.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "TLS",
+    "country_kr": "동티모르",
+    "country_en": "East Timor",
+    "lat": -8.83333333,
+    "lng": 125.91666666,
+    "flag_image": "images/TLS.png",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "TON",
+    "country_kr": "통가",
+    "country_en": "Tonga",
+    "lat": -20,
+    "lng": -175,
+    "flag_image": "images/TON.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "TTO",
+    "country_kr": "트리니다드토바고",
+    "country_en": "Trinidad and Tobago",
+    "lat": 11,
+    "lng": -61,
+    "flag_image": "images/TTO.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "TUN",
+    "country_kr": "튀니지",
+    "country_en": "Tunisia",
+    "lat": 34,
+    "lng": 9,
+    "flag_image": "images/TUN.png",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "TUR",
+    "country_kr": "튀르키예",
+    "country_en": "Türkiye",
+    "lat": 39,
+    "lng": 35,
+    "flag_image": "images/TUR.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "TUV",
+    "country_kr": "투발루",
+    "country_en": "tuvalu",
+    "lat": -8,
+    "lng": 178,
+    "flag_image": "images/TUV.png",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "TWN",
+    "country_kr": "대만",
+    "country_en": "Taiwan",
+    "lat": 23.5,
+    "lng": 121,
+    "flag_image": "images/TWN.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "TZA",
+    "country_kr": "탄자니아",
+    "country_en": "Tanzania",
+    "lat": -6,
+    "lng": 35,
+    "flag_image": "images/TZA.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "UGA",
+    "country_kr": "우간다",
+    "country_en": "Uganda",
+    "lat": 1,
+    "lng": 32,
+    "flag_image": "images/UGA.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "UKR",
+    "country_kr": "우크라이나",
+    "country_en": "Ukraine",
+    "lat": 49,
+    "lng": 32,
+    "flag_image": "images/UKR.gif",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "URY",
+    "country_kr": "우루과이",
+    "country_en": "Uruguay",
+    "lat": -33,
+    "lng": -56,
+    "flag_image": "images/URY.png",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "USA",
+    "country_kr": "미국",
+    "country_en": "United States of America",
+    "lat": 38,
+    "lng": -97,
+    "flag_image": "images/USA.jpg",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "UZB",
+    "country_kr": "우즈베키스탄",
+    "country_en": "Uzbekistan",
+    "lat": 41,
+    "lng": 64,
+    "flag_image": "images/UZB.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "VCT",
+    "country_kr": "세인트빈센트그레나딘",
+    "country_en": "St. Vincent and the Grenadines",
+    "lat": 13.25,
+    "lng": -61.2,
+    "flag_image": "images/VCT.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "VEN",
+    "country_kr": "베네수엘라",
+    "country_en": "Venezuela",
+    "lat": 8,
+    "lng": -66,
+    "flag_image": "images/VEN.gif",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "VNM",
+    "country_kr": "베트남",
+    "country_en": "Vietnam",
+    "lat": 16.16666666,
+    "lng": 107.83333333,
+    "flag_image": "images/VNM.jpg",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "VUT",
+    "country_kr": "바누아투",
+    "country_en": "Vanuatu",
+    "lat": -16,
+    "lng": 167,
+    "flag_image": "images/VUT.png",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "WSM",
+    "country_kr": "사모아",
+    "country_en": "Samoa",
+    "lat": -13.58333333,
+    "lng": -172.33333333,
+    "flag_image": "images/WSM.gif",
+    "alert_level": "없음"
+  },
+  {
+    "iso_code": "XKX",
+    "country_kr": "코소보",
+    "country_en": "Kosovo",
+    "lat": 42.6026,
+    "lng": 20.903,
+    "flag_image": "images/XKX.gif",
+    "alert_level": "철수권고"
+  },
+  {
+    "iso_code": "YEM",
+    "country_kr": "예멘",
+    "country_en": "Yemen",
+    "lat": 15,
+    "lng": 48,
+    "flag_image": "images/YEM.png",
+    "alert_level": "여행금지"
+  },
+  {
+    "iso_code": "ZAF",
+    "country_kr": "남아프리카공화국",
+    "country_en": "Republic of South Africa",
+    "lat": -29,
+    "lng": 24,
+    "flag_image": "images/ZAF.gif",
+    "alert_level": "여행자제"
+  },
+  {
+    "iso_code": "ZMB",
+    "country_kr": "잠비아",
+    "country_en": "Zambia",
+    "lat": -15,
+    "lng": 30,
+    "flag_image": "images/ZMB.gif",
+    "alert_level": "여행유의"
+  },
+  {
+    "iso_code": "ZWE",
+    "country_kr": "짐바브웨",
+    "country_en": "Zimbabwe",
+    "lat": -20,
+    "lng": 30,
+    "flag_image": "images/ZWE.gif",
+    "alert_level": "여행유의"
+  }
+]

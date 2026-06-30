@@ -1,0 +1,24 @@
+{
+  "iso_code": "DMA",
+  "country_kr": "도미니카연방",
+  "country_en": "Dominica",
+  "flag_image": "images/DMA.gif",
+  "travel_alert": {
+    "level": "없음",
+    "regions": []
+  },
+  "accident_info_html": "<div><h3 class=\"tit\">사건ㆍ사고의 유형</h3>ㅇ 일몰후 해변 등 외진 곳을 피해야 하며, 보행시 거액의 현금 또는 보석류 소지를 삼가야 합니다.<br>\r\n<br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>ㅇ 카리브 여타국가와 마찬가지로 허리케인 시즌은 6월초~11월말이나, 최근에는 12월에도 허리케인이 발생한 바 있습니다.<br></div>",
+  "local_contact_html": "<div> \n<h3 class=\"tit\">대사관 연락처</h3> ※ 도미니카연방에는 우리대사관이 없으며, 주도미니카한국대사관이 겸임하고 있습니다.<br>\n ㅇ 주소 : Avenida Enriquillo No.75, Urbanizaci&oacute;n Real, Santo Domingo, Rep&uacute;blica Dominicana<br>\n ㅇ 대표번호(근무시간 중) : (1-809) 482-6505<br>\n ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (1-809) 383-9091<br>\n ㅇ E-mail : <a href=\"mailto:embcod@mofa.go.kr\">embcod@mofa.go.kr</a><br>\n <br>\n \n<h3 class=\"tit\">주재국 신고</h3> ㅇ 긴급연락처 : 911 또는 999<br>\n <br>\n \n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ Princess Margaret Hospital : 1-767-448-2231/5720<br></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "도미니카연방 사람들은 친절하고 여유로운 성격을 가지고 있으므로 거리에서 만나는 현지인에게 가벼운 미소나 인사로 화답하는 것이 좋습니다. 수영복 차림은 해변에서만 허용되며, 마을이나 도시 시내로 이동할 때는 단정한 복장을 갖추는 것이 예의입니다. 현지인의 사진을 찍기 전에는 반드시 정중하게 동의를 구하는 것이 문화적 에티켓입니다.",
+    "business_tip": "비즈니스 미팅에서는 신뢰 관계 구축이 우선이므로 성급하게 본론으로 들어가기보다 가벼운 담소로 분위기를 여는 것이 중요합니다. 시간 엄수는 중요하지만 현지 특유의 느긋한 문화가 존재하므로 상대방이 조금 늦더라도 유연하게 대처하는 태도가 필요합니다.",
+    "phrases": [
+      "안녕하세요 - 굿 모닝/굿 애프터눈(Good morning/Good afternoon)",
+      "감사합니다 - 땡큐(Thank you)",
+      "괜찮습니다/문제없어요 - 노 프로블럼(No problem)",
+      "도와주세요 - 캔 유 헬프 미(Can you help me?)",
+      "실례합니다 - 익스큐즈 미(Excuse me)"
+    ]
+  }
+}

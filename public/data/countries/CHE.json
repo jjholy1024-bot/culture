@@ -1,0 +1,30 @@
+{
+  "iso_code": "CHE",
+  "country_kr": "스위스",
+  "country_en": "Switzerland",
+  "flag_image": "images/CHE.gif",
+  "travel_alert": {
+    "level": "여행유의",
+    "regions": [
+      {
+        "level": "여행유의",
+        "area": "전 지역",
+        "partial": false
+      }
+    ]
+  },
+  "accident_info_html": "<div>\r\n<h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\n□ 스위스에서도 도난/분실사고는 많이 일어나고 있습니다.<br>\r\nㅇ 식당, 카페 및 대중교통을 이용할 때는 소지품을 잘 보관하기 바랍니다. 특히, 기차여행 중 객차 내 선반 위에 올려놓은 짐을 도난당하는 사고가 자주 발생하고 있습니다.<br>\r\nㅇ 귀중품이 들어 있는 가방 등 소지품은 무릎 위 또는 발 밑에 보관하기 바랍니다.<br><br>\r\n\r\n□ 렌터카를 이용할 때는 교통법규를 준수하고, 도난 사고에 유의하세요.<br>\r\nㅇ 교통신호 및 제한속도를 잘 확인하기 바랍니다.<br>\r\nㅇ 도로공사 또는 구간별 특별제한으로 인해 제한속도가 다를 수 있으니 표지판을 잘 확인하기 바랍니다.<br>\r\nㅇ 스위스 몽트뢰 시옹성 주차장에서 차량의 유리창을 깨고 차량 내 소지품을 절취하는 사건이 빈번히 발생하고 있습니다. 여권 및 귀중품은 항상 휴대하고, 차량 내에 가방 및 소지품을 두는 것은 위험합니다.<br><br>\r\n\r\n□ 레포츠 활동 중 사고를 조심하세요.<br>\r\nㅇ 스위스 주요관광지에서 여름철에는 산악등반, 자전거, 패러글라이딩, 겨울철에는 스키, 눈썰매 등 각종 레포츠 활동 중에 부상을 입는 사고가 자주 일어나니 위험한 행동을 자제하고 안전수칙을 반드시 준수하기 바랍니다.<br>\r\nㅇ 불의의 사고에 대비해 여행자 보험에 가입해 주십시오.<br><br>\r\n\r\n□ 경찰에 체포되면 영사 접견을 요청하세요.<br>\r\nㅇ 스위스 경찰에 체포되어 경찰서로 연행될 경우, 침착하게 영사조력을 요구하기 바랍니다. 그렇지 않을 경우, 대사관은 체포사실을 알 수 없어 영사조력을 제공하기 어렵습니다.<br></div>",
+  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3>\n<p>ㅇ 주소 : Embassy of the Republic of Korea, Kalcheggweg 38, 3006 Bern, Switzerland<br>\nㅇ 대표번호(근무시간 중) : +41 31 356 24 44<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +41 79 897 40 86<br></p>\n<h3 class=\"tit\">스위스 긴급전화</h3>\n<p>ㅇ 경찰 : 117<br>\nㅇ 소방서 : 118<br>\nㅇ 긴급의료 : 144<br>\nㅇ 구조헬기(Rega) : 1414<br>ㅇ 차량고장 : 140</p>\n<p><br>\n<span style=\"font-weight: bold;\">[주요 지역 경찰서]</span><br>\nㅇ 취리히 : Museumstrasse 1, 8001 Z&uuml;rich : +41 58 648 68 10<br>\nㅇ 취리히 공항 : Flughafen, 8058 Z&uuml;rich : +41 44 655 57 00<br>\nㅇ 베른 : Waisenhausplatz 32, 3001 Bern : +41 31 638 81 11<br>\nㅇ 인터라켄 : Wychelstrasse 28, 3800 Matten bei Interlaken +41 31 638 86 60<br>\nㅇ 제네바 : Rue de Berne 6, 1201 Gen&egrave;ve : +41 22 427 81 11<br>\nㅇ 제네바 공항 : A&eacute;roport International de Gen&egrave;ve Case Postale 612, 1215 Gen&egrave;ve 15 : +41 22 427 57 90<br>\n<br>\n<span style=\"font-weight: bold;\"> [주요 병원(응급실 이용 가능 병원)]</span><br>\nㅇ 취리히 대학병원 : R&auml;mistrasse 100, 8091, +41 44 255 11 11<br>\nㅇ 베른 인젤 종합병원 : Freiburgstrasse 18, 3010 Bern, +41 31 632 21 11<br>\nㅇ 인터라켄 종합병원 : Weissenaustrasse 27, 3800 Unterseen, +41 33 826 26 26<br>\nㅇ 루체른 주립병원 : Spitalstrasse, 6000 Luzern 16, +41 41 205 11 11<br>\nㅇ 제네바 대학병원 : Rue Gabrielle-Perret-Gentil 4, 1205 Gen&egrave;ve, +41 22 372 33 11<br>\n<br>\n<span style=\"font-weight: bold;\"> [주요 약국]</span><br>\nㅇ 취리히 중앙역 : +41 44 225 42 42 / 매일 7:00-24:00<br>\nㅇ 베른 중앙역 : +41 31 329 25 25 / 매일 6:30-22:00<br>ㅇ 제네바 중앙역 : +41 58 878 10 00 / 매일 7:00-23:00</p>\n<p><br></p>\n<p><br></p>\n<p><br></p></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "스위스에서는 공공장소에서 정숙을 유지하는 것이 중요하며, 밤 10시 이후에는 소음을 자제하는 것이 예의입니다. 기차나 버스 등 대중교통 이용 시에는 작은 목소리로 대화하고 좌석에 발을 올리지 않아야 합니다. 또한 식당이나 카페에서는 음식값을 지불할 때 잔돈을 남기거나 약간의 팁을 주는 문화가 있지만, 의무는 아닙니다.",
+    "business_tip": "스위스 비즈니스 문화는 매우 엄격한 시간 엄수를 강조하므로 미팅 시간을 철저히 지키는 것이 가장 중요합니다. 논의 과정에서 감정적인 표현보다는 사실에 근거한 객관적이고 논리적인 태도를 유지하는 것이 신뢰를 얻는 방법입니다.",
+    "phrases": [
+      "안녕하세요 - 그뤼에찌(Grüezi)",
+      "감사합니다 - 당케(Danke)",
+      "죄송합니다 - 엔트슐디궁(Entschuldigung)",
+      "얼마인가요? - 비 필 코스테트 다스?(Wie viel kostet das?)",
+      "네 / 아니오 - 야(Ja) / 나인(Nein)"
+    ]
+  }
+}

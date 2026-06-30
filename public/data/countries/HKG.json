@@ -1,0 +1,30 @@
+{
+  "iso_code": "HKG",
+  "country_kr": "홍콩",
+  "country_en": "hongkong",
+  "flag_image": "images/HKG.gif",
+  "travel_alert": {
+    "level": "여행유의",
+    "regions": [
+      {
+        "level": "여행유의",
+        "area": "전 지역",
+        "partial": false
+      }
+    ]
+  },
+  "accident_info_html": "<div>\r\n<h3 class=\"tit\" style=\"font-size: 20px\">사건ㆍ사고의 유형</h3>\r\nㅇ 도난 및 분실사건이 많이 발생하고 있습니다. <br>\r\nㅇ 공항버스 이용 후 하차시 여행가방을 두고 내리는 경우가 많습니다. <br>\r\nㅇ 침 뱉기, 쓰레기 투기, 흡연, 대중교통 내 음식물 섭취 등 기초질서 위반에 대해서 고액의 벌금이 부과됩니다. <br>\r\nㅇ 교통사고의 경우, 법원의 판결 전까지는 피해자가 병원비 등 일체의 비용을 부담해야하며 재판결과에 따라 피해보상을 별도로 진행해야합니다. 가능하면 반드시 여행자 보험에 가입하시기 바랍니다. <br>\r\n<p style=\"margin-left: 25px; margin-right: 25px;\">※ 합의제도가 있기는 하지만 복잡하고 극히 제한적입니다.</p>\r\n\r\n<br>\r\n\r\n<h3 class=\"tit\" style=\"font-size: 20px\">자연재해</h3>\r\nㅇ 홍콩은 자연재해 발생은 없었으나 태풍 시즌(5월~11월)에는 항공기와 페리 운항이 장기간 중단되거나 연착이 됩니다. <br>\r\n\r\n<br>\r\n\r\n<h3 class=\"tit\" style=\"font-size: 20px\">유의해야할 지역</h3>\r\nㅇ 홍콩은 비교적 안전한 도시이나 늦은 밤이나 외진 곳에서의 관광은 피하셔야 합니다. <br>\r\nㅇ 관광객을 대상으로 한 절도사건이 많이 발생하는 곳이므로 항상 소지품에 유의하셔야 합니다. <br>\r\nㅇ 교통사고의 경우, 합의 전까지는 피해자가 병원비 등 일체의 비용을 부담하며 경찰조사 및 재판 후 합의가 시작되기까지 통상 6개월이 소요될 뿐 아니라 합의절차도 복잡하므로 반드시 여행자보험에 가입하시기 바랍니다. <br>\r\nㅇ 게스트하우스 등 저가의 숙박시설은 안전에 취약할 뿐 아니라 도난사건 등이 발생해도 변상을 제대로 받을 수 없습니다. <br>\r\nㅇ 란카이펑, 침사추이, 너츠포드 등 유흥가는 절도, 마약범죄, 성범죄 등이 자주 발생한다는 점을 유의하십시오. <br>\r\nㅇ 타인과의 신체접촉으로 인한 오해가 형사사건으로 비화되는 경우도 있으니 대중교통 등 이용 시 주의하시기 바랍니다. <br>\r\nㅇ 길거리에서 짝퉁물품 판매를 미끼로 접근하거나 이유 없이 친절을 베푸는 사람은 모두 경계해야 합니다. <br>\r\nㅇ 구매한 물품에 대해서는 반품이 안 되는 경우가 많으며, 정상 매장이 아닌 곳에서 싸게 파는 물품은 이유가 있습니다. <br>\r\n</div>",
+  "local_contact_html": "<div> \n<h3 class=\"tit\">총영사관 연락처</h3> ㅇ 주소 : 5/F., Far East Finance Centre, 16 Harcourt Road, Hong Kong<br>\n ㅇ 이메일 : <a href=\"mailto:hkg-info@mofa.go.kr\">hkg-info@mofa.go.kr</a><br>\n ㅇ 대표번호(근무시간 중) : (852) 2529-4141<br>\n ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (852) 9731-0092<br>\n <br>\n \n<h3 class=\"tit\">주재국 신고</h3> ㅇ 긴급 서비스(경찰, 화재, 구급차) 999<br>\n ㅇ 일반 경찰 문의 2527-7177<br>\n ㅇ 전화번호 안내(영어) 1081<br>\n ㅇ 택시분실물 무료전화 핫라인 1872-920 <br>\n \n<p style=\"margin-left: 15px; margin-right: 15px;\">* 홍콩의 국가번호는 852이며, 지역번호는 없습니다. <br> 한국에서 홍콩으로 전화시 : 001(IDD)+852+전화번호</p><br>\n \n<h3 class=\"tit\">관광통역서비스</h3> ㅇ 홍콩관광청 다국어 관광 안내 전화 : (852) 2508-1234 <br>\n \n<p style=\"margin-left: 15px; margin-right: 15px;\">* 홍콩관광청 : <a href=\"https://www.discoverhongkong.com/eng/index.html\" target=\"_blank\">http://www.discoverhongkong.com/login.html</a><br>\n <br></p> \n<h3 class=\"tit\">의료기관 연락처</h3>[Ruttonjee Hospital]<br>\n ㅇ 주소 : 266 Queens Road East, Wan Chai, HK <br>\n ㅇ 전화번호 : 2291-2000<br>\n ㅇ 약도<br>\n <img title=\"약도\" style=\"border-width: 0px; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: baseline;\" alt=\"약도\" src=\"https://www.0404.go.kr/images/editor/images/000005/hongkongmap1.jpg\"><br>\n <br>\n [Queen Elizabeth Hospital]<br>\n ㅇ 주소 : 30 Gascoigne Road, KLN <br>\n ㅇ 전화번호 : 2958-8888 <br>\n ㅇ 약도<br>\n <img title=\"약도2\" style=\"border-width: 0px; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: baseline;\" alt=\"약도2\" src=\"https://www.0404.go.kr/images/editor/images/000005/hongkongmap2.jpg\"><br>\n <br>\n [Princess Margaret Hospital]<br>\n ㅇ 주소 : 2-10 Princess Margaret Hospital Road, NT<br>\n ㅇ 전화번호 : 2990-1111<br>\n ㅇ 약도<br>\n <img title=\"약도3\" style=\"border-width: 0px; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: baseline;\" alt=\"약도3\" src=\"https://www.0404.go.kr/images/editor/images/000005/hongkongmap3.jpg\"><br>\n \n<p style=\"margin-left: 25px; margin-right: 25px;\">※ Hospital Authority: <a href=\"http://www.ha.org.hk/\" target=\"_blank\">www.ha.org.hk</a><br> ※ 홍콩 공공 병원의 응급실 방문 환자는 HK$1,230의 사용료를 지불해야 하지만, 당장 지불할 수 없더라도 항상 똑같은 수준의 치료를 받을 수 있습니다.</p></div><grammarly-desktop-integration data-grammarly-shadow-root=\"true\"></grammarly-desktop-integration>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "홍콩에서는 공공장소에서 줄을 서는 질서 의식이 매우 강하므로 새치기를 하지 않도록 주의해야 합니다. 식당에서 차가 나오면 찻잔을 씻는 문화가 있는데, 이는 위생 확인보다는 관습적인 과정이니 당황하지 마세요. 에스컬레이터를 탈 때는 왼쪽에 서고 오른쪽을 비워두는 것이 일반적인 예절입니다.",
+    "business_tip": "명함을 주고받을 때는 두 손을 사용하여 정중하게 건네고 상대방의 명함을 받은 후에는 잠시 내용을 확인하는 태도를 보이는 것이 좋습니다. 서구적인 비즈니스 스타일과 중국식 체면 문화가 공존하므로 직설적인 거절보다는 완곡하게 표현하는 것이 관계 유지에 유리합니다.",
+    "phrases": [
+      "감사합니다 - 음꺼이(唔該, m4-goi1)",
+      "죄송합니다(실례합니다) - 똬이응으(對唔住, deoi3-m4-zyu6)",
+      "얼마인가요? - 게이또우친(幾多錢, gei2-do1-cin2)",
+      "안녕하세요 - 네이호우(你好, nei5-hou2)",
+      "영어를 할 수 있나요? - 켕음켕콩잉만(識唔識講英文, sik1-m4-sik1-gong2-jing1-man2)"
+    ]
+  }
+}

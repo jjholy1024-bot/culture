@@ -1,0 +1,30 @@
+{
+  "iso_code": "DNK",
+  "country_kr": "덴마크",
+  "country_en": "Denmark",
+  "flag_image": "images/DNK.gif",
+  "travel_alert": {
+    "level": "여행유의",
+    "regions": [
+      {
+        "level": "여행유의",
+        "area": "전 지역",
+        "partial": false
+      }
+    ]
+  },
+  "accident_info_html": "<h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\n※ 코펜하겐 시내 중심가 및 공항, 호텔에서 외국인을 상대로 한 소매치기가 빈번하게 발생되고 있으며, 특히 동양인을 대상으로 한 소지품 소매치기가 자주 발생함<br><br>\r\n\r\n[호텔]<br>\r\nㅇ 체크인하는 사이 가방 도난 사고 발생<br>\r\nㅇ 호텔 내 식당 조식 뷔페에서 소지품 및 가방을 의자에 놓고 음식을 가지러 간 사이 도난 사고 발생<br>\r\nㅇ 타인에게 짐을 맡기고 화장실을 다녀온 사이 가방 도난 사고 발생<br><br>\r\n\r\n[지하철 및 기차]<br>\r\nㅇ 낯선 사람이 짐을 짐칸에 올려주겠다고 호의를 베푼 사이 소지품 도난 사고 발생<br>\r\nㅇ 낯선 사람이 다량의 동전을 바닥에 떨어뜨려 정신을 분산시킨 뒤 도와주는 사이 가방 도난 사고 발생<br>\r\nㅇ 대중교통 탑승권 판매 자판기를 통해 탑승권 구매시 신용카드로 비밀번호가 노출돼 2차 범죄 피해 발생<br><br>\r\n\r\n[식당]<br>\r\nㅇ 테이블 위에 소지품 (지갑, 핸드폰 등)을 올려놓고 식사 중 낯선 사람이 다가와 돈을 달라고 구걸하고 이야기를 하고 있는 틈을 타 소지품을 훔쳐 달아나는 사고 발생<br><br>\r\n\r\n[횡단보도]<br>\r\nㅇ 보행 중 신호에 걸려 횡단보도 와 횡단보도 사이에 멈춰있는 사이 가방 안에 든 개인소지품 소매치기 피해 발생<br><br>\r\n\r\n[ATM]<br>\r\nㅇ 카드 비밀번호가 노출돼 2차 범죄 피해 발생<br><br>\r\n\r\n[자동차]<br>\r\nㅇ 귀중품 및 가방 등을 차안 눈에 띄는 곳에 놓고 주차한 사이 유리창을 깨고 가방을 훔쳐 달아나는 사고 발생<br><br>\r\n\r\n<h3 class=\"tit\">유의해야 할 지역</h3>\r\nㅇ 덴마크는 비교적 치안이 잘되어 있으며 여행에 큰 어려움은 없으나, 수도인 코펜하겐 내에서 소매치기 범죄 피해가 빈번히 발생되고 있어 소지품 (여권 등) 관리에 주의가 요구됩니다. 소매치기 발생 주요 지역으로 덴마크 주요 관광지 (뉘하운, 아말리엔보, 코펜하겐 시청, 티볼리 공원 등) 와 코펜하겐 중앙역 인근, 코펜하겐 소재 호텔 및 식당, 공항입니다.<br>\r\nㅇ 또한 Street Gang 들 간의 범죄가 발생되고 있는 코펜하겐 뇌어보(Norrebro) 지역 방문시 주의가 필요하며, 중앙역 (Kobenhavn H) 기준 남서쪽 지역에 이민자들로부터 발생되는 소매치기가 피해가 접수되고 있으니 밤늦은 시간 해당 지역에 혼자 다니는 일은 삼가 하는 것이 좋습니다.<br><br>",
+  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3>\n<p>ㅇ 주소 : Svanem&oslash;llevej 104, 2900 Hellerup, Denmark<br>\nㅇ 대표 이메일 : <a href=\"mailto:korembdk@mofa.go.kr\">korembdk@mofa.go.kr</a><br>\nㅇ 대표번호(근무시간 중) : (45) 3946-0400<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (45) 2521-7461<br>\n<br></p>\n<h3 class=\"tit\">주재국 신고</h3>\n<p>ㅇ 긴급상황 발생시 (소방서, 경찰, 병원 앰뷸런스 통합) : 112<br>\nㅇ 응급환자 의료상담 - 1813<br>\nㅇ 경찰서 (Politi) - 114<br>\nㅇ 경찰 분실물 신고센터 (Hittegodskontor) +45 38 74 88 22 (전화업무 평일 9:00 &ndash; 11:00)<br>\nㅇ 코펜하겐 여행자 안내소 +45 70 22 24 42<br></p>\n<div>o 대중교통</div>\n<div><span style=\"font-weight: bold;\">- 덴마크 대중교통 연락처 통합 안내 웹사이트&nbsp;(덴마크 대중교통 내 분실물, 과태료, 연락처 관련 내용 확인 가능) :&nbsp;</span><span style=\"letter-spacing: -0.025em;\"><span style=\"font-weight: bold;\"><a href=\"https://dinoffentligetransport.dk/en/contact-us\" target=\"_blank\">https://dinoffentligetransport.dk/en/contact-us</a></span></span></div>\n<div>*버스 :&nbsp; +45 7015 7000 전화하여 1번 누르면 연결</div>\n<div>*DSB 기차 : +45 7015 7000 전화하여 2번 누르면 연결</div>\n<div>*지하철(Metro) : +45 7015 7000 전화하여 3번 누르면 연결</div>\n<div><br></div>\n<div><br></div>\n<h3 class=\"tit\">의료기관 연락처</h3>\n<p>ㅇ 국립의료 서비스 이용을 위한 통합 연락번호 : 1813<br>ㅇ 여행 중 (24시간) 응급환자 발생 및 병원 진료 희망시 우선 ☏ 1813 으로 연락하여 현재 상태와 위치 등의 개인정보를 알려주고 방문 가능한 국립병원 (응급실 포함) 을 안내 받습니다. 1813은 영어로 의사소통이 가능하며, 통역지원이 필요할 경우 외교부 영사콜센터 (+82 2 3210 0404) 무료통역 지원서비스를 활용하시기 바랍니다.</p>\n<p><span style=\"font-weight: bold;\">- 웹사이트 : <a href=\"https://www.regionh.dk/english/healthcare-services/emergency-medical-services/pages/medical-helpline-1813.aspx\" target=\"_blank\">https://www.regionh.dk/english/healthcare-services/emergency-medical-services/pages/medical-helpline-1813.aspx</a></span></p></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "덴마크 사람들은 '휘게(Hygge)'라는 아늑하고 편안한 분위기를 중요하게 여기며, 공공장소에서 너무 큰 소리로 대화하는 것은 피하는 것이 좋습니다. 타인의 개인 공간을 존중하고 줄을 서는 등의 질서를 엄격히 지키며, 약속 시간을 매우 중요하게 생각하므로 5분 정도 일찍 도착하는 것이 예의입니다. 길거리에서 낯선 사람과 눈이 마주치면 가볍게 미소를 짓는 것이 자연스러운 문화입니다.",
+    "business_tip": "덴마크의 비즈니스 문화는 수평적이고 실용적이므로 직급보다는 효율성과 합의를 중시합니다. 의사결정 과정이 민주적이어서 시간이 다소 걸릴 수 있으나, 한번 합의된 사항은 신뢰를 바탕으로 철저히 이행됩니다.",
+    "phrases": [
+      "안녕하세요 - 할로(Hej)",
+      "감사합니다 - 탁(Tak)",
+      "부탁합니다 - 베드 엥 옴(Bed en om)",
+      "죄송합니다 - 운스킬(Undskyld)",
+      "안녕히 가세요 - 파웰(Farvel)"
+    ]
+  }
+}

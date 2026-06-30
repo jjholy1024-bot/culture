@@ -1,0 +1,35 @@
+{
+  "iso_code": "RWA",
+  "country_kr": "르완다",
+  "country_en": "Rwanda",
+  "flag_image": "images/RWA.gif",
+  "travel_alert": {
+    "level": "철수권고",
+    "regions": [
+      {
+        "level": "여행자제",
+        "area": "3단계 지정 지역을 제외한 지역",
+        "partial": true
+      },
+      {
+        "level": "철수권고",
+        "area": "루바부 주",
+        "partial": true
+      }
+    ]
+  },
+  "accident_info_html": "<div>\r\n<h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 르완다는 현재 대체로 안정적 치안상태를 유지하고 있으나, 버스정류장이나 재래시장, 상가 밀집 지역 등 현지인들이 붐비는 장소에서는 테러, 사건사고 등 가능성에 대해 유의하셔야 합니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 2013년, 수도 키갈리(Kigali)의 냐부고고(Nyabugogo),키추키로(Kicukiro), 키미롱고(Kimirongo) 지역에서 대중을 목표로 하는 수류탄 공격 사고가 일어난 바 있습니다.</p>\r\nㅇ 생계형 절도 범죄(소매치기, 도난, 차량 부품 절도 등)도 종종 발생하고 우리 교민들도 몇 차례 피해를 입은 바 있어 주의가 필요합니다.<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 특별한 자연재해는 없으나, DR 콩고와의 접경 지역은 화산활동지인 것으로 알려져 있습니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 2002년 10월, 2005년 12월, 2008년 2월 등 그간 수차례 진도 5~7사이의 지진이 발생하여 인명피해가 발생하였습니다.</p>\r\nㅇ 2008년 르완다 서부의 루시지(Rusizi) 지역에 규모 5.9의 지진이 강타하면서 30여명이 사망하고 600명 이상의 부상자가 발생한 바 있습니다.<br>\r\nㅇ 우기에는 단시간 내에 많은 비가 내리므로 홍수, 산사태 등 피해 가능성에 유의해야 합니다.<br><br>\r\n\r\n<h3 class=\"tit\">유의해야 할 지역</h3>\r\nㅇ 2018.12월 등 관광지인 늉웨(Nyungwe)숲 및 인근에서 무장 괴한의 공격 사건이 보고된 바 있으므로 이 지역 여행시 각별한 유의가 필요합니다. <br>\r\nㅇ 현재(2019.5월) 우간다, 부룬디와의 관계 경색으로 양국과의 국경 지대에 긴장이 조성될 가능성에 유의해야 하며, 육로를 통한 국경 통행‧통관시 강화된 검색 또는 예고없는 국경 폐쇄 등으로 불편을 겪을 수 있습니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 이와 관련된 최신 정부 발표 내용 및 언론 보도를 확인하시기 바랍니다.</p><br>\r\n\r\n[자연재해 발생 가능 지역]<br>\r\nㅇ 르완다 국경 인근에 있는 DR 콩고의 니라공고(Nyiragongo)산에서 화산 및 지진 피해 발생 사례가 있으니 방문 시 주의가 필요합니다.</div><br>",
+  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3> ㅇ 주소 : P.O Box 6404, 34,&nbsp;KG 13 Ave(Golf Course Road), Nyarutarama, Kigali, Rwanda<br>\nㅇ 이메일 : <a href=\"mailto:koremb-rwanda@mofa.go.kr\">koremb-rwanda@mofa.go.kr</a><br>\nㅇ 대표번호(근무시간 중) : (250) 252-577-577<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (250) 793-761-634<br>\n<br>\n\n<h3 class=\"tit\">긴급 연락처</h3> ㅇ 응급상황 112<br>\nㅇ 교통사고 113<br>\nㅇ 앰뷸런스 912<br>\n<br>\n\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ 르완다의 의료시설(치과 포함)은 제한적이고 약품도 부족하기 때문에 심각한 병에 걸렸을 경우 케냐나 남아공으로 가야 합니다.<br>\n&nbsp;&nbsp;&nbsp;&nbsp; - 말라리아 등 풍토병의 경우, 한국인이 걸린 사례도&nbsp;많이 발생하고 있어, 충분한 주의가 필요합니다.<br>\nㅇ 종합병원인 King Faisal hospital 관련 정보는 아래와 같습니다.<br>\n<br>\n [King Faisal Hospital]<br>\nㅇ 주소 : P.O Box 2534 Kigali, Rwanda<br>\nㅇ 전화번호 : (+250) 252-588-888 /252-589-905 /252-587-777 or 078-830-9002<br>\nㅇ 24시 센터 : 078-853-0351<br>\nㅇ 홈페이지 : <a href=\"http://kfh.rw/\" target=\"_blank\">http://kfh.rw/</a>&nbsp;</div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "르완다인들은 타인에게 예의를 갖추는 것을 매우 중요하게 생각하며, 특히 연장자에게는 정중한 경어를 사용하는 것이 좋습니다. 매달 마지막 토요일은 '우무간다(Umuganda)'라고 불리는 지역사회 봉사의 날로, 당일에는 모든 상점이 문을 닫고 주민들이 공공 작업을 하므로 외출을 자제하거나 존중하는 태도를 보이는 것이 필요합니다. 또한, 공공장소에서의 흡연은 엄격히 금지되어 있으므로 지정된 구역을 반드시 확인해야 합니다.",
+    "business_tip": "비즈니스 미팅에서는 신뢰 관계 구축이 우선이므로 성급하게 본론으로 들어가기보다는 가벼운 담소로 분위기를 여는 것이 좋습니다. 시간 약속은 중요하게 여기지만, 상황에 따라 유동적인 경우가 많으니 여유 있는 일정을 잡고 인내심을 갖는 것이 중요합니다.",
+    "phrases": [
+      "안녕하세요 - 무라호(Muraho)",
+      "감사합니다 - 므라코제(Murakoze)",
+      "죄송합니다 - 음바바라(Mbabarira)",
+      "네 - 예고(Yego)",
+      "아니요 - 오야(Oya)"
+    ]
+  }
+}

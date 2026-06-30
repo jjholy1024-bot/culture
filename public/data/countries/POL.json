@@ -1,0 +1,35 @@
+{
+  "iso_code": "POL",
+  "country_kr": "폴란드",
+  "country_en": "Poland",
+  "flag_image": "images/POL.png",
+  "travel_alert": {
+    "level": "여행자제",
+    "regions": [
+      {
+        "level": "여행유의",
+        "area": "2단계 지정 지역을 제외한 지역",
+        "partial": true
+      },
+      {
+        "level": "여행자제",
+        "area": "우크라이나 접경 30KM지역",
+        "partial": true
+      }
+    ]
+  },
+  "accident_info_html": "<div><h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 투숙호텔 뷔페식당에서 조식 식사를 위해 가방을 좌석에 두고 음식을 가지러 간 사이 가방을 도난당하는경우가 있습니다. 귀중품은 직접 가지고 이동하는 것이 안전합니다.<br>\r\nㅇ 열차 이동 시 짐을 짐칸에 따로 보관하였다가 분실하는 경우가 많으니, 열차 이동시 짐은 가급적 시선이닿는 곳에 보관합니다.<br>\r\nㅇ 혼잡한 쇼핑몰 및 대중교통수단(버스, 지하철, 전차) 이용시 금품, 여권 등을 도난당하는 경우가 있으니, 금품이 들어있는가방의 지퍼를 열지 못하도록 손으로 잡고 있는 등 소매치기에 유의하여야 합니다.<br>\r\nㅇ 기차역 근처에 있는 *마피아 택시는 기본 요금보다 몇 배 이상의 무리한 요금을 요구하며, 지불하지 않을 경우 심한 욕설 등으로 위협하는 경우가 있으니 탑승 전 금액을 미리 확인하고 차량을 이용하는 것이 안전합니다.<br>\r\n<p style=\"margin-left: 25px; margin-right: 25px;\">※ 마피아 택시 : 주로 기차역 또는 공항 근처에서 대기하고 있으며 택시 회사명과 전화번호가 적히지 않은 불법택시</p><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 태풍, 지진 등의 자연재해는 거의 없습니다.<br><br>\r\n\r\n<h3 class=\"tit\">유의해야할 지역</h3>\r\nㅇ 인적이 드문 취약 지역과 기차역 주변 그리고 야간에는 주의를 요합니다.<br>\r\nㅇ 폴란드는 비교적 치안상태가 안전하여 외국인이 여행 중에 살인, 강도, 납치 등 신체에 물리적 유해를 가하는 강력범죄 피해는 거의 발생하지 않으나, 사람이 많은 버스나 지하철 소매치기와 국경을 넘는 야간기차 탑승시 주의를 요합니다.<br></div>",
+  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3>\n<p> ㅇ 주소 : ul. Szwolezerow 6, 00-464, Warszawa, Poland<br>\nㅇ 이메일 : <a href=\"mailto:koremb_waw@mofa.go.kr\">koremb_waw@mofa.go.kr</a><br>\nㅇ 대표번호(근무시간 중) : (48) 22-559-2900<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (48) 887-46-0600<br>\n<br></p>\n<h3 class=\"tit\">주재국 신고</h3>\n<p> ㅇ 범죄신고 : 997<br>\nㅇ 화재 : 998<br>\nㅇ 응급환자 : 999<br>\nㅇ 전화안내 : 118 913<br>\nㅇ 국제전화 신청 : 901<br>\nㅇ 바르샤바 경찰 : +48-22) 603-6555<br>\nㅇ 교통사고신고 : +48-22) 603-7755<br>\nㅇ Medicover 24시간 응급서비스 : 500 900 999<br>\nㅇ 한국 Collect Call 교환 : 00800-821-1122<br>\n<br></p>\n<h3 class=\"tit\">의료기관 연락처</h3>\n<p> □ 바르샤바<br>\n[Centralny Szpital Kliniczny MSWiA]<br>\nㅇ 주소 : ul. Wołoska 137<br>\nㅇ 전화 : (48) 22-508-2000 <br>\nㅇ 웹사이트 : <a href=\"http://www.cskmswia.pl/\" target=\"_blank\">www.cskmswia.pl</a><br>\n<br>\n [Prywatne Centrum Medyczne DAMIANA]<br>\nㅇ 주소 : ul. Wałbrzyska 46<br>\nㅇ 전화 : (48) 22-566-2222<br>\nㅇ 웹사이트 : <a href=\"http://www.damian.pl/\" target=\"_blank\">www.damian.pl</a><br>\n<br>\n [Medicover w Warszawie]<br>\nㅇ 주소 : Al. Rzeczypospolitej 5<br>\nㅇ 전화 : (48) 500-900-500<br>\nㅇ 웹사이트 : <a href=\"http://medicover.pl\" target=\"_blank\">medicover.pl</a><br>\n<br>\n □ 크라쿠프<br>\n[Szpital Miejski Specjalistyczny im.G.Narutowicza w Krakowie]<br>\nㅇ 주소 : ul. Pradnicka 35/37<br>\nㅇ 전화 : 012-416-2266, 012-633-0100 <br>\nㅇ 웹사이트 : <a href=\"http://narutowicz.krakow.pl/\" target=\"_blank\">narutowicz.krakow.pl</a><br>\n<br>\n [Medicover w Krakowie]<br>\nㅇ 주소 : ul. Bora Komorowskiego 25B, 31-476 Krak&oacute;w<br>\nㅇ 전화 : (48) 500-900-500 Hot Line Medicover 24h - 500 900 999<br>\nㅇ 웹사이트 : <a href=\"http://medicover.pl/\" target=\"_blank\">medicover.pl</a><br>\n<br>\n □ 브로츠와프<br>\n[Medicover we Wrocławiu]<br>\nㅇ 주소 : ul. Mydlana 2A, 51-502 Wrocław<br>\nㅇ 전화 : (48) 500-900-500 Hot Line Medicover 24h - 500 900 999<br>\nㅇ 웹사이트 : <a href=\"http://medicover.pl\" target=\"_blank\">medicover.pl </a></p>\n<p><br></p>\n<p><br></p>\n<p><br></p></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "폴란드에서는 식당이나 카페에 들어갈 때 점원에게 '지엔 도브리(Dzień dobry)'라고 인사하는 것이 매우 중요합니다. 대중교통 이용 시 노약자나 임산부에게 자리를 양보하는 문화가 잘 정착되어 있으며, 타인의 집에 초대받았을 때는 꽃이나 작은 선물을 준비하는 것이 예의입니다. 또한, 실내에 들어갈 때는 반드시 신발을 벗는 습관이 있으므로 주의하시기 바랍니다.",
+    "business_tip": "폴란드 비즈니스 환경에서는 격식을 차리는 것을 선호하므로 첫 만남 시 정중한 복장과 명함 교환이 필수입니다. 미팅 시에는 미리 일정을 확인하고 시간을 엄격하게 준수하는 것이 신뢰를 쌓는 가장 좋은 방법입니다.",
+    "phrases": [
+      "안녕하세요 - 지엔 도브리(Dzień dobry)",
+      "감사합니다 - 지엥쿠예(Dziękuję)",
+      "죄송합니다 - 프셰프라샴(Przepraszam)",
+      "얼마인가요? - 일레 토 코슈투예?(Ile to kosztuje?)",
+      "네 / 아니요 - 탁(Tak) / 니에(Nie)"
+    ]
+  }
+}

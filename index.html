@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CultureZero — 해외안전·문화 브리핑</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo" onclick="goHome()">
+        <span class="logo-icon">🌍</span>
+        <span class="logo-text">Culture<strong>Zero</strong></span>
+      </div>
+      <p class="header-sub">외교부 공공데이터 × AI 해외 안전·문화 브리핑</p>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ─── 화면 1: 메인(검색 · 지도) ─────────────────── -->
+    <section id="screenHome" class="screen">
+      <div class="search-hero">
+        <h1 class="hero-title">어느 나라로 떠나시나요?</h1>
+        <p class="hero-sub">국가명을 검색하거나 지도에서 핀을 클릭하면 5분 안에 안전·문화 브리핑을 받아볼 수 있어요</p>
+        <div class="search-wrap-hero">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input-hero" placeholder="국가명을 입력하세요 (예: 일본, 프랑스)" autocomplete="off" />
+          <button class="search-clear" id="searchClear" style="display:none;">✕</button>
+          <div id="searchSuggest" class="search-suggest" style="display:none;"></div>
+        </div>
+      </div>
+
+      <div class="view-toggle-bar">
+        <h2 class="section-title">인기 국가</h2>
+        <div class="view-toggle">
+          <button class="view-btn active" data-view="map" title="지도 뷰">🗺 지도</button>
+          <button class="view-btn" data-view="list" title="리스트 뷰">☰ 리스트</button>
+        </div>
+      </div>
+
+      <div class="chip-row" id="popularChips"></div>
+
+      <div id="mapView">
+        <div id="map"></div>
+        <div class="map-legend" id="mapLegend"></div>
+      </div>
+
+      <div id="listView" class="card-grid" style="display:none;"></div>
+    </section>
+
+    <!-- ─── 화면 2: 로딩 ──────────────────────────────── -->
+    <section id="screenLoading" class="screen" style="display:none;">
+      <div class="loading-state">
+        <div class="spinner"></div>
+        <p id="loadingText">브리핑을 준비하고 있어요...</p>
+        <ul class="loading-steps" id="loadingSteps">
+          <li data-step="alert">여행경보 단계 확인 중</li>
+          <li data-step="accident">사건사고 예방정보 확인 중</li>
+          <li data-step="contact">긴급 연락처 확인 중</li>
+          <li data-step="culture">문화·예절 정보 준비 중</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ─── 화면 3: 결과(브리핑) ──────────────────────── -->
+    <section id="screenResult" class="screen" style="display:none;">
+      <button class="back-btn" onclick="goHome()">← 다른 국가 찾기</button>
+
+      <div class="result-header">
+        <img id="resultFlag" class="result-flag" src="" alt="" />
+        <div>
+          <h1 id="resultCountryName" class="result-country-name"></h1>
+          <span id="resultAlertBadge" class="alert-badge"></span>
+        </div>
+      </div>
+
+      <div class="card-grid result-grid" id="resultCards"></div>
+
+      <div class="result-footer">
+        <a id="noticeLink" class="footer-btn" href="#" target="_blank" rel="noopener">📋 외교부 공지사항 바로가기</a>
+        <button class="footer-btn" onclick="shareResult()">🔗 공유하기</button>
+        <button class="footer-btn" onclick="window.print()">🖨 PDF로 저장</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>데이터 출처: 외교부 해외안전여행 공공데이터 · 문화 정보는 AI(Gemini)가 생성 · 본 서비스는 경진대회 출품작입니다</p>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

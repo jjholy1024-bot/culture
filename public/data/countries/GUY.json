@@ -1,0 +1,30 @@
+{
+  "iso_code": "GUY",
+  "country_kr": "가이아나공화국",
+  "country_en": "Guyana",
+  "flag_image": "images/GUY.gif",
+  "travel_alert": {
+    "level": "여행자제",
+    "regions": [
+      {
+        "level": "여행자제",
+        "area": "전 지역",
+        "partial": false
+      }
+    ]
+  },
+  "accident_info_html": "<div>\r\n<h3 class=\"tit\" style=\"font-size: 18px; font-weight: bold;\">사건ㆍ사고 현황</h3>\r\n<p>\r\nㅇ 주재국은 전쟁이나 내란 등은 없으며 또한 무장테러 단체 등도 없으나 극심한 빈부 부차, 높은 실업률 등으로 말미암아 사회치안이 매우 열악한 상황입니다.<br>\r\nㅇ 주재국은 치안불안 지역으로 분류되며, 시내공공장소에서 범죄가 국가적으로 주요 문제가 될 정도로 심각한 상황으로 도심지 범죄가 계속 증가추세에 있습니다.<br>\r\nㅇ 총기살해, 도로봉쇄, 반달리즘(파괴행위) 등 위범행위가 증가하고 있으며, 산발적이고 불시에 발생하는 경우가 많습니다.<br>\r\n</p>\r\n\r\n<br>\r\n\r\n<h3 class=\"tit\" style=\"font-size: 18px; font-weight: bold;\">사건ㆍ사고의 유형</h3>\r\n<p>\r\nㅇ 수도인 Georgetown은 특히 주거침입, 유괴, 차량도난, 총기사고 등 폭력범죄가 많이 일어나며 범죄자들이 난폭해서 경찰조차도 피해자기 되기 쉬울 정도로 위험합니다.<br>\r\nㅇ 거리 범죄는 절도 및 강도상해(육체적인 폭력)가 일반적인 일이다. 특히 조지타운에서는 여행자가 어두워진 후에 걸어 다니는 것을 피해야 하며 항상 경계를 늦추지 않아야 하며 가능하면 혼자서 행동을 삼가야 합니다.<br>\r\nㅇ 길거리에서 환전을 피하는 것이 바람직합니다. 왜냐하면 위조지폐 가능성이 있으며 환전으로 현찰을 가지는 것이 발각될 시 범죄인들의 공격표적 대상이 될 수 있기 때문입니다.<br>\r\n</p>\r\n\r\n<br>\r\n\r\n<h3 class=\"tit\" style=\"font-size: 18px; font-weight: bold;\">자연재해</h3>\r\n<p>ㅇ 주재국은 카리브연안에 위치하지 않고 있어서 허리케인의 피해는 없는 편이며 지진 등 특수한 자연재해는 없는 편입니다. 그러나 가끔 폭우로 인해서 홍수피해는 있습니다.<br></p>\r\n\r\n<br>\r\n\r\n<h3 class=\"tit\" style=\"font-size: 18px; font-weight: bold;\">유의해야할 지역</h3>\r\n<p>ㅇ Buxton(Georgtwon과 New Amsterdam 사이에 있는 지역)지역은 범죄조직의 근거지라고 알려져 있으므로 접근을 피할 것이 요망 됩니다. 또한 조지타운의 타이거 베이(Tiger Bay) 지역에서는 특히 조심해야 합니다.<br></p>\r\n\r\n<br>\r\n\r\n</div>",
+  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3>\n<p style=\"margin-left: 25px; margin-right: 25px;\">※ 가이아나에는 우리대사관이 없으며, 주트리니다드토바고대한민국 대사관이 겸임하고 있습니다.&nbsp;</p>\n<p style=\"margin-left: 25px; margin-right: 25px;\">ㅇ 주소 : #36 Elizabeth Street, St. Clair, Port of Spain, Trinidad and Tobago, W.I.<br>\nㅇ 대표번호(근무시간 중) : (1) 868-622-9081<br>\nㅇ E-mail : trinidad<a href=\"mailto:venezuela@mofa.go.kr\">@mofa.go.kr</a><br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +82-2-3210-0404<br>\n<br></p>\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 비상사태 발생 시 도움을 청할 수 있는 긴급 호출번호는 국번 없이 911 입니다. 912는 화재발생시, 913은 앰블런스 사용시 이용 가능합니다.<br>\n<br>\n\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ 보건위생관련 말라리아가 내륙의 풍토병이며, 콜레라, 뎅기열, 장티푸스에 걸릴 위험이 있어 관련 예방접종이 요구됩니다.<br>\nㅇ 913은 앰블런스 사용시 이용 가능합니다.<br></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "가이아나는 다민족 국가로 상대방의 종교나 문화적 배경을 존중하는 태도가 중요합니다. 공공장소에서는 단정한 복장을 권장하며, 현지인과 대화할 때는 너무 성급하게 결론을 내리기보다 느긋하고 예의 바른 태도를 보이는 것이 좋습니다. 또한 사진 촬영 시에는 반드시 상대방에게 먼저 동의를 구하는 것이 올바른 예절입니다.",
+    "business_tip": "비즈니스 미팅에서는 격식을 갖춘 정장 차림이 선호되며, 첫 만남에서는 명함을 교환하고 악수를 나누는 것이 일반적입니다. 약속 시간에 늦지 않는 것이 중요하며, 신뢰 관계를 형성하기 위해 업무 외적인 일상 대화를 나누는 여유를 가지는 것이 좋습니다.",
+    "phrases": [
+      "안녕하세요 - 헬로우(Hello)",
+      "감사합니다 - 땡큐(Thank you)",
+      "죄송합니다 - 아이 앰 소리(I am sorry)",
+      "도와주세요 - 캔 유 헬프 미(Can you help me)",
+      "얼마인가요? - 하우 머치 이즈 잇(How much is it)"
+    ]
+  }
+}

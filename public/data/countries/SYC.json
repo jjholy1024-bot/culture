@@ -1,0 +1,14 @@
+{
+  "iso_code": "SYC",
+  "country_kr": "세이셸",
+  "country_en": "Seychelles ",
+  "flag_image": "images/SYC.png",
+  "travel_alert": {
+    "level": "없음",
+    "regions": []
+  },
+  "accident_info_html": "<div>\r\n<h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 세이셸은 안전한 나라로 인식되고 있으나, 2011. 5월 세이셸의 한 리조트에서 근무하던 우리 국민이 실종된 후 사망한 사건이 있었습니다.<br>\r\nㅇ 최근 세이셸 내 관광객 등을 대상으로 마약 관련 범죄가 종종 발생하고 있어 주의가 필요합니다.<br>\r\nㅇ 세이셸을 방문하는 여행객들은 일몰 후 혼자 빅토리아 시내 또는 호젓한 해변 등을 다니는 일은 자제하고, 차량을 렌트하더라도 야간 단독 운행은 삼가시기 바랍니다.<br>\r\nㅇ 수도 빅토리아가 소재한 Mahe섬은 산악지형으로서, 도로의 폭이 좁고 구불구불한 곳이 많이 있는 반면에 안전 펜스는 드문 편이므로 운전시 특히 주의해야 합니다.<br>\r\nㅇ 시간에 따라 급류가 발생하여 익사의 위험이 높으므로 수영이나 스노클링시 주의해야 합니다.<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 대부분의 섬들이 사이클론 영향권(cyclone belt) 밖에 위치해 있어 강풍은 거의 없으나, 몬순 우기 철에 홍수와 산사태 피해를 입을 수 있으므로 주의하시기 바랍니다.<br><br>\r\n\r\n<h3 class=\"tit\">유의해야할 지역</h3>\r\nㅇ 세이셸은 비교적 안전하기는 하지만 관광객을 상대로 한 범죄는 어디에서라도 발생할 수 있기 때문에 항상 조심할 필요성이 있습니다.<br>\r\nㅇ 혼자 여행하는 우리 국민의 경우 가급적 동반자를 대동하고 늦은 야간 활동에 주의해야 합니다.<br></div>",
+  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3> ※ 세이셸에는 우리대사관이 없으며, 주 에티오피아 대한민국 대사관이 겸임하고 있습니다.<br>\nㅇ 주소 : Embassy of the Republic of Korea P.O.Box 2047, Addis Ababa, Ethiopia<br>\nㅇ 대표번호(근무시간 중) : (251) 113-72-81-11<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (251) 90-766-0404<br>\nㅇ 이메일 :&nbsp;<a href=\"mailto:ethiopia@mofa.go.kr\">ethiopia@mofa.go.kr</a><br>\n<br>\n\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 범죄, 화재 또는 긴급 구조요청은 (248) 999 또는 (248) 432-3242<br>\n<br>\n\n<h3 class=\"tit\">관광통역서비스</h3> ㅇ 세이셸은 인도양의 휴양지로서, 많은 관광객들이 리조트 내에서 수영, 스노클링 등을 즐기면서 휴식을 취하고 있습니다.<br>\nㅇ 호텔 및 리조트 등에 문의하면 각종 해양스포츠 및 인근 섬으로의 여행 등이 가능합니다.<br>\n<br>\n\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ Victoria, Praslin, La Digue 등 큰 섬 외에 작은 섬에는 의사가 없어 의료서비스를 제공 받기 매우 어렵습니다.<br>\nㅇ 병원은 Victoria에 국립종합병원 1개소가 있고, Mahe, Praslin, La Digue에는 사설 의원과 치과가 있습니다. 병원과 의원은 08:00~16:00에 이용할 수 있으며 영어를 사용합니다.<br>\nㅇ 구급차는 보건부에서 운영하며, Mahe, Praslin, La Digue 섬에서 이용이 가능합니다(999).<br></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": null
+}

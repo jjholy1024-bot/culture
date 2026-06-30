@@ -1,0 +1,24 @@
+{
+  "iso_code": "LCA",
+  "country_kr": "세인트루시아",
+  "country_en": "Saint Lucia",
+  "flag_image": "images/LCA.bmp",
+  "travel_alert": {
+    "level": "없음",
+    "regions": []
+  },
+  "accident_info_html": "<div>\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 6~11월 카리브지역 허리케인 시즌이나 세인트루시아는 피해가 적음<br><br>\r\n\r\n<h3 class=\"tit\">유의해야할 지역</h3>\r\nㅇ 거리에서의 소매치기, 강간 또는 강도 사례도 자주 발생하므로, 분명한 주의를 요합니다.<br>\r\nㅇ 시내 중심가 및 외진 곳은 관광객을 대상으로 하는 범죄가 빈번히 발생하므로 방문을 자제하시고, 필요 시, 신원이 확실한 현지인과 동반 방문을 권합니다.<br>\r\nㅇ 불특정한 곳에 남겨진 음식 및 음료는 법죄와 연관될 수 있으니, 접촉을 삼가바랍니다.<br>\r\nㅇ 수상 스포츠 시, 야간 이용 및  1인 활동 금지, 공식적 스포츠로 공인된 곳을 이용하시기 바랍니다.<br></div>",
+  "local_contact_html": "<div>\r\n<h3 class=\"tit\">대사관 연락처</h3> ※ 세인트루시아에는 우리대사관이 없으며, 주트리니다드한국대사관이 겸임하고 있습니다.<br>\r\nㅇ 주소 : #36 Elizabeth Street, St. Clair, Port of Spain, Trinidad and Tobago<br>\r\nㅇ 대표번호(근무시간 중) : (1) 868-622-9081<br>\r\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (1) 868-381-8977<br>\r\nㅇ 이메일 : <a href=\"mailto:trinidad@mofa.go.kr\">trinidad@mofa.go.kr</a><br>\r\n<br>\r\n\r\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 소방서 : 911<br>\r\nㅇ 경찰서 및 앰뷸런스 : 999<br>\r\n<br>\r\n\r\n<h3 class=\"tit\">관광통역서비스</h3> ㅇ St.Lucia Tourism Office<br>\r\n\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 주소 : Box 221, Vide Boutielle Castries, St.Lucia<br>\r\n- 홈페이지 : <a href=\"http://www.stlucia.org/\" target=\"_blank\">www.stlucia.org</a></p><br>\r\n\r\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ Victoria Hospital : +1-758-452-2421<br></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "세인트루시아 사람들은 인사와 대화에 매우 친절하므로, 길에서 만나는 사람들에게 밝게 'Good morning'이나 'Good afternoon'으로 인사하는 것이 좋습니다. 수영복은 해변이나 수영장에서만 착용하고, 마을이나 시내를 다닐 때는 단정한 복장을 갖추는 것이 예의입니다. 또한 현지인의 사진을 찍을 때는 반드시 사전에 정중하게 양해를 구해야 합니다.",
+    "business_tip": "비즈니스 미팅에서는 격식을 차리되 지나치게 공격적인 태도는 피하는 것이 좋습니다. 관계 형성을 중시하므로 회의 시작 전 가벼운 스몰 토크로 분위기를 조성하고, 차분하고 예의 바른 태도로 신뢰를 쌓는 것이 성공적인 협상의 핵심입니다.",
+    "phrases": [
+      "안녕하세요 - 굿 모닝/굿 애프터눈(Good morning/afternoon)",
+      "감사합니다 - 땡큐(Thank you)",
+      "실례합니다 - 엑스큐즈 미(Excuse me)",
+      "얼마인가요? - 하우 머치 이즈 디스?(How much is this?)",
+      "도와주셔서 감사합니다 - 땡스 포 유어 헬프(Thanks for your help)"
+    ]
+  }
+}

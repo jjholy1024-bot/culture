@@ -1,0 +1,35 @@
+{
+  "iso_code": "BLR",
+  "country_kr": "벨라루스",
+  "country_en": "Belarus",
+  "flag_image": "images/BLR.gif",
+  "travel_alert": {
+    "level": "여행금지",
+    "regions": [
+      {
+        "level": "철수권고",
+        "area": "4단계, 특별여행주의보 지정 지역을 제외한 지역",
+        "partial": true
+      },
+      {
+        "level": "여행금지",
+        "area": "벨라루스 브레스트&middot;고멜 지역 내 우크라이나 국경에서 30km",
+        "partial": true
+      }
+    ]
+  },
+  "accident_info_html": "<div>\r\n★ 현재 우크라이나 전쟁으로 인해 벨라루스 내 우크라이나 접경지역에 여행경보 4단계(흑색경보, 여행금지, 방문시 처벌), 이외 전지역에 여행경보 3단계(적색경보, 출국권고)가 발령되어 있습니다. 불요불급한 용무가 아닌 단순 여행은 자제해 주시기를 권고드리며, 불요불급한 용무로 방문할 경우 대사관 대표메일(<a href=\"mailto:belemb@mofa.go.kr\">belemb@mofa.go.kr</a>)로 비상연락망 정보(성명, 생년월일, 전화번호, 출국예정일)를 보내주시면 감사하겠습니다.<br><br>\r\n\r\n<h3 class=\"tit\">사건ㆍ사고 현황</h3>\r\nㅇ (2008.7월) 벨라루스 독립기념일을 기념하는 갈라콘서트장에서 신원미상자가 설치한 폭탄이 폭발하여 약 50여 명이 부상했습니다.<br>\r\nㅇ (2009.10월) 민스크 시내(Yakuba Kolasa 거리 부근)에서 현지인이 투르크메니스탄 유학생을 공기총으로 위협하며 금품을 갈취하려다 경찰에게 연행된 사건이 있었습니다.<br>\r\nㅇ (2010.4월) 악짜브리스까야(Oktyabriskaya) 지하철역에서 일어난 폭탄 테러 사건으로 인명피해가 다수 발생했습니다.<br>\r\nㅇ (2020년) 부정대선 규탄 대규모 시위가 수차례 발생하였으며, 정부의 강경 진압으로 국제적인 제재가 부과되고 있습니다.<br>\r\nㅇ (2022.2월~현재) 우크라이나 전쟁에 대한 벨라루스의 러시아 지원으로 국제적인 제재가 부과되고 있으며 우리 정부도 동참 중입니다.<br><br>\r\n\r\n<h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 외국인에 대한 테러·인질사건 발생 사례가 거의 없으며, 극우 민족주의 성향 세력에 대한 강한 통제 정책으로 유색인에 대한 폭력사례는 거의 발생하지 않습니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 단, 자동차 안에 귀중품을 둔 채 자리를 비울 시 차 유리를 부수고 물건을 훔쳐가는 사건이 발생할 수 있으니 유의하시길 바랍니다.</p>\r\nㅇ 대중교통 및 시장 등의 사람들이 많이 모이는 번잡한 곳에서는 소매치기에 주의할 필요가 있으며, 인적이 드문 외진 곳으로 혼자 통행할 경우 각별히 주의해야 합니다.<br><br>\r\n\r\n<!--삭제-->\r\n<!--\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 1986년 우크라이나 체르노빌 원전 폭발 사고 시 가장 많은 피해를 입은 국가로서 원전 피해 지역(특히 고멜 주)에서 생산되는 농산물 등의 섭취는 주의할 필요가 있습니다.<br>\r\nㅇ 여름철 집중호우가 내리는 경우 배수시설이 좋지 않아 대로가 침수 되는 일이 자주 발생합니다.<br><br>\r\n-->\r\n\r\n<h3 class=\"tit\">유의해야할 지역</h3>\r\nㅇ 1986년 우크라이나 체르노빌 원전 폭발 사고 시 가장 많은 피해를 입은 국가로서, 원전 피해 지역(특히 고멜 주)에서 생산되는 농산물 등의 섭취는 주의할 필요가 있습니다.<br></div>",
+  "local_contact_html": "<h3 class=\"tit\">대사관 연락처</h3> ㅇ 주소 : 220002 Minsk, Storozhovskaya str.10<br>\nㅇ 대표번호(근무시간 중) : (375) 17-215-0170~2<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (375) 29-369-1320 <br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\"><span style=\"color: rgb(0, 0, 0);\">- 국제전화 이용시 001로 발신이 안되는 경우 002 또는 00700을 이용해주시기 바랍니다.<br>(예: 00700-375-29-369-1320)</span></p> ㅇ E-mail : <a href=\"mailto:belemb@mofa.go.kr\">belemb@mofa.go.kr</a><br>\n<br>\n\n<h3 class=\"tit\">긴급연락처</h3> ㅇ 101 화재신고<br>\nㅇ 102 경찰 및 범죄신고<br>\nㅇ 103 구급차<br>\nㅇ 105 철도안내<br>\nㅇ 106 공항안내<br>\nㅇ 151 철도예약 서비스<br>\nㅇ 185 유료 안내전화 서비스<br>\nㅇ 195 날씨 안내<br>\n<br>\n\n<h3 class=\"tit\">관광통역서비스</h3> ㅇ 민스크에 소재한 여행사 또는 호텔을 통해 관광 가이드 및 통역서비스를 제공받으실 수 있습니다.<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 벨라루스 관광청 홈페이지(<a href=\"https://www.belarustourism.by/en/\" target=\"_blank\">https://www.belarustourism.by/en/</a>)</p><br>\n\n<h3 class=\"tit\">의료기관 연락처</h3> [민스크 소재 주요 의료시설]<br>\n ㅇ 로데 병원 (주소 : gikalo, 1)<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 연락처 : 111(응급전화)<br>\n- 홈페이지 : <a href=\"http://eng.lode.by/\" target=\"_blank\">http://eng.lode.by/</a></p><br>\n ㅇ노르딘 병원(주소 : surganova, 47b)<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 연락처 : 159(응급전화)<br>\n- 홈페이지 : <a href=\"https://nordin.by/\" target=\"_blank\">https://nordin.by/</a></p> ㅇ 메르씨 병원 (주소 : ignacenko, 8)<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 연락처 : 414(응급전화)<br>\n- 홈페이지 : <a href=\"https://nordin.by/\" target=\"_blank\">http://mercimed.by</a></p> ㅇ 에코메드 서비스 (주소 : tolstogo, 4)<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 연락처 : +375-17-207-7474(콜센터), 160(응급전화)<br>\n- 홈페이지 : <a href=\"http://ems.by/\" target=\"_blank\">http://ems.by</a></p><br>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "벨라루스에서는 연장자나 상급자에게 깍듯한 예의를 갖추며, 특히 공공장소나 대중교통에서 노약자에게 자리를 양보하는 문화가 매우 정착되어 있습니다. 가정집에 초대받을 때는 빈손으로 가지 말고 꽃이나 간단한 선물을 준비하는 것이 좋으며, 이때 꽃은 반드시 홀수 송이로 선물해야 합니다. 실내에 들어갈 때는 신발을 벗는 것이 일반적인 예절이므로 참고하시기 바랍니다.",
+    "business_tip": "비즈니스 미팅에서는 격식을 갖춘 복장이 필수이며, 처음 만났을 때는 악수로 정중하게 인사하고 명함을 교환하는 것이 관례입니다. 성급한 결론을 내리기보다는 장기적인 신뢰 관계 형성을 중요하게 생각하므로 차분하고 예의 바른 태도를 유지하는 것이 좋습니다.",
+    "phrases": [
+      "안녕하세요 - 드즈브라이찌뎨(Здравствуйте)",
+      "감사합니다 - 스빠씨바(Спасибо)",
+      "네 / 아니오 - 다(Да) / 녜트(Нет)",
+      "얼마인가요? - 스꼴까 스또이뜨?(Сколько стоит?)",
+      "미안합니다 - 이즈비니떼(Извините)"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "iso_code": "MKD",
+  "country_kr": "북마케도니아",
+  "country_en": "North Macedonia",
+  "flag_image": "images/MKD.gif",
+  "travel_alert": {
+    "level": "없음",
+    "regions": []
+  },
+  "accident_info_html": "<div><h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 간혹 스코페 시내에서 시위가 발생하며, 대부분 평화적으로 진행되지만, 시위지역은 가급적 피하는 것이 바람직함<br>\r\nㅇ 스코페 도심에서는 소매치기가 종종 있으며, 아이들이 돈을 구걸하는 척 하면서 지갑 등을 훔치는 경우도 많으므로, 특히 대중이 밀집한 도심에서 소지품 관리에 유의해야 함<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 1960년대 북마케도니아 수도 스코페에 대지진이 있었으며 최근에도 약성 지진이 간헐적으로 일어나고 있으므로 유의 필요<br></div>",
+  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3> ※ 북마케도니아에는 우리대사관이 없으며, 주불가리아대한민국대사관이 겸임하고 있습니다.<br>\nㅇ 주소 :  2V Srebarna Street MobiArt Building, Floor 4, Sofia, Bulgaria<br>\nㅇ E-Mail : <a href=\"mailto:korean-embassy@mofa.go.kr\">korean-embassy@mofa.go.kr</a><br>\nㅇ 대표번호(근무시간 중) : +359 (0)2 971 2181<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +359 (0)887 503 270<br>\n<br>\n\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 경찰 : 192<br>\nㅇ 화재 : 193<br>\nㅇ 구급차 : 194<br></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "북마케도니아 사람들은 대체로 매우 친절하며 손님을 환대하는 문화를 가지고 있습니다. 대화할 때는 상대방과 눈을 맞추는 것이 중요하며, 식사 시에는 음식을 남기지 않는 것이 예의입니다. 공공장소나 교회에 방문할 때는 노출이 적고 단정한 복장을 갖추는 것이 권장됩니다.",
+    "business_tip": "비즈니스 미팅에서는 신뢰 구축이 중요하므로 초반에 사적인 대화를 나누며 유대감을 쌓는 것이 좋습니다. 대면 미팅을 선호하며 약속 시간은 지키는 것이 좋지만, 다소 여유 있는 태도가 필요할 수 있습니다.",
+    "phrases": [
+      "안녕하세요 - 즈드라보(Zdravo)",
+      "감사합니다 - 블라고다람(Blagodaram)",
+      "네 / 아니요 - 다(Da) / 네(Ne)",
+      "얼마인가요? - 콜쿠 치니?(Kolku chini?)",
+      "죄송합니다 - 이즈비네테(Izvinete)"
+    ]
+  }
+}

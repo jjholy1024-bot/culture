@@ -1,0 +1,30 @@
+{
+  "iso_code": "DOM",
+  "country_kr": "도미니카공화국",
+  "country_en": "Dominican Republic",
+  "flag_image": "images/DOM.bmp",
+  "travel_alert": {
+    "level": "여행자제",
+    "regions": [
+      {
+        "level": "여행자제",
+        "area": "전 지역",
+        "partial": false
+      }
+    ]
+  },
+  "accident_info_html": "<div>\r\n<h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 오토바이 소매치기 등이 발생하므로 보행 시 귀중품은 가급적이면 착용하지 않는 것이 바람직합니다.<br>\r\nㅇ 관광객 절도 및 강도 사건은 우발적으로 일어나는 경우가 대다수이기 때문에 사람들이 모여있는 장소는 피하고, 가능한 대로변으로 통행하는 것이 좋습니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">※ 이른 아침 및 심야시간 도보이동 자제</p>\r\nㅇ 합승 택시(carro público) 승차시 사람들이 바짝 붙어 앉는 일이 당연한 일이기에 이를 이용해 도난 사건이 종종 일어나므로, 가급적 가방을 비롯한 귀중품은 몸에 가까이 꼭 붙들고 있어야 합니다.<br>\r\nㅇ 산토도밍고 주요 시내 교통사고율이 증가하고 있는 바, 렌터카를 이용한 여행객은 운전 주의 요망<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 우기(5월~10월)에는 순간적인 강풍을 동반한 폭우가 내리기 때문에 운전 중에는 각별한 주의를 요하며, 특히 8~9월은 연중 가장 더운 시기로 낮 기온이 36℃을 상회하여 열대야 현상이 발생함. 우기에는 아프리카 말라리아의 변종이라 할 수 있는 뎅기열 병(Dengue)의 발병률이 높아지기 때문에 차량 이동시에 창문을 여는 것을 되도록 피하고 보행 시에도 긴 팔을 착용하거나 해충기피제를 사용하는 것이 바람직합니다.<br>\r\nㅇ 9월부터 11월까지 잦은 허리케인은 한 달에 많게는 5번까지 발생하는데, 태풍이 상륙할 경우에는 강한 비바람과 폭우가 지속되어 많은 인명피해가 발생합니다.<br><br>\r\n\r\n<h3 class=\"tit\">유의해야 할 지역</h3>\r\nㅇ 수도권에는 총인구(10,470,000명, 2015년)의 30%가 집중된 지역으로 전체 범죄의 절반 이상이 발생하며, 특히 수도권 동부지역에서 가장 사건 발생률이 높습니다.<br><br>\r\n\r\nㅇ 범죄 발생률이 가장 높은 주(인구 십만 명당 비율)<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 알타그라시아(26.10)<br>\r\n- 몬테크리스트(25.5)<br>\r\n- 산토도밍고(24.90)<br>\r\n- 두아르테(24.30)<br>\r\n- 산토도밍고주(23.4)</p></div>",
+  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3> ㅇ 주소 : Avenida Enriquillo No.75, Urbanizaci&oacute;n Real, Santo Domingo, Rep&uacute;blica Dominicana<br>\nㅇ 대표번호(근무시간 중) : (1-809) 482-6505<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (1-809) 383-9091<br>\nㅇ E-mail : <a href=\"mailto:embcod@mofa.go.kr\">embcod@mofa.go.kr</a><br>\n<br>\n\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 긴급구호 시스템 : 911<br>\nㅇ 앰뷸런스<br>\nㅇ 적십자 : 809-238-5312<br>\nㅇ 경찰청 : 809-682-2151<br>\nㅇ 소방서 : 809-682-2000<br>\n<br>\n\n<h3 class=\"tit\">관광ㆍ통역서비스</h3> ㅇ 관광경찰(Politur) : 809-689-6464<br>\nㅇ 관광안내소<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Bvaro (바바로) : 809-552-0142<br>\n- Boca Chica (보카치카) : 809-523-5106<br>\n- Higuey (이구에이) : 809-554-2672<br>\n- Jarabacoa (하라바코아) : 809-574-7287<br>\n- La Romana (라 로마나) : 809-550-6922<br>\n- La vega (라베가) : 809-242-3231<br>\n- Puerto Plata (푸에르또 플라따) : 809-586-3676<br>\n- Saman (사마나) : 809-538-2332<br>\n- Santiago (산티아고) : 809-582-5885<br>- Zona Colonial (소나 콜로니알) : 809-686-3858</p><br>\n\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ 도미니카공화국의 수도 산토도밍고의 의료체계는 지방에 비해서 비교적 잘 갖추어져 있는 편으로 응급실이 갖추어진 종합병원과 소규모 병원들이 다수 있습니다. 종합병원을 이용하시고자 하는 경우에는 미리 예약을 하시면 진료를 받으실 때 수월하게 받으실 수 있습니다. 응급환자는 야간 및 휴일에 응급실을 통하여 진료를 받으실 수 있습니다.<br>\n ㅇ 약국에서는 간단한 약을 제외하고는 의사의 처방전 없이는 약을 구매하실 수 없기 때문에 지병이 있으신 분들은 개인 약품을 준비해주시기 바랍니다. 약국은 직접 방문하여 구매 가능하지만 꼴마도(COLMADO)와 마찬가지로 전화로도 약국으로부터 가정까지 약을 주문하실 수 있습니다.<br>\n ㅇ 산토도밍고<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Centro de Medicina Avanzada Dr. Abel Gonzales : 809-227-2235<br>\n- Clinica Corazones Unidos : 809-567-4421<br>\n- CEDIMAT : 809-565-9989<br>- Hospiten Santo Domingo : 809-541-3000</p><br>\n ㅇ 산티아고<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- HOMS : 829-947-2222<br>- Clnica Unin Mdica : 809-226-8686</p><br>\n ㅇ 라 로마나<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Clnica Dr. Canela : 809-550-8119<br>- Centro Mdico Romana : 809-685-8286</p><br>\n ㅇ 바라오나<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Centro Mdico Regional Magnolia : 809-524-2470</p><br>\n ㅇ 푼타카나<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Hospiten Bvaro : 809-686-1414</p><br>\n ㅇ 푸에르토 플라타<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Centro Mdico Bournigal : 809-586-2342<br>- Clnica Brugal : 809-261-0579/809-261-0579</p></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": {
+    "etiquette": "도미니카 공화국 사람들은 인사할 때 가벼운 포옹이나 볼 키스를 나누는 등 친근한 표현을 즐기며, 대화 중 적절한 신체 접촉도 자연스럽게 받아들입니다. 공공장소나 식당에서는 단정한 복장을 선호하므로 수영복 차림으로 시내를 다니지 않는 것이 예의입니다. 또한 약속 시간에 조금 늦는 문화가 보편적이니 너무 조급해하기보다 여유로운 태도를 갖는 것이 좋습니다.",
+    "business_tip": "비즈니스 미팅에서는 신뢰 관계를 형성하는 것이 가장 중요하므로 업무 이야기 전 가벼운 스몰 토크로 유대감을 쌓으십시오. 대면 미팅을 선호하며 직함과 성을 사용하여 정중하게 호칭하는 것이 좋습니다.",
+    "phrases": [
+      "안녕하세요 - 올라(Hola)",
+      "감사합니다 - 그라시아스(Gracias)",
+      "부탁합니다 - 뽀르 파보르(Por favor)",
+      "죄송합니다 - 뻬르돈(Perdón)",
+      "얼마인가요? - 꾸안또 꾸에스따?(¿Cuánto cuesta?)"
+    ]
+  }
+}

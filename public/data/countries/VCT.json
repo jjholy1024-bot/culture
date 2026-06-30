@@ -1,0 +1,14 @@
+{
+  "iso_code": "VCT",
+  "country_kr": "세인트빈센트그레나딘",
+  "country_en": "St. Vincent and the Grenadines",
+  "flag_image": "images/VCT.gif",
+  "travel_alert": {
+    "level": "없음",
+    "regions": []
+  },
+  "accident_info_html": "<h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 길거리에서 종종 소매치기가 발생하니, 여행 소지품에 주의를 요합니다.<br>\r\nㅇ 도로가 구불구불하고, 가파른 곳이 많기 때문에 운전시 각별한 주의가 필요합니다.<br>\r\nㅇ 택시 및 대중버스는 비교적 안전하나, 과속으로 인한 사고가 종종 발생합니다.<br>\r\nㅇ 외진곳에서의 1인 활동 스포츠는 자제하시고 공인된 장소에서 스포츠 활동을 권합니다.<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 보통 6~11월 카리브지역 허리케인 시즌이나 바베이도스는 최근 몇년동안 12월에도 허리케인 발생<br><br>\r\n\r\n<h3 class=\"tit\">유의해야할 지역</h3>\r\nㅇ 외진 지역을 여행하지 않는 것을 권하고 있으며 또한 혼자 도보로 이동하는것을 가급적 피하는것이 좋음<br>\r\nㅇ 호텔 인근이나 주요관광지에서 소매치기와 같은 범죄에 주의해야 하며 특정지역을 여행시에는 전문가이드의 동행이 필요함<br>",
+  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3>\n<div>※ 세인트빈센트그레나딘에는 우리대사관이 없으며, 주트리니다드한국대사관이 겸임하고 있습니다.<br>\nㅇ 주소 : #36, Elizabeth St., St.Clair, Port of Spain, Trinidad and Tobago<br>\nㅇ 대표번호(근무시간 중) : (1) 868-622-9081<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +82-2-3210-0404<br>\nㅇ E-mail : <a href=\"mailto:trinidad@mofa.go.kr\">trinidad@mofa.go.kr</a><br>\n<br>\n\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 소방서, 경찰서 및 앰뷸런스 - 911/ 999<br>\n<br>\n\n<h3 class=\"tit\">관광통역서비스</h3> ㅇ Tourism Office - Harbour Quay, Kingstown, St Vincent<br>\nㅇ Tel- 784-457-1502<br>\n<br>\n\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ Milton Cato Memorial Hospital : 784-456-1185<br></div></div>",
+  "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
+  "culture_ai": null
+}
