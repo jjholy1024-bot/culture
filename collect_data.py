@@ -282,6 +282,7 @@ def fetch_flags():
         flags[iso3] = {
             "download_url": it["download_url"],
             "origin_file_nm": it.get("origin_file_nm") or "",
+            "alpha2": alpha2,
         }
     return flags
 
@@ -328,20 +329,29 @@ def fetch_accidents():
 
 def download_flag_image(iso3, flag_info):
     os.makedirs(IMAGES_DIR, exist_ok=True)
+    alpha2 = (flag_info.get("alpha2") or "").lower()
+    flagcdn_url = f"https://flagcdn.com/w40/{alpha2}.png" if alpha2 else None
     ext = os.path.splitext(flag_info["origin_file_nm"])[1] or ".png"
     dest = os.path.join(IMAGES_DIR, f"{iso3}{ext}")
     rel_path = f"public/images/{iso3}{ext}"
+
     if os.path.exists(dest):
-        return rel_path
+        if os.path.getsize(dest) >= 500:
+            return rel_path
+        os.remove(dest)  # 캐시된 파일이 너무 작으면(빈 이미지) 삭제 후 재시도
+
     try:
         res = requests.get(flag_info["download_url"], timeout=30)
         res.raise_for_status()
         with open(dest, "wb") as f:
             f.write(res.content)
+        if os.path.getsize(dest) < 500:  # API가 빈/유효하지 않은 이미지 반환 (예: 대만)
+            os.remove(dest)
+            return flagcdn_url
         return rel_path
     except Exception as e:
         print(f"  Failed to download flag for {iso3}: {e}")
-        return None
+        return flagcdn_url
 
 
 def load_existing_culture_ai(iso3):

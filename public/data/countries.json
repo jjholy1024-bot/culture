@@ -1985,7 +1985,7 @@
     "country_en": "Taiwan",
     "lat": 23.5,
     "lng": 121,
-    "flag_image": "public/images/TWN.gif",
+    "flag_image": "https://flagcdn.com/w40/tw.png",
     "alert_level": "없음",
     "national_level": "없음",
     "partial_level": null

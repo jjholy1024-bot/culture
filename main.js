@@ -20,7 +20,7 @@ const ALERT_COLORS = {
 const LEVEL_RANK = { '없음': 0, '여행유의': 1, '여행자제': 2, '철수권고': 3, '여행금지': 4 };
 
 // 지도 상단 근처를 클릭해도 팝업이 헤더에 가려지지 않도록 충분한 위쪽 패딩을 줌
-const POPUP_OPTIONS = { autoPan: true, autoPanPaddingTopLeft: [20, 90], autoPanPaddingBottomRight: [20, 20] };
+const POPUP_OPTIONS = { autoPan: true, autoPanPaddingTopLeft: [20, 110], autoPanPaddingBottomRight: [20, 20] };
 
 // ─── 상태 ────────────────────────────────────────
 let ALL_COUNTRIES = [];
@@ -32,6 +32,7 @@ let mapInstance = null;
 let geoLayer = null;
 let markerLayerGroup = null;
 let partialIconGroup = null;
+let _popupOpenHandler = null; // 지도 레벨 팝업 핸들러 (renderMap 재호출 시 교체)
 let currentDetail = null;
 let favorites = JSON.parse(localStorage.getItem(FAV_KEY) || '[]');
 const detailCache = {}; // iso -> full country detail JSON, populated lazily for map popups
@@ -186,33 +187,32 @@ async function fetchDetailCached(iso) {
 }
 
 function popupHTML(c) {
-  // 클릭 직후 보여줄 기본 내용(즉시 표시). 상세 데이터는 popupopen 시 lazy-load해서 보강함.
   const fav = isFav(c.iso_code);
   return `
-    <div class="map-popup">
+    <div class="map-popup" data-iso="${c.iso_code}">
       <div class="map-popup-head">
         <img src="${c.flag_image || ''}" alt="" onerror="this.style.visibility='hidden'" />
         <span class="map-popup-name">${c.country_kr}</span>
         <span style="margin-left:auto;cursor:pointer;" onclick="toggleFav('${c.iso_code}', event)">${fav ? '❤️' : '🤍'}</span>
       </div>
       <span class="alert-badge alert-${c.national_level || c.alert_level}">${c.national_level || c.alert_level}</span>
-      <div class="map-popup-extra" id="popup-extra-${c.iso_code}"><p class="brief-empty">불러오는 중...</p></div>
+      <div class="map-popup-extra"><p class="brief-empty">불러오는 중...</p></div>
       <button class="map-popup-btn" onclick="selectCountry('${c.iso_code}')">자세히 보기 →</button>
     </div>`;
 }
 
-async function fillPopupExtra(c) {
-  const box = document.getElementById(`popup-extra-${c.iso_code}`);
-  if (!box) return; // 팝업이 이미 닫혔으면 무시
+async function fillPopupExtra(c, box) {
+  if (!box) return;
   try {
     const detail = await fetchDetailCached(c.iso_code);
     const partials = (detail.travel_alert?.regions || []).filter(r => r.partial);
     const partialHTML = partials.length
       ? `<p class="map-popup-line">⚠️ ${partials.slice(0, 2).map(r => `${r.area || '일부 지역'}: ${r.level}`).join(' / ')}${partials.length > 2 ? ' 외' : ''}</p>`
       : '';
-    const tip = detail.culture_ai?.etiquette ? detail.culture_ai.etiquette.split(/(?<=[.!?])\s/)[0] : '';
+    const etiquette = detail.culture_ai?.etiquette || '';
+    const tip = etiquette ? etiquette.split('.')[0] + (etiquette.includes('.') ? '.' : '') : '';
     const tipHTML = tip ? `<p class="map-popup-line">🤝 ${tip}</p>` : '';
-    box.innerHTML = partialHTML + tipHTML || '';
+    box.innerHTML = (partialHTML + tipHTML) || '';
   } catch (err) {
     box.innerHTML = '';
   }
@@ -238,6 +238,23 @@ async function renderMap() {
   const filtered = getFilteredCountries();
   const byIso = Object.fromEntries(filtered.map(c => [c.iso_code, c]));
 
+  // map 레벨 팝업 lazy-load 핸들러
+  // setTimeout(0)으로 이벤트 루프 다음 틱에 실행해 Leaflet의 DOM 렌더 완료를 보장,
+  // e.popup.getElement() 대신 document.querySelector로 실제 DOM에서 직접 탐색
+  if (_popupOpenHandler) mapInstance.off('popupopen', _popupOpenHandler);
+  _popupOpenHandler = () => {
+    setTimeout(() => {
+      const box = document.querySelector('.leaflet-popup-content .map-popup-extra');
+      if (!box) return;
+      const iso = box.closest('[data-iso]')?.dataset?.iso;
+      if (!iso) return;
+      const c = byIso[iso];
+      if (!c) return;
+      fillPopupExtra(c, box).then(() => mapInstance._popup?.update());
+    }, 0);
+  };
+  mapInstance.on('popupopen', _popupOpenHandler);
+
   const borders = await ensureWorldBorders();
   const coveredIso = new Set();
 
@@ -257,28 +274,17 @@ async function renderMap() {
       const c = byIso[feature.properties.iso_code];
       if (!c) return;
       layer.bindPopup(popupHTML(c), POPUP_OPTIONS);
-      layer.on('popupopen', () => fillPopupExtra(c));
       layer.on('mouseover', () => layer.setStyle({ fillOpacity: 0.8 }));
       layer.on('mouseout', () => layer.setStyle({ fillOpacity: 0.55 }));
     },
   }).addTo(mapInstance);
 
-  // 국경 폴리곤이 없는 국가(예: 코소보 등 초소형/미수록 지역)는 점 마커로 대체
-  filtered.forEach(c => {
-    if (coveredIso.has(c.iso_code) || (!c.lat && !c.lng)) return;
-    const color = ALERT_COLORS[c.national_level || c.alert_level] || ALERT_COLORS['없음'];
-    const icon = L.divIcon({
-      html: `<div style="background:${color};width:14px;height:14px;border-radius:50%;
-        border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.4);"></div>`,
-      className: '', iconSize: [14, 14], iconAnchor: [7, 7],
-    });
-    const marker = L.marker([c.lat, c.lng], { icon }).bindPopup(popupHTML(c), POPUP_OPTIONS).addTo(markerLayerGroup);
-    marker.on('popupopen', () => fillPopupExtra(c));
-  });
 
   // 전국 단위로는 안전(또는 낮은 단계)하지만 일부 지역에 더 높은 경보가 있는 국가는
   // 폴리곤 색만으로는 드러나지 않으므로, 센트로이드에 별도 경고 아이콘을 얹어 표시
+  // (코소보 등 GeoJSON 미수록 국가는 이미 alert_level 기준 원 마커로 표시되므로 제외)
   filtered.forEach(c => {
+    if (!coveredIso.has(c.iso_code)) return;
     if (!c.partial_level || !c.lat && !c.lng) return;
     const nationalRank = LEVEL_RANK[c.national_level || c.alert_level] || 0;
     const partialRank = LEVEL_RANK[c.partial_level] || 0;
@@ -290,8 +296,7 @@ async function renderMap() {
         border:1.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.4);transform:translate(10px,-10px);">!</div>`,
       className: '', iconSize: [16, 16], iconAnchor: [8, 8],
     });
-    const marker = L.marker([c.lat, c.lng], { icon, zIndexOffset: 500 }).bindPopup(popupHTML(c), POPUP_OPTIONS).addTo(partialIconGroup);
-    marker.on('popupopen', () => fillPopupExtra(c));
+    L.marker([c.lat, c.lng], { icon, zIndexOffset: 500 }).bindPopup(popupHTML(c), POPUP_OPTIONS).addTo(partialIconGroup);
   });
 
   setTimeout(() => mapInstance.invalidateSize(), 100);
@@ -332,7 +337,7 @@ function renderList() {
   box.innerHTML = filtered.length ? filtered.map(c => `
     <div class="country-card" onclick="selectCountry('${c.iso_code}')">
       <button class="country-card-fav" onclick="toggleFav('${c.iso_code}', event)">${isFav(c.iso_code) ? '❤️' : '🤍'}</button>
-      <img src="${c.flag_image || ''}" alt="" onerror="this.style.visibility='hidden'" />
+      <img src="${c.flag_image || ''}" alt="" loading="lazy" onerror="this.style.visibility='hidden'" />
       <div>
         <p class="country-card-name">${c.country_kr}</p>
         <span class="alert-badge alert-${c.alert_level}">${c.alert_level}</span>

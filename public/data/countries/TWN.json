@@ -2,7 +2,7 @@
   "iso_code": "TWN",
   "country_kr": "대만",
   "country_en": "Taiwan",
-  "flag_image": "public/images/TWN.gif",
+  "flag_image": "https://flagcdn.com/w40/tw.png",
   "travel_alert": {
     "level": "없음",
     "national_level": "없음",
