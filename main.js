@@ -220,7 +220,7 @@ function buildPopupExtra(detail) {
 async function renderMap() {
   if (!mapInstance) {
     mapInstance = L.map('map', { minZoom: 2, maxBoundsViscosity: 1.0, worldCopyJump: false })
-      .setView([20, 10], 2);
+      .setView([10, 10], 2);
     mapInstance.setMaxBounds([[-85, -180], [85, 180]]);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap contributors',
@@ -260,8 +260,14 @@ async function renderMap() {
       layer.on('popupopen', async () => {
         try {
           const detail = await fetchDetailCached(c.iso_code);
-          layer.getPopup()?.setContent(popupHTML(c, buildPopupExtra(detail)));
-        } catch { layer.getPopup()?.setContent(popupHTML(c, '')); }
+          const popup = layer.getPopup();
+          popup?.setContent(popupHTML(c, buildPopupExtra(detail)));
+          setTimeout(() => popup?._adjustPan?.(), 20);
+        } catch {
+          const popup = layer.getPopup();
+          popup?.setContent(popupHTML(c, ''));
+          setTimeout(() => popup?._adjustPan?.(), 20);
+        }
       });
       layer.on('mouseover', () => layer.setStyle({ fillOpacity: 0.8 }));
       layer.on('mouseout', () => layer.setStyle({ fillOpacity: 0.55 }));
@@ -289,8 +295,14 @@ async function renderMap() {
     m.on('popupopen', async () => {
       try {
         const detail = await fetchDetailCached(c.iso_code);
-        m.getPopup()?.setContent(popupHTML(c, buildPopupExtra(detail)));
-      } catch { m.getPopup()?.setContent(popupHTML(c, '')); }
+        const popup = m.getPopup();
+        popup?.setContent(popupHTML(c, buildPopupExtra(detail)));
+        setTimeout(() => popup?._adjustPan?.(), 20);
+      } catch {
+        const popup = m.getPopup();
+        popup?.setContent(popupHTML(c, ''));
+        setTimeout(() => popup?._adjustPan?.(), 20);
+      }
     });
   });
 
