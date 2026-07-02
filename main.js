@@ -19,8 +19,24 @@ const ALERT_COLORS = {
 };
 const LEVEL_RANK = { '없음': 0, '여행유의': 1, '여행자제': 2, '철수권고': 3, '여행금지': 4 };
 
-// 지도 상단 근처를 클릭해도 팝업이 헤더에 가려지지 않도록 충분한 위쪽 패딩을 줌
-const POPUP_OPTIONS = { autoPan: true, autoPanPaddingTopLeft: [20, 110], autoPanPaddingBottomRight: [20, 20] };
+// autoPan: false — setContent 후 Leaflet 내장 _adjustPan이 pan 애니메이션 중간에 충돌하므로
+// panForPopup()으로 직접 제어한다
+const POPUP_OPTIONS = { autoPan: false };
+
+function panForPopup(popup) {
+  if (!popup || !mapInstance) return;
+  const el = popup.getElement();
+  if (!el) return;
+  const pr = el.getBoundingClientRect();
+  const mr = mapInstance.getContainer().getBoundingClientRect();
+  const pad = 10;
+  let dx = 0, dy = 0;
+  if (pr.top < mr.top + pad)         dy = pr.top - mr.top - pad;
+  else if (pr.bottom > mr.bottom - pad) dy = pr.bottom - mr.bottom + pad;
+  if (pr.left < mr.left + pad)        dx = pr.left - mr.left - pad;
+  else if (pr.right > mr.right - pad)  dx = pr.right - mr.right + pad;
+  if (dx || dy) mapInstance.panBy([dx, dy], { animate: false });
+}
 
 // ─── 상태 ────────────────────────────────────────
 let ALL_COUNTRIES = [];
@@ -220,12 +236,10 @@ function buildPopupExtra(detail) {
 async function renderMap() {
   if (!mapInstance) {
     mapInstance = L.map('map', { minZoom: 2, maxBoundsViscosity: 1.0, worldCopyJump: false })
-      .setView([10, 10], 2);
+      .setView([25, 10], 2);
     mapInstance.setMaxBounds([[-85, -180], [85, 180]]);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: '© OpenStreetMap contributors © CARTO',
-      subdomains: 'abcd',
-      maxZoom: 19,
+    L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://maps.wikimedia.org">Wikimedia Maps</a>',
       noWrap: true,
     }).addTo(mapInstance);
     markerLayerGroup = L.layerGroup().addTo(mapInstance);
@@ -260,15 +274,15 @@ async function renderMap() {
       if (!c) return;
       layer.bindPopup(popupHTML(c), POPUP_OPTIONS);
       layer.on('popupopen', async () => {
+        const popup = layer.getPopup();
+        setTimeout(() => panForPopup(popup), 10);
         try {
           const detail = await fetchDetailCached(c.iso_code);
-          const popup = layer.getPopup();
           popup?.setContent(popupHTML(c, buildPopupExtra(detail)));
-          setTimeout(() => popup?._adjustPan?.(), 20);
+          setTimeout(() => panForPopup(popup), 10);
         } catch {
-          const popup = layer.getPopup();
           popup?.setContent(popupHTML(c, ''));
-          setTimeout(() => popup?._adjustPan?.(), 20);
+          setTimeout(() => panForPopup(popup), 10);
         }
       });
       layer.on('mouseover', () => layer.setStyle({ fillOpacity: 0.8 }));
@@ -295,15 +309,15 @@ async function renderMap() {
     });
     const m = L.marker([c.lat, c.lng], { icon, zIndexOffset: 500 }).bindPopup(popupHTML(c), POPUP_OPTIONS).addTo(partialIconGroup);
     m.on('popupopen', async () => {
+      const popup = m.getPopup();
+      setTimeout(() => panForPopup(popup), 10);
       try {
         const detail = await fetchDetailCached(c.iso_code);
-        const popup = m.getPopup();
         popup?.setContent(popupHTML(c, buildPopupExtra(detail)));
-        setTimeout(() => popup?._adjustPan?.(), 20);
+        setTimeout(() => panForPopup(popup), 10);
       } catch {
-        const popup = m.getPopup();
         popup?.setContent(popupHTML(c, ''));
-        setTimeout(() => popup?._adjustPan?.(), 20);
+        setTimeout(() => panForPopup(popup), 10);
       }
     });
   });
