@@ -67,10 +67,59 @@ GlobalRecruit과 톤 통일, 메인 컬러 `#1E8E6E`(초록). Vanilla JS + Leafl
 - GitHub Secrets: `PUBLIC_DATA_SERVICE_KEY`, `GOOGLE_API_KEY` 등록 완료
 - `requirements.txt`: `requests`, `python-dotenv`, `pycountry`
 
+### 8. 배포 후 버그 수정 (2차 세션)
+
+#### 대만 국기 흰 네모
+- **원인**: MOFA CountryFlagService2 API가 대만(TWN)에 대해 188 bytes 빈 GIF 반환 (정치적 이유)
+- **수정**: `collect_data.py`에 500 bytes 미만 파일 검증 로직 추가 + `flagcdn.com` fallback
+- **수정**: `TWN.json`, `countries.json`의 `flag_image` 직접 패치 → `https://flagcdn.com/w40/tw.png`
+
+#### 코소보 초록 핀 제거
+- **원인**: XKX가 Natural Earth GeoJSON에 미수록 → 폴백 원 마커로 표시, `national_level="없음"`이라 초록색
+- **수정**: 폴백 마커 루프 완전 삭제. `!` 아이콘 루프에 `if (!coveredIso.has(c.iso_code)) return;` 추가
+
+#### 미니팝업 "불러오는 중" 고착 (5번 시도 끝에 해결)
+- **원인**: DOM querySelector로 팝업 내부 요소 직접 접근 시 Leaflet 렌더 타이밍에 따라 null 반환
+- **수정**: `layer.on('popupopen', async () => {...})` + `layer.getPopup()?.setContent(popupHTML(c, buildPopupExtra(detail)))` — Leaflet API로 팝업 전체 교체 (DOM 탐색 불필요)
+- **구조**: `popupHTML(c, extra)` → extra=undefined이면 "불러오는 중", extra=''이면 섹션 숨김, extra=문자열이면 표시
+- **헬퍼**: `buildPopupExtra(detail)` → 일부지역 경보 요약 + 문화 한줄 팁 HTML 반환
+
+#### 리스트 빠른 스크롤 끊김
+- **수정**: 리스트 뷰 국기 이미지에 `loading="lazy"` 추가
+
+#### 친구 PR 병합 (feat/legend-filter-by-map-color)
+- 범례 필터 기준을 `alert_level` → `national_level || alert_level` (지도 색상 기준)으로 변경
+- `getFilteredCountries()`, `renderLegend()` 카운트 모두 `national_level || alert_level` 기준으로 통일
+
+### 9. 지도 개선 (3차 세션)
+
+#### 지도 타일
+- 초기 OSM → CartoDB light (OSM이 GitHub Pages에서 400 반환) → Wikimedia → OSM 복구
+- **최종**: `https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png` (파란 바다, OSM 원본)
+- OSM 400 에러는 일시적 현상이었음 (Referer 포함 curl 테스트 → 200 확인)
+
+#### 지도 크기 및 초기 뷰
+- `style.css`: `#map { height: 520px }` → **850px**
+- `main.js`: `setView([20, 10], 2)` → `setView([10, 10], 2)` (북극·남극 모두 표시)
+- 850px + center [10, 10] + zoom 2 기준 가시 범위: 북위 ~83° ↔ 남위 ~80° (전 대륙 표시)
+
+#### 러시아·캐나다 미니팝업 잘림 수정
+- **근본 원인**: Leaflet `popup.setContent()` 후 내장 `_adjustPan`이 pan 애니메이션 도중 호출되어 위치 계산 충돌
+- **수정**: `POPUP_OPTIONS = { autoPan: false }` 로 내장 autoPan 비활성화
+- **수정**: `panForPopup(popup)` 함수 직접 구현 — `popup._container.getBoundingClientRect()`로 실제 위치 읽어서 `panBy()` 호출
+  - 버그 1: 처음엔 `popup.getElement()` 사용 → Leaflet DivOverlay에서 항상 null 반환 → `popup._container`로 수정
+  - 버그 2: `setTimeout(10ms)`로 호출 → DOM 레이아웃 완료 전 실행 → `requestAnimationFrame`으로 교체
+- `panForPopup`은 초기 팝업 열릴 때 1회, `setContent` 후 1회 총 2회 호출
+
+#### 브라우저 캐시 문제 해결
+- `index.html`에 `?v=20260702c` 캐시버스터 추가 (`style.css`, `main.js` 양쪽)
+- `index.html` 자체는 항상 새로 받아오므로 JS/CSS도 강제 갱신됨
+
 ---
 
 ## 참고 사항
-- 로컬 데이터 재수집: `cd 문화 && python3 collect_data.py`
-- 로컬 서버: `cd 문화 && python3 -m http.server 8765` → http://localhost:8765
+- 로컬 데이터 재수집: `python3 collect_data.py`
+- 로컬 서버: `python3 -m http.server 8765` → http://localhost:8765
 - `.env`는 `.gitignore`에 포함되어 커밋되지 않음. GitHub Actions는 Secrets로 대체.
 - 레포 이름 변경(culture → CultureZero) 원하면: GitHub → Settings → General → Repository name
+- JS/CSS 수정 후 배포 시 `index.html`의 `?v=` 버전 문자열도 업데이트할 것
