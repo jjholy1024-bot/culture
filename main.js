@@ -25,7 +25,7 @@ const POPUP_OPTIONS = { autoPan: false };
 
 function panForPopup(popup) {
   if (!popup || !mapInstance) return;
-  const el = popup.getElement();
+  const el = popup._container;
   if (!el) return;
   const pr = el.getBoundingClientRect();
   const mr = mapInstance.getContainer().getBoundingClientRect();
@@ -236,10 +236,10 @@ function buildPopupExtra(detail) {
 async function renderMap() {
   if (!mapInstance) {
     mapInstance = L.map('map', { minZoom: 2, maxBoundsViscosity: 1.0, worldCopyJump: false })
-      .setView([25, 10], 2);
+      .setView([10, 10], 2);
     mapInstance.setMaxBounds([[-85, -180], [85, 180]]);
-    L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://maps.wikimedia.org">Wikimedia Maps</a>',
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       noWrap: true,
     }).addTo(mapInstance);
     markerLayerGroup = L.layerGroup().addTo(mapInstance);
