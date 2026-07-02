@@ -25,17 +25,19 @@ const POPUP_OPTIONS = { autoPan: false };
 
 function panForPopup(popup) {
   if (!popup || !mapInstance) return;
-  const el = popup._container;
-  if (!el) return;
-  const pr = el.getBoundingClientRect();
-  const mr = mapInstance.getContainer().getBoundingClientRect();
-  const pad = 10;
-  let dx = 0, dy = 0;
-  if (pr.top < mr.top + pad)         dy = pr.top - mr.top - pad;
-  else if (pr.bottom > mr.bottom - pad) dy = pr.bottom - mr.bottom + pad;
-  if (pr.left < mr.left + pad)        dx = pr.left - mr.left - pad;
-  else if (pr.right > mr.right - pad)  dx = pr.right - mr.right + pad;
-  if (dx || dy) mapInstance.panBy([dx, dy], { animate: false });
+  requestAnimationFrame(() => {
+    const el = popup._container;
+    if (!el) return;
+    const pr = el.getBoundingClientRect();
+    const mr = mapInstance.getContainer().getBoundingClientRect();
+    const pad = 15;
+    let dx = 0, dy = 0;
+    if (pr.top < mr.top + pad)           dy = pr.top - mr.top - pad;
+    else if (pr.bottom > mr.bottom - pad)  dy = pr.bottom - mr.bottom + pad;
+    if (pr.left < mr.left + pad)          dx = pr.left - mr.left - pad;
+    else if (pr.right > mr.right - pad)    dx = pr.right - mr.right + pad;
+    if (dx || dy) mapInstance.panBy([dx, dy], { animate: false });
+  });
 }
 
 // ─── 상태 ────────────────────────────────────────
@@ -275,14 +277,14 @@ async function renderMap() {
       layer.bindPopup(popupHTML(c), POPUP_OPTIONS);
       layer.on('popupopen', async () => {
         const popup = layer.getPopup();
-        setTimeout(() => panForPopup(popup), 10);
+        panForPopup(popup);
         try {
           const detail = await fetchDetailCached(c.iso_code);
           popup?.setContent(popupHTML(c, buildPopupExtra(detail)));
-          setTimeout(() => panForPopup(popup), 10);
+          panForPopup(popup);
         } catch {
           popup?.setContent(popupHTML(c, ''));
-          setTimeout(() => panForPopup(popup), 10);
+          panForPopup(popup);
         }
       });
       layer.on('mouseover', () => layer.setStyle({ fillOpacity: 0.8 }));
@@ -310,14 +312,14 @@ async function renderMap() {
     const m = L.marker([c.lat, c.lng], { icon, zIndexOffset: 500 }).bindPopup(popupHTML(c), POPUP_OPTIONS).addTo(partialIconGroup);
     m.on('popupopen', async () => {
       const popup = m.getPopup();
-      setTimeout(() => panForPopup(popup), 10);
+      panForPopup(popup);
       try {
         const detail = await fetchDetailCached(c.iso_code);
         popup?.setContent(popupHTML(c, buildPopupExtra(detail)));
-        setTimeout(() => panForPopup(popup), 10);
+        panForPopup(popup);
       } catch {
         popup?.setContent(popupHTML(c, ''));
-        setTimeout(() => panForPopup(popup), 10);
+        panForPopup(popup);
       }
     });
   });
