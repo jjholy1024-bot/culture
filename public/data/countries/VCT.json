@@ -2,13 +2,25 @@
   "iso_code": "VCT",
   "country_kr": "세인트빈센트그레나딘",
   "country_en": "St. Vincent and the Grenadines",
-  "flag_image": "images/VCT.gif",
+  "flag_image": "public/images/VCT.gif",
   "travel_alert": {
     "level": "없음",
+    "national_level": "없음",
+    "partial_level": null,
     "regions": []
   },
-  "accident_info_html": "<h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 길거리에서 종종 소매치기가 발생하니, 여행 소지품에 주의를 요합니다.<br>\r\nㅇ 도로가 구불구불하고, 가파른 곳이 많기 때문에 운전시 각별한 주의가 필요합니다.<br>\r\nㅇ 택시 및 대중버스는 비교적 안전하나, 과속으로 인한 사고가 종종 발생합니다.<br>\r\nㅇ 외진곳에서의 1인 활동 스포츠는 자제하시고 공인된 장소에서 스포츠 활동을 권합니다.<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 보통 6~11월 카리브지역 허리케인 시즌이나 바베이도스는 최근 몇년동안 12월에도 허리케인 발생<br><br>\r\n\r\n<h3 class=\"tit\">유의해야할 지역</h3>\r\nㅇ 외진 지역을 여행하지 않는 것을 권하고 있으며 또한 혼자 도보로 이동하는것을 가급적 피하는것이 좋음<br>\r\nㅇ 호텔 인근이나 주요관광지에서 소매치기와 같은 범죄에 주의해야 하며 특정지역을 여행시에는 전문가이드의 동행이 필요함<br>",
-  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3>\n<div>※ 세인트빈센트그레나딘에는 우리대사관이 없으며, 주트리니다드한국대사관이 겸임하고 있습니다.<br>\nㅇ 주소 : #36, Elizabeth St., St.Clair, Port of Spain, Trinidad and Tobago<br>\nㅇ 대표번호(근무시간 중) : (1) 868-622-9081<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +82-2-3210-0404<br>\nㅇ E-mail : <a href=\"mailto:trinidad@mofa.go.kr\">trinidad@mofa.go.kr</a><br>\n<br>\n\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 소방서, 경찰서 및 앰뷸런스 - 911/ 999<br>\n<br>\n\n<h3 class=\"tit\">관광통역서비스</h3> ㅇ Tourism Office - Harbour Quay, Kingstown, St Vincent<br>\nㅇ Tel- 784-457-1502<br>\n<br>\n\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ Milton Cato Memorial Hospital : 784-456-1185<br></div></div>",
+  "accident_info_html": "<h3>사건ㆍ사고의 유형</h3>\r\nㅇ 길거리에서 종종 소매치기가 발생하니, 여행 소지품에 주의를 요합니다.<br>\r\nㅇ 도로가 구불구불하고, 가파른 곳이 많기 때문에 운전시 각별한 주의가 필요합니다.<br>\r\nㅇ 택시 및 대중버스는 비교적 안전하나, 과속으로 인한 사고가 종종 발생합니다.<br>\r\nㅇ 외진곳에서의 1인 활동 스포츠는 자제하시고 공인된 장소에서 스포츠 활동을 권합니다.<br><br>\r\n\r\n<h3>자연재해</h3>\r\nㅇ 보통 6~11월 카리브지역 허리케인 시즌이나 바베이도스는 최근 몇년동안 12월에도 허리케인 발생<br><br>\r\n\r\n<h3>유의해야할 지역</h3>\r\nㅇ 외진 지역을 여행하지 않는 것을 권하고 있으며 또한 혼자 도보로 이동하는것을 가급적 피하는것이 좋음<br>\r\nㅇ 호텔 인근이나 주요관광지에서 소매치기와 같은 범죄에 주의해야 하며 특정지역을 여행시에는 전문가이드의 동행이 필요함<br>",
+  "local_contact_html": "<div>\n<h3>대사관 연락처</h3>\n<div>※ 세인트빈센트그레나딘에는 우리대사관이 없으며, 주트리니다드한국대사관이 겸임하고 있습니다.<br>\nㅇ 주소 : #36, Elizabeth St., St.Clair, Port of Spain, Trinidad and Tobago<br>\nㅇ 대표번호(근무시간 중) : (1) 868-622-9081<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +82-2-3210-0404<br>\nㅇ E-mail : <a href=\"mailto:trinidad@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">trinidad@mofa.go.kr</a><br>\n<br>\n\n<h3>주재국 신고</h3> ㅇ 소방서, 경찰서 및 앰뷸런스 - 911/ 999<br>\n<br>\n\n<h3>관광통역서비스</h3> ㅇ Tourism Office - Harbour Quay, Kingstown, St Vincent<br>\nㅇ Tel- 784-457-1502<br>\n<br>\n\n<h3>의료기관 연락처</h3> ㅇ Milton Cato Memorial Hospital : 784-456-1185<br></div></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
-  "culture_ai": null
+  "culture_ai": {
+    "etiquette": "세인트빈센트그레나딘에서는 타인을 만났을 때 가벼운 인사나 미소를 건네는 것이 관례이며, 공공장소에서의 예의를 매우 중요하게 생각합니다. 해변 이외의 지역, 특히 마을이나 상점에서는 수영복 차림을 자제하고 단정한 복장을 갖추는 것이 현지 문화에 대한 예의입니다. 또한, 현지인과 대화할 때는 너무 성급하게 행동하기보다 여유를 가지고 친절하게 소통하는 태도가 좋습니다.",
+    "local_laws": "카리브해 국가 특성상 군복과 유사한 카무플라주 패턴의 의류 착용은 군인 전용으로 간주되어 엄격히 금지되므로 일반 여행객은 착용을 피해야 합니다. 공공장소에서의 과도한 음주나 소란 행위는 법적 처벌의 대상이 될 수 있으며, 특히 해변에서 불법적인 약물 사용은 매우 엄중하게 다뤄집니다.",
+    "phrases": [
+      "안녕하세요 - 굿 모닝(Good morning)",
+      "감사합니다 - 땡큐(Thank you)",
+      "괜찮습니다/문제없어요 - 노 프로블럼(No problem)",
+      "도와주실 수 있나요? - 캔 유 헬프 미?(Can you help me?)",
+      "실례합니다 - 익스큐즈 미(Excuse me)"
+    ]
+  }
 }

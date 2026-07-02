@@ -2,23 +2,25 @@
   "iso_code": "NIU",
   "country_kr": "니우에",
   "country_en": "Niue",
-  "flag_image": "images/NIU.png",
+  "flag_image": "public/images/NIU.png",
   "travel_alert": {
     "level": "없음",
+    "national_level": "없음",
+    "partial_level": null,
     "regions": []
   },
-  "accident_info_html": "<div>\r\n<h3 class=\"tit\">사건ㆍ사고 현황</h3>\r\nㅇ 정부의 공식 통계없으나 강력범죄 발생률은 극히 적음<br><br>\r\n\r\n<h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 경범죄(주거침입, 절도, 강도폭행 등)<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 지진 다발 지역에 속해 있어 지진이나 해일 등에 대비한 사전 안전정보 숙지 필요. 매년 2-3월경 사이클론(우리나라 태풍에 상당) 피해가 발생할 수 있으니 이 시기에 여행할 경우 각별한 주의 요망<br>\r\nㅇ 뎅기열(Dengue Fever) 및 장티푸스(Typhoid Fever) 주의 요망<br></div>",
-  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3> ※ 니우에는 우리대사관이 없으며, 주뉴질랜드한국대사관이 업무를 관할하고 있습니다.<br>\nㅇ 주소 :&nbsp;<span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\">Level 20, ANZ Centre, 171 Featherston Street, Wellington 6011, New Zealand</span><br>\n\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; font-size: 16px; font-family: 'Noto Sans KR'; letter-spacing: -0.4px;\">ㅇ 이메일 :&nbsp;</p>\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; font-size: 16px; font-family: 'Noto Sans KR'; letter-spacing: -0.4px;\">&nbsp; &nbsp; &nbsp;- 일반문의 :&nbsp;<a href=\"mailto:info-nz@mofa.go.kr\">info-nz@mofa.go.kr</a></p>\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; font-size: 16px; font-family: 'Noto Sans KR'; letter-spacing: -0.4px;\">&nbsp; &nbsp; &nbsp;- 영사&nbsp;및 비자&nbsp;:&nbsp;consular-nz@mofa.go.kr, consular2-nz@mofa.go.kr</p>\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; font-size: 16px; font-family: 'Noto Sans KR'; letter-spacing: -0.4px;\">&nbsp; &nbsp; &nbsp;- 정무 :&nbsp;sebyuk.yang@mofa.go.kr</p>\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; font-size: 16px; font-family: 'Noto Sans KR'; letter-spacing: -0.4px;\">&nbsp; &nbsp; &nbsp;- 경제 :&nbsp;economic-nz@mofa.go.kr</p>\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; font-size: 16px; font-family: 'Noto Sans KR'; letter-spacing: -0.4px;\">&nbsp; &nbsp; &nbsp;- 문화홍보 :&nbsp;jhkim69@mofa.go.kr<br>\nㅇ 대표번호(근무시간 중) : (64) 4-473-9073<br></p><span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\">ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) :&nbsp;</span>(64) 21-0269-3271<br>\n\n<h3 class=\"tit\">현지 긴급 연락처<br></h3> ㅇ&nbsp;<span style=\"letter-spacing: -0.025em;\">현지 긴급 연락처</span>\n<div>- 경찰&middot;화재&middot;응급 : +683-999</div>\n<div>- 니우에 경찰서 : +683-4333, police@gov.nu</div>\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ Niue Foou Hospital <br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 주소 : Kaimiti, Alofi<br>\n- 운영시간 : ▲월~목요일 8am ~ 4pm, ▲금요일 9am ~ 10am &amp; 7pm ~ 8pm, ▲주말 및 공휴일&nbsp; 9am ~ 10am &amp; 7pm ~ 8pm <br>- 전화번호 : +683-4100</p>\n<p style=\"margin-right: 15px; margin-left: 15px;\"><br style=\"letter-spacing: -0.4px;\"></p></div><grammarly-desktop-integration data-grammarly-shadow-root=\"true\"></grammarly-desktop-integration>",
+  "accident_info_html": "<div>\r\n<h3>사건ㆍ사고 현황</h3>\r\nㅇ 정부의 공식 통계없으나 강력범죄 발생률은 극히 적음<br><br>\r\n\r\n<h3>사건ㆍ사고의 유형</h3>\r\nㅇ 경범죄(주거침입, 절도, 강도폭행 등)<br><br>\r\n\r\n<h3>자연재해</h3>\r\nㅇ 지진 다발 지역에 속해 있어 지진이나 해일 등에 대비한 사전 안전정보 숙지 필요. 매년 2-3월경 사이클론(우리나라 태풍에 상당) 피해가 발생할 수 있으니 이 시기에 여행할 경우 각별한 주의 요망<br>\r\nㅇ 뎅기열(Dengue Fever) 및 장티푸스(Typhoid Fever) 주의 요망<br></div>",
+  "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ※ 니우에는 우리대사관이 없으며, 주뉴질랜드한국대사관이 업무를 관할하고 있습니다.<br>\nㅇ 주소 : Level 20, ANZ Centre, 171 Featherston Street, Wellington 6011, New Zealand<br>\n\n<p>ㅇ 이메일 : </p>\n<p>     - 일반문의 : <a href=\"mailto:info-nz@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">info-nz@mofa.go.kr</a></p>\n<p>     - 영사 및 비자 : consular-nz@mofa.go.kr, consular2-nz@mofa.go.kr</p>\n<p>     - 정무 : sebyuk.yang@mofa.go.kr</p>\n<p>     - 경제 : economic-nz@mofa.go.kr</p>\n<p>     - 문화홍보 : jhkim69@mofa.go.kr<br>\nㅇ 대표번호(근무시간 중) : (64) 4-473-9073<br></p>ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (64) 21-0269-3271<br>\n\n<h3>현지 긴급 연락처<br></h3> ㅇ 현지 긴급 연락처\n<div>- 경찰·화재·응급 : +683-999</div>\n<div>- 니우에 경찰서 : +683-4333, police@gov.nu</div>\n<h3>의료기관 연락처</h3> ㅇ Niue Foou Hospital <br>\n\n<p>- 주소 : Kaimiti, Alofi<br>\n- 운영시간 : ▲월~목요일 8am ~ 4pm, ▲금요일 9am ~ 10am &amp; 7pm ~ 8pm, ▲주말 및 공휴일  9am ~ 10am &amp; 7pm ~ 8pm <br>- 전화번호 : +683-4100</p>\n<p><br></p></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "니우에는 매우 평온하고 소박한 문화로, 일요일에는 교회 예배를 중요시하므로 조용히 행동하는 것이 예의입니다. 현지인과 마주칠 때 가벼운 눈인사나 미소를 나누는 것은 매우 흔하고 환영받는 문화입니다. 또한, 사유지나 보호구역을 방문할 때는 반드시 허가를 구하고 환경을 훼손하지 않도록 주의해야 합니다.",
-    "business_tip": "니우에의 비즈니스 문화는 인간관계를 중시하는 섬 특유의 느긋함이 반영되어 있으므로 서두르지 않는 태도가 필요합니다. 격식을 차린 복장보다는 단정한 캐주얼 차림이 적절하며, 직접적인 대면 미팅을 통해 신뢰를 쌓는 과정이 매우 중요합니다.",
+    "etiquette": "니우에 사람들은 매우 친절하며 서로 인사를 나누는 것을 중요하게 생각하므로, 길에서 마주치는 현지인에게 가벼운 미소와 함께 눈인사를 건네는 것이 좋습니다. 주일(일요일)에는 대부분의 주민이 교회에 가거나 휴식을 취하므로, 공공장소에서의 정숙을 유지하고 종교 활동을 존중해야 합니다. 또한, 사유지나 신성한 구역(Tapu)으로 지정된 장소는 표지판을 확인하고 함부로 출입하지 않도록 주의하세요.",
+    "local_laws": "니우에에서는 문화재나 동굴 내의 종유석을 훼손하거나 외부로 반출하는 행위가 엄격히 금지되어 있습니다. 또한, 섬 전체가 생태계 보호를 위해 엄격한 환경 규정을 두고 있으므로 쓰레기를 함부로 버리거나 야생 동물을 채집하지 않도록 각별히 유의해야 합니다.",
     "phrases": [
-      "안녕하세요 - 파카로아(Fakaalofa lahi atu)",
-      "감사합니다 - 파카테카(Fakaaue)",
-      "네 - 에(Ē)",
-      "아니요 - 나(Nā)",
-      "안녕히 가세요 - 로아(Fakaaue haia)"
+      "안녕하세요 - 팍알로하(Fakaalofa lahi atu)",
+      "감사합니다 - 파카페카(Fakaaue lahi)",
+      "네 - 에(E)",
+      "아니오 - 나히(Nahi)",
+      "안녕히 가세요(떠나는 사람에게) - 킬로 모이(Kilo moi)"
     ]
   }
 }

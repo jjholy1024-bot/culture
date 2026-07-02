@@ -2,9 +2,11 @@
   "iso_code": "TKM",
   "country_kr": "투르크메니스탄",
   "country_en": "Turkmenistan",
-  "flag_image": "images/TKM.gif",
+  "flag_image": "public/images/TKM.gif",
   "travel_alert": {
     "level": "여행유의",
+    "national_level": "여행유의",
+    "partial_level": null,
     "regions": [
       {
         "level": "여행유의",
@@ -13,8 +15,18 @@
       }
     ]
   },
-  "accident_info_html": "<div><h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 우리나라 관광객 대상 절도 <br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- [사례] 민박 시설에 투숙 중이던 우리나라 관광객이 소지품을 도난당하는 절도사건이 발생한 바 있음</p>\r\nㅇ 현지법령 또는 관습 미준수 사유로 72시간내 출국조치<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 기후의 영향으로 홍수나 태풍 피해 등은 거의 없으나, 유라시아 지진대에 걸쳐있어 간간히 지진 피해가 발생하기도 합니다. 특히, 1948년에 아시가바트 지역에서 발생한 지진으로 도시 전체 인구의 80%가 사망하기도 하였음<br>\r\nㅇ 4-10월 모래바람이 자주 부는 편이며, 특히 건설현장에서 나오는 시멘트, 섬유공장에서 배출되는 미세 먼지 등 오염물질이 많아 특히 눈, 기관지 호흡기질환이 우려되며 건강에 매우 해롭습니다. 구 시가지의 중심에는 항상 먼지 스모그가 정체되어 있음<br><br>\r\n\r\n<h3 class=\"tit\">유의해야할 지역</h3>\r\nㅇ 특히, 아프가니스탄 중심 및 인접국과의 국경지역지대는 반드시 사전허가를 받으셔야 여행이 가능함<br><br>\r\n\r\n<h3 class=\"tit\">기타</h3>\r\nㅇ 주재국은 치안이 비교적 양호하고 풍토병도 없는 편이나, 외국인의 여행이 자유롭지 않으며 특히 금년 코로나19로 인해 경제 상황이 악화됨에 따라 일부 치안 불안요소가 발생하고 있는 상황임<br>\r\nㅇ 또한 현지인과 접촉시 문화․종교적인 차이로 인해서 불필요한 오해가 유발될 가능성이 있으므로 주의가 필요함<br>\r\n</div>",
-  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3> ㅇ 주소 : Azadi Street 17a,Ashgabat, Turkmenistan<br>\nㅇ 대표번호 : (993) 12-94-72-86<br>\nㅇ 긴급연락처 : +82-2-3210-0404 (영사콜센터)<br>\nㅇ E-mail :<a href=\"mailto:korembtm@mofa.go.kr\">korembtm@mofa.go.kr</a><br>\n<br>\n\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 화재 (01)<br>\nㅇ 경찰 (02)<br>\nㅇ 응급치료 (03)<br>\nㅇ 가스 사고 (04)<br>\nㅇ 전화번호 문의 (09)<br>\n<br>\n\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇInternational Medical Center: 48-90-09<br>\nㅇ Gurbansoltan Eje Hospital on protection of Health of Child &amp; Mother: 43-51-91, 43-51-94<br>\nㅇ S.Niyazov Consultative Health Center: 43-85-25<br>\nㅇ International Illness Center: 48-91-14, 48-90-32<br>\nㅇ Ene Mehri Diagnostic Center for Children &amp; Women: 48-93-03<br></div>",
+  "accident_info_html": "<div><h3>사건ㆍ사고의 유형</h3>\r\nㅇ 우리나라 관광객 대상 절도 <br>\r\n<p>- [사례] 민박 시설에 투숙 중이던 우리나라 관광객이 소지품을 도난당하는 절도사건이 발생한 바 있음</p>\r\nㅇ 현지법령 또는 관습 미준수 사유로 72시간내 출국조치<br><br>\r\n\r\n<h3>자연재해</h3>\r\nㅇ 기후의 영향으로 홍수나 태풍 피해 등은 거의 없으나, 유라시아 지진대에 걸쳐있어 간간히 지진 피해가 발생하기도 합니다. 특히, 1948년에 아시가바트 지역에서 발생한 지진으로 도시 전체 인구의 80%가 사망하기도 하였음<br>\r\nㅇ 4-10월 모래바람이 자주 부는 편이며, 특히 건설현장에서 나오는 시멘트, 섬유공장에서 배출되는 미세 먼지 등 오염물질이 많아 특히 눈, 기관지 호흡기질환이 우려되며 건강에 매우 해롭습니다. 구 시가지의 중심에는 항상 먼지 스모그가 정체되어 있음<br><br>\r\n\r\n<h3>유의해야할 지역</h3>\r\nㅇ 특히, 아프가니스탄 중심 및 인접국과의 국경지역지대는 반드시 사전허가를 받으셔야 여행이 가능함<br><br>\r\n\r\n<h3>기타</h3>\r\nㅇ 주재국은 치안이 비교적 양호하고 풍토병도 없는 편이나, 외국인의 여행이 자유롭지 않으며 특히 금년 코로나19로 인해 경제 상황이 악화됨에 따라 일부 치안 불안요소가 발생하고 있는 상황임<br>\r\nㅇ 또한 현지인과 접촉시 문화․종교적인 차이로 인해서 불필요한 오해가 유발될 가능성이 있으므로 주의가 필요함<br>\r\n</div>",
+  "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ㅇ 주소 : Azadi Street 17a,Ashgabat, Turkmenistan<br>\nㅇ 대표번호 : (993) 12-94-72-86<br>\nㅇ 긴급연락처 : +82-2-3210-0404 (영사콜센터)<br>\nㅇ E-mail :<a href=\"mailto:korembtm@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">korembtm@mofa.go.kr</a><br>\n<br>\n\n<h3>주재국 신고</h3> ㅇ 화재 (01)<br>\nㅇ 경찰 (02)<br>\nㅇ 응급치료 (03)<br>\nㅇ 가스 사고 (04)<br>\nㅇ 전화번호 문의 (09)<br>\n<br>\n\n<h3>의료기관 연락처</h3> ㅇInternational Medical Center: 48-90-09<br>\nㅇ Gurbansoltan Eje Hospital on protection of Health of Child &amp; Mother: 43-51-91, 43-51-94<br>\nㅇ S.Niyazov Consultative Health Center: 43-85-25<br>\nㅇ International Illness Center: 48-91-14, 48-90-32<br>\nㅇ Ene Mehri Diagnostic Center for Children &amp; Women: 48-93-03<br></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
-  "culture_ai": null
+  "culture_ai": {
+    "etiquette": "투르크메니스탄은 손님을 극진히 대접하는 문화가 있어, 현지인의 초대를 받았다면 정중히 응하고 소소한 선물을 준비하는 것이 좋습니다. 식사 시에는 빵을 바닥에 두거나 발로 밟는 행위를 금기시하며, 어른 앞에서는 예의를 갖추고 큰 소리로 떠들지 않는 것이 바람직합니다. 또한 사진 촬영 시 정부 기관이나 군사 시설은 엄격히 금지되므로 사전에 촬영 가능 여부를 확인해야 합니다.",
+    "local_laws": "국가 주요 인사나 정부 시설에 대한 불경한 언행은 엄격히 처벌받을 수 있으며, 야간 통행에 대한 주의가 필요합니다. 투르크메니스탄은 공공장소에서의 음주가 엄격히 제한되며, 허가받지 않은 장소에서의 영상 촬영이나 드론 사용은 국가 안보법 위반으로 간주될 수 있으니 각별히 유의해야 합니다.",
+    "phrases": [
+      "안녕하세요 - 살람 알레이쿰(Salam Aleykum)",
+      "감사합니다 - 사그 볼링(Sag bolyň)",
+      "네 / 아니요 - 하와(Hawa) / 요크(Ýok)",
+      "얼마인가요? - 나치 파(Näçe bu?)",
+      "미안합니다 - גע시린(Geçiräýiň)"
+    ]
+  }
 }

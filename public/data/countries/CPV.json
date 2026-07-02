@@ -2,23 +2,25 @@
   "iso_code": "CPV",
   "country_kr": "카보베르데",
   "country_en": "CapeVerde",
-  "flag_image": "images/CPV.png",
+  "flag_image": "public/images/CPV.png",
   "travel_alert": {
     "level": "없음",
+    "national_level": "없음",
+    "partial_level": null,
     "regions": []
   },
-  "accident_info_html": "<div><h3 class=\"tit\">사건ㆍ사고 현황</h3>\r\n[내전, 테러(피랍)사건 등 동향] <br>\r\nㅇ 카보베르데는 1975년 포르투갈에서 독립한 이후 1991년 사하라 이남에서는 최초로 민주선거를 통한 평화적 정권교체를 실현할 정도로 안정적인 정치 체제를 유지하고 있어 특별한 정세 불안요인이나 주목할 만한 정치 이슈는 없는 상황이나, 2021년 총선과 대선이 각각 4월, 10월에 예정되어 있으므로 안전 유의 필요<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 특히, 카보베르데는 2007.11월 EU와 특별동반자관계 협정 체결, 2007.1.1 최빈국 지위 졸업, 2008.8월 세계무역기구(WTO) 가입절차 완료 등 조치를 통해 경제개혁을 적극적으로 추진하고 글로벌 경제로의 통합을 가속화하고 있는 등 경제적으로도 상당한 발전을 이룩</p><br>\r\n\r\n[범죄현황 등 치안상태]<br>\r\nㅇ 현재 카보베르데에 거주하고 있는 우리 교민이 거의 없는 상황이고, 대사관도 세네갈 다카르에 주재하고 있어 일상적인 범죄 발생 소식은 정확히 파악하기 어려우나, 유럽 관광객들이 많이 방문하고 있는 점을 고려하면, 외국인 관광객을 대상으로 한 소매치기, 절도, 사기 등 가능성은 있는 것으로 파악<br><br>\r\n\r\n[특히 주의해야 할 사항]<br>\r\nㅇ 카보베르데는 다양한 섬으로 구성된 섬나라이므로 섬간 이동 수단으로 경비행기 및 배가 주로 사용되고 있으므로 섬간 이동시 항공기나 선박 사고에 주의하여야 하며, 최근까지 남미 마약조직이 유럽으로 향하는 마약 운송 거점으로 이용하였던 점에 유의하여 모르는 사람들로부터 화물 운송 요청을 받는 경우 동 운송 물품이 마약임을 일단 의심하고 이러한 요청은 분명히 거절 필요(간단한 화물 운반인줄 알고 동 요청을 들어주다 마약 단속 당국에 마약이 적발되면 강력한 처벌을 받음)<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 카보베르데에는 특별한 자연 재해는 없는 것으로 알려져 있으나, 섬 국가인 특성상 겨울철에는 강한 바람이 불며 아직도 활화산이 있어 화산 폭발 가능성이 있음(1995년에 Fogo 화산의 활동이 있었음)<br></div>",
-  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3> ※ 카보베르데에는&nbsp;우리 대사관이 없으며, 주세네갈대한민국대사관이 겸임하고 있습니다. \n<div><br></div>\n<div>ㅇ 주소 : Ambassade de la R&eacute;publique de Cor&eacute;e, Immeuble Rahmane Lot 12, situ&eacute; Direction G&eacute;n&eacute;rale de l&rsquo;ASECNA, Petite Corniche des Almadies, Dakar, S&eacute;n&eacute;gal</div>\n<div>ㅇ 이메일</div>\n<div>&nbsp; -&nbsp;영사/민원 관련 E-mail : senegalconsul@mofa.go.kr</div>\n<div><span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\">&nbsp; - </span>운영지원 업무 E-mail : senegal@mofa.go.kr</div>\n<div><span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\">&nbsp; - </span>정무, 경제, 문화 E-mail : senegal3@mofa.go.kr</div>\n<div><span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\">&nbsp; - </span>사증(비자)업무 E-mail : ambcoreevisa@mofa.go.kr</div>\n<div>ㅇ 대표번호(근무시간 중) : +221-33-824-06-72</div>\n<div>ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +221-77-639-51-09</div>ㅇ 영사안전콜센터(서울, 24시간) : +82-2-3210-0404-06-72<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생시, 24시간) : (221) 77-639-5109<br>\n<br>\n\n<h3 class=\"tit\">주요 응급기관 연락처</h3> ㅇ 경찰 신고(Police) : (+238) 132<br>\nㅇ 화재 신고 : (+238) 131 <br>\nㅇ 응급 신고(구급차) : (+238) 130<br>\nㅇ 주요 병원<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">&middot; (Santo Antao섬) Hospital Regional de Santo Antao : (+238) 221 1130 / 1337 / 1367<br>\n&middot; (Sao Vincente섬) Hospital Central Dr.Baptista de Sousa : (+238) 231 2680<br>\n&middot; (Sal섬) Hospital de Sal : (+238) 241 1130 / 2700<br>\n&middot; (Santiago섬) Hospital Central de Dr.Agostinho Neto : (+238) 261 2142 / 3403 / 2234<br>&middot; (Fogo섬) Hospital Regional de Fogo : (+238) 281 2390</p>&nbsp;</div>",
+  "accident_info_html": "<div><h3>사건ㆍ사고 현황</h3>\r\n[내전, 테러(피랍)사건 등 동향] <br>\r\nㅇ 카보베르데는 1975년 포르투갈에서 독립한 이후 1991년 사하라 이남에서는 최초로 민주선거를 통한 평화적 정권교체를 실현할 정도로 안정적인 정치 체제를 유지하고 있어 특별한 정세 불안요인이나 주목할 만한 정치 이슈는 없는 상황이나, 2021년 총선과 대선이 각각 4월, 10월에 예정되어 있으므로 안전 유의 필요<br>\r\n<p>- 특히, 카보베르데는 2007.11월 EU와 특별동반자관계 협정 체결, 2007.1.1 최빈국 지위 졸업, 2008.8월 세계무역기구(WTO) 가입절차 완료 등 조치를 통해 경제개혁을 적극적으로 추진하고 글로벌 경제로의 통합을 가속화하고 있는 등 경제적으로도 상당한 발전을 이룩</p><br>\r\n\r\n[범죄현황 등 치안상태]<br>\r\nㅇ 현재 카보베르데에 거주하고 있는 우리 교민이 거의 없는 상황이고, 대사관도 세네갈 다카르에 주재하고 있어 일상적인 범죄 발생 소식은 정확히 파악하기 어려우나, 유럽 관광객들이 많이 방문하고 있는 점을 고려하면, 외국인 관광객을 대상으로 한 소매치기, 절도, 사기 등 가능성은 있는 것으로 파악<br><br>\r\n\r\n[특히 주의해야 할 사항]<br>\r\nㅇ 카보베르데는 다양한 섬으로 구성된 섬나라이므로 섬간 이동 수단으로 경비행기 및 배가 주로 사용되고 있으므로 섬간 이동시 항공기나 선박 사고에 주의하여야 하며, 최근까지 남미 마약조직이 유럽으로 향하는 마약 운송 거점으로 이용하였던 점에 유의하여 모르는 사람들로부터 화물 운송 요청을 받는 경우 동 운송 물품이 마약임을 일단 의심하고 이러한 요청은 분명히 거절 필요(간단한 화물 운반인줄 알고 동 요청을 들어주다 마약 단속 당국에 마약이 적발되면 강력한 처벌을 받음)<br><br>\r\n\r\n<h3>자연재해</h3>\r\nㅇ 카보베르데에는 특별한 자연 재해는 없는 것으로 알려져 있으나, 섬 국가인 특성상 겨울철에는 강한 바람이 불며 아직도 활화산이 있어 화산 폭발 가능성이 있음(1995년에 Fogo 화산의 활동이 있었음)<br></div>",
+  "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ※ 카보베르데에는 우리 대사관이 없으며, 주세네갈대한민국대사관이 겸임하고 있습니다. \n<div><br></div>\n<div>ㅇ 주소 : Ambassade de la République de Corée, Immeuble Rahmane Lot 12, situé Direction Générale de l’ASECNA, Petite Corniche des Almadies, Dakar, Sénégal</div>\n<div>ㅇ 이메일</div>\n<div>  - 영사/민원 관련 E-mail : senegalconsul@mofa.go.kr</div>\n<div>  - 운영지원 업무 E-mail : senegal@mofa.go.kr</div>\n<div>  - 정무, 경제, 문화 E-mail : senegal3@mofa.go.kr</div>\n<div>  - 사증(비자)업무 E-mail : ambcoreevisa@mofa.go.kr</div>\n<div>ㅇ 대표번호(근무시간 중) : +221-33-824-06-72</div>\n<div>ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +221-77-639-51-09</div>ㅇ 영사안전콜센터(서울, 24시간) : +82-2-3210-0404-06-72<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생시, 24시간) : (221) 77-639-5109<br>\n<br>\n\n<h3>주요 응급기관 연락처</h3> ㅇ 경찰 신고(Police) : (+238) 132<br>\nㅇ 화재 신고 : (+238) 131 <br>\nㅇ 응급 신고(구급차) : (+238) 130<br>\nㅇ 주요 병원<br>\n\n<p>· (Santo Antao섬) Hospital Regional de Santo Antao : (+238) 221 1130 / 1337 / 1367<br>\n· (Sao Vincente섬) Hospital Central Dr.Baptista de Sousa : (+238) 231 2680<br>\n· (Sal섬) Hospital de Sal : (+238) 241 1130 / 2700<br>\n· (Santiago섬) Hospital Central de Dr.Agostinho Neto : (+238) 261 2142 / 3403 / 2234<br>· (Fogo섬) Hospital Regional de Fogo : (+238) 281 2390</p> </div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "카보베르데 사람들은 매우 사교적이며, 처음 만나는 사람과도 가벼운 인사와 악수를 나누는 것이 일반적입니다. 타인의 사생활을 존중하되 대화할 때는 상대방의 눈을 맞추는 것이 예의이며, 사진을 찍기 전에는 반드시 상대방에게 동의를 구해야 합니다. 공공장소에서의 지나친 애정 행각은 자제하는 것이 좋으며, 현지 문화를 존중하는 태도를 보이면 친절한 환대를 받을 수 있습니다.",
-    "business_tip": "비즈니스 관계에서는 신뢰 구축이 중요하므로 서두르지 말고 천천히 관계를 형성하는 것이 핵심입니다. 약속 시간에 다소 늦을 수도 있는 현지 문화를 감안하여 유연한 태도를 갖추고, 격식 있는 복장을 유지하는 것이 프로페셔널한 인상을 줍니다.",
+    "etiquette": "카보베르데 사람들은 '노 스트레스(No Stress)'를 강조하는 느긋하고 친절한 문화를 가지고 있습니다. 대화를 나눌 때는 상대방의 눈을 맞추며 인사하는 것이 중요하며, 사진을 찍기 전에는 반드시 상대의 동의를 구해야 합니다. 종교적인 장소나 마을을 방문할 때는 정중하고 단정한 복장을 갖추는 것이 현지인에 대한 예의입니다.",
+    "local_laws": "해변에서 산호나 조개껍데기를 채취하여 반출하는 행위는 엄격히 금지되어 있으며 환경 보호법에 따라 처벌받을 수 있습니다. 공공장소에서의 과도한 음주나 소란 행위는 경범죄로 간주되어 현지 경찰의 제재를 받을 수 있으니 주의해야 합니다.",
     "phrases": [
       "안녕하세요 - 올라(Olá)",
-      "감사합니다 - 오브리가두(Obrigado)",
-      "실례합니다 - 디스쿨피(Desculpe)",
-      "얼마인가요? - 쿠안투 쿠스타?(Quanto custa?)",
-      "도와주세요 - 아쥬다-메(Ajuda-me)"
+      "감사합니다 - 오브리가두(Obrigado/Obrigada)",
+      "네 / 아니오 - 시(Sim) / 나우(Não)",
+      "죄송합니다 - 데스쿨피(Desculpe)",
+      "얼마인가요? - 쿠아투 쿠스타?(Quanto custa?)"
     ]
   }
 }

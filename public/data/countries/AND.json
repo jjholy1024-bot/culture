@@ -2,23 +2,25 @@
   "iso_code": "AND",
   "country_kr": "안도라",
   "country_en": "Andorra",
-  "flag_image": "images/AND.gif",
+  "flag_image": "public/images/AND.gif",
   "travel_alert": {
     "level": "없음",
+    "national_level": "없음",
+    "partial_level": null,
     "regions": []
   },
-  "accident_info_html": "<div><h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 범죄가 거의 발생하지 않는 치안 안정 국가입니다.<br>\r\nㅇ 피레네 산맥 동쪽에 위치한 안도라는 지형의 대부분이 높은 바위산으로 이루어진 산악 국가로 협곡이 많아 운전 중 각별한 주의가 필요합니다. 산악 지역에서의 사고에 대비하여 예비 타이어 등 비상물품을 차량에 비치하시기 바랍니다.<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ 해빙기에 산사태 위험이 있으며, 산악 지역에서는 기후 변화를 예측하기 어려우므로 스키나 등산을 할 경우에는 사전에 기상·안전 정보를 확인하여야 합니다.<br></div>",
-  "local_contact_html": "<div>\r\n<h3 class=\"tit\">대사관 연락처</h3> ※ 안도라에는 우리대사관이 없으며, 주스페인한국대사관에서 겸임하고 있습니다.<br>\r\nㅇ 주소 : Calle González Amigó 15, 28033 Madrid, Spain<br>\r\nㅇ 이메일 : <a href=\"mailto:embspain.adm@mofa.go.kr\">embspain.adm@mofa.go.kr</a><br>\r\nㅇ 대표번호(근무시간 중) : (34) 91-353-2000<br>\r\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (34) 648-924-695<br>\r\n<br>\r\n\r\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 긴급전화(사건·사고, 산악구조 등) : 112 <br>\r\nㅇ 경찰 : 110<br>\r\nㅇ 소방 : 118<br>\r\nㅇ 응급의료서비스 : 116<br>\r\n<br>\r\n\r\n<h3 class=\"tit\">의료기관 연락처</h3> [Hospital Nostra Senyora de Meritxell]<br>\r\nㅇ 주소 : C/ dels Escalls, AD700 Escaldes-Engordany<br>\r\nㅇ 대표전화 : (+376) 871-000<br></div>",
+  "accident_info_html": "<div><h3>사건ㆍ사고의 유형</h3>\r\nㅇ 범죄가 거의 발생하지 않는 치안 안정 국가입니다.<br>\r\nㅇ 피레네 산맥 동쪽에 위치한 안도라는 지형의 대부분이 높은 바위산으로 이루어진 산악 국가로 협곡이 많아 운전 중 각별한 주의가 필요합니다. 산악 지역에서의 사고에 대비하여 예비 타이어 등 비상물품을 차량에 비치하시기 바랍니다.<br><br>\r\n\r\n<h3>자연재해</h3>\r\nㅇ 해빙기에 산사태 위험이 있으며, 산악 지역에서는 기후 변화를 예측하기 어려우므로 스키나 등산을 할 경우에는 사전에 기상·안전 정보를 확인하여야 합니다.<br></div>",
+  "local_contact_html": "<div>\r\n<h3>대사관 연락처</h3> ※ 안도라에는 우리대사관이 없으며, 주스페인한국대사관에서 겸임하고 있습니다.<br>\r\nㅇ 주소 : Calle González Amigó 15, 28033 Madrid, Spain<br>\r\nㅇ 이메일 : <a href=\"mailto:embspain.adm@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">embspain.adm@mofa.go.kr</a><br>\r\nㅇ 대표번호(근무시간 중) : (34) 91-353-2000<br>\r\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (34) 648-924-695<br>\r\n<br>\r\n\r\n<h3>주재국 신고</h3> ㅇ 긴급전화(사건·사고, 산악구조 등) : 112 <br>\r\nㅇ 경찰 : 110<br>\r\nㅇ 소방 : 118<br>\r\nㅇ 응급의료서비스 : 116<br>\r\n<br>\r\n\r\n<h3>의료기관 연락처</h3> [Hospital Nostra Senyora de Meritxell]<br>\r\nㅇ 주소 : C/ dels Escalls, AD700 Escaldes-Engordany<br>\r\nㅇ 대표전화 : (+376) 871-000<br></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "안도라는 카탈루냐 문화의 영향을 강하게 받아 식사 시 여유로운 분위기를 즐기며, 식당에서 너무 서두르지 않는 것이 예의입니다. 공공장소나 상점에서는 정중하게 카탈루냐어로 인사하는 것을 매우 환영합니다. 산악 지역 특성상 자연을 보호하는 의식이 강하므로 하이킹 시 쓰레기를 버리지 않는 등 자연 친화적인 태도를 유지해야 합니다.",
-    "business_tip": "비즈니스 미팅은 사전에 공식적인 약속을 잡는 것이 중요하며, 첫 만남에서는 악수로 예의를 갖추는 것이 일반적입니다. 관계 중심적인 문화이므로 즉각적인 업무 성사보다는 신뢰를 쌓기 위한 대화에 충분한 시간을 할애하는 것이 좋습니다.",
+    "etiquette": "안도라는 공식 언어로 카탈루냐어를 사용하며, 상점이나 식당에서 카탈루냐어로 간단한 인사말을 건네는 것을 매우 예의 바르게 생각합니다. 현지인들은 대화 시 적절한 거리를 유지하며 차분하고 정중한 태도를 선호하므로 공공장소에서 큰 소리로 떠드는 것은 피해야 합니다. 식사 후에는 웨이터에게 직접 계산서를 요청하는 문화가 일반적이니 참고하세요.",
+    "local_laws": "안도라는 면세 구역으로 유명하지만, 담배나 주류 등을 국가별 허용 한도 이상으로 반입하거나 반출할 경우 엄격한 세관 검사와 벌금이 부과됩니다. 또한 산악 지역이 많아 야생 동물 보호 구역에 무단으로 침입하거나 허가 없이 야생 식물을 채집하는 행위는 환경 보호법에 따라 강력히 처벌받을 수 있습니다.",
     "phrases": [
-      "안녕하세요 - 봉 디아(Bon dia)",
-      "감사합니다 - 그라씨아스(Gràcies)",
-      "죄송합니다 - 페르도(Perdó)",
-      "얼마인가요? - 퀀트 코스타?(Quant costa?)",
-      "안녕히 가세요 - 아데우(Adéu)"
+      "안녕하세요(아침) - Bon dia (본 디아)",
+      "감사합니다 - Gràcies (그라시아스)",
+      "죄송합니다 - Perdó (페르도)",
+      "얼마인가요? - Quant costa? (콴 코스타?)",
+      "안녕히 계세요 - Adéu (아데우)"
     ]
   }
 }

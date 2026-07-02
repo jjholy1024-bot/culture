@@ -1,0 +1,36 @@
+name: CultureZero Data Pipeline
+
+on:
+  schedule:
+    - cron: '0 17 * * *'  # 매일 새벽 2시 KST (UTC 17:00)
+  workflow_dispatch:       # 수동 실행도 가능
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests python-dotenv pycountry
+
+      - name: Run data collection script
+        env:
+          PUBLIC_DATA_SERVICE_KEY: ${{ secrets.PUBLIC_DATA_SERVICE_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python collect_data.py
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/ public/images/
+          git diff --staged --quiet || git commit -m "chore: daily data update $(date +'%Y-%m-%d')"
+          git push

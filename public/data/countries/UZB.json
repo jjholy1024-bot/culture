@@ -2,13 +2,25 @@
   "iso_code": "UZB",
   "country_kr": "우즈베키스탄",
   "country_en": "Uzbekistan",
-  "flag_image": "images/UZB.gif",
+  "flag_image": "public/images/UZB.gif",
   "travel_alert": {
     "level": "없음",
+    "national_level": "없음",
+    "partial_level": null,
     "regions": []
   },
-  "accident_info_html": "<div><h3 class=\"tit\">사건ㆍ사고의 유형</h3>\r\nㅇ 주로 침입 절도, 노상강도 등 범죄가 대부분이며 타지키스탄 및 아프가니스탄과 인접하여 마약 관련 범죄도 다수 발생하고 있습니다.<br>\r\nㅇ 우리 교민들과 관련해서는 주로 강절도 피해가 종종 발생하고 있으며, 거주 등록 위반, 종교법 위반, 사기 등 사건과 기타 안전사고 등이 대부분입니다<br><br>\r\n\r\n<h3 class=\"tit\">자연재해</h3>\r\nㅇ지진 피해 현황<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 우즈베키스탄은 중앙아시아 지진대에 위치해 있어 매년 강한 지진이 자주 발생하고 있습니다.<br>\r\n- 1966.4.26 타쉬켄트에서 진도 8~9의 강진이 발생하여 거의 모든 건물이 붕괴되어 이후 구소련 전역에서 노동자들이 파견되어 도시를 재건하였습니다.<br>\r\n- 2011.7.20 동부페르가나 지역에서 진도 7의 지진이 발생하여 13명이 사망하고 86명이 부상당하였습니다.<br>\r\n- 2013.5.20 타쉬켄트 일대에 진도 5.3의 지진이 발생하였습니다 (피해는 미상).<br><br>\r\n\r\n</p><h3 class=\"tit\">유의해야 할 지역</h3>\r\n[접경지역]<br>\r\nㅇ 아프간과 인접해 있는 테르메즈 지역은 테러 위험이 있으며 지난 2005년 5월 무장폭동 사태가 발생한 안디잔, 나망간, 페르가나 지역 여행 시 특별히 유의하셔야 합니다.<br>\r\nㅇ 또한 이웃 타지키스탄 공화국으로 입국할 경우 주재국 육로를 경유해야 하므로 통과비자가 있어야 합니다.<br><br>\r\n\r\n[자연재해 빈발 지역]<br>\r\nㅇ 주재국은 전역에서 크고 작은 지진이 발생하고 있으며 특히 동부(나망간, 페르가나, 안디잔) 지역과 사마르칸트 지역 부근에서 지진이 자주 발생하고 있습니다.<br></div>",
-  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3>\n<p>ㅇ 주소 : 타쉬켄트, 아프로시압 7번지<br>\nㅇ 이메일 : <a href=\"mailto:uzkoremb@mofa.go.kr\">uzkoremb@mofa.go.kr</a><br>\nㅇ 대표번호(근무시간 중) : (998) 71-252-3151~3<br>ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (998) 90-029-6963</p>\n<p><span style=\"font-size: 24px; font-weight: 600; letter-spacing: -0.025em;\"><br></span></p>\n<p><span style=\"font-size: 24px; font-weight: 600; letter-spacing: -0.025em;\">O 주요 전화번호</span></p>\n<p>ㅇ 화재신고 101, 범죄 신고 102, 응급의료 103, 가스 신고 104<br>\nㅇ 한인회 : (998) 71-291-7460<br>\nㅇ 교육원 : (998) 71-291-8182<br>\nㅇ 한인회 유치원 : (998) 71-291-7632<br>\nㅇ KoTRA : (998) 71-147-2530<br>\nㅇ KoICA : (998) 71-252-3561<br>\nㅇ KoPIA : (998) 71-260-5216<br>\n<span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\">ㅇ 성당&nbsp;:&nbsp;(998) 91-192-1114</span></p>\n<p><span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\"></span><span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\">ㅇ 조계종 자은사&nbsp;:&nbsp;(998) 99-436-6040</span></p>\n<p><span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\"></span><span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\">ㅇ 한인교회&nbsp;:&nbsp;(998) 91-192-5036</span></p>\n<p><span style=\"font-family: 'Noto Sans KR'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.4px;\"></span>ㅇ 아시아나항공 : (998) 78-140-0900<br>\nㅇ 티웨이항공 : (998) 93-406-4020<br>\n<br></p></div>",
+  "accident_info_html": "<div><h3>사건ㆍ사고의 유형</h3>\r\nㅇ 주로 침입 절도, 노상강도 등 범죄가 대부분이며 타지키스탄 및 아프가니스탄과 인접하여 마약 관련 범죄도 다수 발생하고 있습니다.<br>\r\nㅇ 우리 교민들과 관련해서는 주로 강절도 피해가 종종 발생하고 있으며, 거주 등록 위반, 종교법 위반, 사기 등 사건과 기타 안전사고 등이 대부분입니다<br><br>\r\n\r\n<h3>자연재해</h3>\r\nㅇ지진 피해 현황<br>\r\n<p>- 우즈베키스탄은 중앙아시아 지진대에 위치해 있어 매년 강한 지진이 자주 발생하고 있습니다.<br>\r\n- 1966.4.26 타쉬켄트에서 진도 8~9의 강진이 발생하여 거의 모든 건물이 붕괴되어 이후 구소련 전역에서 노동자들이 파견되어 도시를 재건하였습니다.<br>\r\n- 2011.7.20 동부페르가나 지역에서 진도 7의 지진이 발생하여 13명이 사망하고 86명이 부상당하였습니다.<br>\r\n- 2013.5.20 타쉬켄트 일대에 진도 5.3의 지진이 발생하였습니다 (피해는 미상).<br><br>\r\n\r\n</p><h3>유의해야 할 지역</h3>\r\n[접경지역]<br>\r\nㅇ 아프간과 인접해 있는 테르메즈 지역은 테러 위험이 있으며 지난 2005년 5월 무장폭동 사태가 발생한 안디잔, 나망간, 페르가나 지역 여행 시 특별히 유의하셔야 합니다.<br>\r\nㅇ 또한 이웃 타지키스탄 공화국으로 입국할 경우 주재국 육로를 경유해야 하므로 통과비자가 있어야 합니다.<br><br>\r\n\r\n[자연재해 빈발 지역]<br>\r\nㅇ 주재국은 전역에서 크고 작은 지진이 발생하고 있으며 특히 동부(나망간, 페르가나, 안디잔) 지역과 사마르칸트 지역 부근에서 지진이 자주 발생하고 있습니다.<br></div>",
+  "local_contact_html": "<div>\n<h3>대사관 연락처</h3>\n<p>ㅇ 주소 : 타쉬켄트, 아프로시압 7번지<br>\nㅇ 이메일 : <a href=\"mailto:uzkoremb@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">uzkoremb@mofa.go.kr</a><br>\nㅇ 대표번호(근무시간 중) : (998) 71-252-3151~3<br>ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (998) 90-029-6963</p>\n<p><br></p>\n<p>O 주요 전화번호</p>\n<p>ㅇ 화재신고 101, 범죄 신고 102, 응급의료 103, 가스 신고 104<br>\nㅇ 한인회 : (998) 71-291-7460<br>\nㅇ 교육원 : (998) 71-291-8182<br>\nㅇ 한인회 유치원 : (998) 71-291-7632<br>\nㅇ KoTRA : (998) 71-147-2530<br>\nㅇ KoICA : (998) 71-252-3561<br>\nㅇ KoPIA : (998) 71-260-5216<br>\nㅇ 성당 : (998) 91-192-1114</p>\n<p>ㅇ 조계종 자은사 : (998) 99-436-6040</p>\n<p>ㅇ 한인교회 : (998) 91-192-5036</p>\n<p>ㅇ 아시아나항공 : (998) 78-140-0900<br>\nㅇ 티웨이항공 : (998) 93-406-4020<br>\n<br></p></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
-  "culture_ai": null
+  "culture_ai": {
+    "etiquette": "우즈베키스탄은 손님을 극진히 대접하는 문화가 있어 가정집 방문 시 간단한 선물을 준비하는 것이 좋습니다. 식사 시에는 빵을 칼로 자르지 않고 손으로 찢어 먹는 것이 예의이며, 빵을 뒤집어 놓거나 땅에 떨어뜨리는 것을 불경하게 여깁니다. 또한, 어른 앞에서 다리를 꼬거나 발바닥을 보이는 행동은 결례가 될 수 있으니 주의해야 합니다.",
+    "local_laws": "외국인은 체류지 관할 경찰서에 3일 이내에 거주지 등록을 해야 하며, 숙박 시 받은 등록증은 출국 시까지 반드시 보관해야 합니다. 공공장소에서의 음주와 흡연은 엄격히 제한되며, 군사 시설, 공항, 국경 지대에서 허가 없이 사진을 촬영할 경우 처벌받을 수 있습니다.",
+    "phrases": [
+      "안녕하세요 - 아살로무 알라이쿰(Assalomu alaykum)",
+      "감사합니다 - 라흐맛(Rahmat)",
+      "네 - 하(Ha)",
+      "아니요 - 요크(Yo'q)",
+      "얼마인가요? - 부 칸차 투라디?(Bu qancha turadi?)"
+    ]
+  }
 }

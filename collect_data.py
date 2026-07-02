@@ -1,10 +1,13 @@
 import os
+import re
 import sys
+import html
 import json
 import time
 import requests
 import pycountry
 import xml.etree.ElementTree as ET
+from html.parser import HTMLParser
 from dotenv import load_dotenv
 
 sys.stdout.reconfigure(encoding='utf-8')
@@ -93,12 +96,94 @@ LEVEL_RANK = {"없음": 0, "여행유의": 1, "여행자제": 2, "철수권고":
 
 NOTICE_FALLBACK_URL = "https://www.0404.go.kr/ntnSafetyInfo/list"
 
+# Natural Earth 1:50m country boundaries (public domain). Used for the choropleth map.
+WORLD_BORDERS_URL = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson"
+
+
+def fetch_world_borders(iso3_set):
+    """Download + slim the world country-borders GeoJSON, keyed by iso_code.
+    Cached on disk since country borders don't change between runs."""
+    dest = os.path.join(DATA_DIR, "world_borders.geojson")
+    if os.path.exists(dest):
+        print("world_borders.geojson already cached, skipping download.")
+        return
+
+    print("Fetching world country borders (Natural Earth 50m)...")
+    res = requests.get(WORLD_BORDERS_URL, timeout=60)
+    res.raise_for_status()
+    raw = res.json()
+
+    def resolve_iso3(props):
+        iso = props.get("ISO_A3")
+        if iso and iso != "-99":
+            return iso
+        return props.get("ADM0_A3")
+
+    slim_features = []
+    seen = set()
+    for feature in raw["features"]:
+        iso3 = resolve_iso3(feature["properties"])
+        if iso3 in iso3_set and iso3 not in seen:
+            seen.add(iso3)
+            slim_features.append({
+                "type": "Feature",
+                "properties": {"iso_code": iso3},
+                "geometry": feature["geometry"],
+            })
+
+    with open(dest, "w", encoding="utf-8") as f:
+        json.dump({"type": "FeatureCollection", "features": slim_features}, f, separators=(",", ":"))
+    print(f"  {len(slim_features)}/{len(iso3_set)} country borders saved (missing: {sorted(iso3_set - seen)})")
+
 
 def iso2_to_iso3(alpha2):
     if alpha2 == "XK":
         return "XKX"  # Kosovo: not an official ISO 3166-1 code, MOFA-specific
     c = pycountry.countries.get(alpha_2=alpha2)
     return c.alpha_3 if c else None
+
+
+_SANITIZE_ALLOWED_TAGS = {"div", "p", "br", "h3", "b", "strong", "a"}
+
+
+class _HTMLSanitizer(HTMLParser):
+    """Rebuilds source HTML keeping only a safe tag allowlist (drops inline style/class
+    cruft from the source CMS) and recovers gracefully from malformed/truncated markup
+    (some API fields are cut off mid-tag for very long entries, e.g. Russia/Hungary)."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.out = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "br":
+            self.out.append("<br>")
+        elif tag == "a":
+            href = dict(attrs).get("href", "") or ""
+            self.out.append(f'<a href="{html.escape(href, quote=True)}" target="_blank" rel="noopener">')
+        elif tag in _SANITIZE_ALLOWED_TAGS:
+            self.out.append(f"<{tag}>")
+
+    def handle_startendtag(self, tag, attrs):
+        if tag == "br":
+            self.out.append("<br>")
+
+    def handle_endtag(self, tag):
+        if tag in _SANITIZE_ALLOWED_TAGS and tag != "br":
+            self.out.append(f"</{tag}>")
+
+    def handle_data(self, data):
+        self.out.append(html.escape(data))
+
+
+def sanitize_html(raw_html):
+    parser = _HTMLSanitizer()
+    try:
+        parser.feed(raw_html)
+        parser.close()
+    except Exception:
+        pass
+    return "".join(parser.out)
 
 
 def api_get(url, params, return_type="xml"):
@@ -142,8 +227,26 @@ def fetch_travel_warnings():
                     "area": it.get(note_field) or "",
                     "partial": bool(it.get(partial_field)) and not it.get(full_field),
                 })
-        highest = max((LEVEL_RANK.get(r["level"], 0) for r in regions), default=0)
-        level_name = next((k for k, v in LEVEL_RANK.items() if v == highest), "없음")
+        def rank_to_name(rank):
+            return next((k for k, v in LEVEL_RANK.items() if v == rank), "없음")
+
+        # alert_level: highest level anywhere in the country (used for text badges —
+        # conservative/safety-first, matches the per-country detail page and list view).
+        overall_rank = max((LEVEL_RANK.get(r["level"], 0) for r in regions), default=0)
+        level_name = rank_to_name(overall_rank)
+
+        # national_level: highest level that applies to the WHOLE country (non-partial
+        # entries only). Used for the map polygon fill — using the overall highest there
+        # would paint an entire country red over one small flagged border region.
+        national_rank = max(
+            (LEVEL_RANK.get(r["level"], 0) for r in regions if not r["partial"]), default=0
+        )
+        national_level_name = rank_to_name(national_rank)
+
+        # partial_level: highest level among region-limited-only entries, if any. Used to
+        # decide whether the map should flag "elevated alert in part of this country".
+        partial_ranks = [LEVEL_RANK.get(r["level"], 0) for r in regions if r["partial"]]
+        partial_level_name = rank_to_name(max(partial_ranks)) if partial_ranks else None
 
         countries[iso3] = {
             "iso_code": iso3,
@@ -151,6 +254,8 @@ def fetch_travel_warnings():
             "country_en": it["country_en_name"],
             "continent": it.get("continent", ""),
             "alert_level": level_name,
+            "national_level": national_level_name,
+            "partial_level": partial_level_name,
             "alert_regions": regions,
         }
     return countries
@@ -197,8 +302,8 @@ def fetch_contacts():
         if not iso3:
             continue
         # API returns double HTML-escaped text (e.g. "&lt;div&gt;"); unescape once to get real HTML.
-        import html
-        contacts[iso3] = html.unescape(it.get("contact_remark") or "")
+        raw = html.unescape(it.get("contact_remark") or "")
+        contacts[iso3] = sanitize_html(raw)
     return contacts
 
 
@@ -215,7 +320,7 @@ def fetch_accidents():
     by_name = {}
     for it in items:
         name = (it.findtext("name") or "").strip()
-        news = it.findtext("news") or ""
+        news = sanitize_html(it.findtext("news") or "")
         if name:
             by_name[name] = news
     return by_name
@@ -225,7 +330,7 @@ def download_flag_image(iso3, flag_info):
     os.makedirs(IMAGES_DIR, exist_ok=True)
     ext = os.path.splitext(flag_info["origin_file_nm"])[1] or ".png"
     dest = os.path.join(IMAGES_DIR, f"{iso3}{ext}")
-    rel_path = f"images/{iso3}{ext}"
+    rel_path = f"public/images/{iso3}{ext}"
     if os.path.exists(dest):
         return rel_path
     try:
@@ -245,21 +350,25 @@ def load_existing_culture_ai(iso3):
         try:
             with open(path, "r", encoding="utf-8") as f:
                 existing = json.load(f)
-                return existing.get("culture_ai")
+                ai = existing.get("culture_ai")
+                # local_laws 필드가 없거나 None이면 재생성 필요 (business_tip에서 변경됨)
+                if ai and not ai.get("local_laws"):
+                    return None
+                return ai
         except Exception:
             return None
     return None
 
 
 def generate_culture_ai(country_kr, country_en):
-    prompt = f"""당신은 해외 여행자를 위한 문화 가이드 작가입니다. "{country_kr}({country_en})"에 대한 다음 정보를 JSON으로 작성하세요.
+    prompt = f"""당신은 해외 여행자를 위한 안전·문화 가이드 작가입니다. "{country_kr}({country_en})"에 대한 다음 정보를 JSON으로 작성하세요.
 
 1. etiquette: 현지 문화·예절 핵심 정보 (한국어, 3~4문장)
-2. business_tip: 비즈니스 미팅/협상 시 유의할 점 (한국어, 2~3문장)
+2. local_laws: 여행자가 모르고 지나치기 쉬운 현지 법률·경범죄·주의사항 (한국어, 2~3문장). 예: 특이한 금지 행위, 음주·복장 규정, 무심코 저지르기 쉬운 위반, 각국 특유의 처벌 등.
 3. phrases: 여행자에게 유용한 현지어 표현 5개 (각각 "한국어 뜻 - 현지어 발음(현지 문자)" 형식의 문자열 배열)
 
 반드시 아래 JSON 형식으로만 응답하세요. 마크다운 코드블록이나 다른 설명 없이 순수 JSON만 출력하세요.
-{{"etiquette": "...", "business_tip": "...", "phrases": ["...", "...", "...", "...", "..."]}}"""
+{{"etiquette": "...", "local_laws": "...", "phrases": ["...", "...", "...", "...", "..."]}}"""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GOOGLE_API_KEY}"
     payload = {
@@ -298,6 +407,7 @@ def main():
     warnings = fetch_travel_warnings()
     flags = fetch_flags()
     contacts = fetch_contacts()
+    fetch_world_borders(set(warnings.keys()))
     accidents = fetch_accidents()
 
     countries_index = []
@@ -325,6 +435,8 @@ def main():
             "flag_image": flag_image,
             "travel_alert": {
                 "level": country["alert_level"],
+                "national_level": country["national_level"],
+                "partial_level": country["partial_level"],
                 "regions": country["alert_regions"],
             },
             "accident_info_html": accident_html,
@@ -344,6 +456,8 @@ def main():
             "lng": lng,
             "flag_image": flag_image,
             "alert_level": country["alert_level"],
+            "national_level": country["national_level"],
+            "partial_level": country["partial_level"],
         })
 
     with open(os.path.join(DATA_DIR, "countries.json"), "w", encoding="utf-8") as f:

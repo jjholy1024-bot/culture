@@ -35,12 +35,17 @@
       </div>
 
       <div class="view-toggle-bar">
-        <h2 class="section-title">인기 국가</h2>
+        <div class="tab-group">
+          <button class="tab active" data-tab="all">전체</button>
+          <button class="tab" data-tab="fav">❤️ 즐겨찾기 <span class="tab-count" id="favCount">0</span></button>
+        </div>
         <div class="view-toggle">
           <button class="view-btn active" data-view="map" title="지도 뷰">🗺 지도</button>
           <button class="view-btn" data-view="list" title="리스트 뷰">☰ 리스트</button>
         </div>
       </div>
+
+      <h2 class="section-title" id="chipSectionTitle">인기 국가</h2>
 
       <div class="chip-row" id="popularChips"></div>
 
@@ -76,6 +81,7 @@
           <h1 id="resultCountryName" class="result-country-name"></h1>
           <span id="resultAlertBadge" class="alert-badge"></span>
         </div>
+        <button class="result-fav-btn" id="resultFavBtn" onclick="toggleFavCurrent()">🤍</button>
       </div>
 
       <div class="card-grid result-grid" id="resultCards"></div>

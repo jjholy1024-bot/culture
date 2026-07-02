@@ -2,9 +2,11 @@
   "iso_code": "NAM",
   "country_kr": "나미비아",
   "country_en": "Namibia",
-  "flag_image": "images/NAM.gif",
+  "flag_image": "public/images/NAM.gif",
   "travel_alert": {
     "level": "여행유의",
+    "national_level": "여행유의",
+    "partial_level": null,
     "regions": [
       {
         "level": "여행유의",
@@ -13,18 +15,18 @@
       }
     ]
   },
-  "accident_info_html": "<div>\r\n<h3 class=\"tit\" style=\"font-size: 18px; font-weight: bold;\">사건ㆍ사고의 유형</h3>\r\n<p>ㅇ 우리 교민 피해는 보고된 바 없으나, 최근 들어 소매치기, 강도 등이 증가하는 추세입니다.<br></p>\r\n\r\n<br>\r\n\r\n<h3 class=\"tit\" style=\"font-size: 18px; font-weight: bold;\">자연재해</h3>\r\n<p>ㅇ 특별한 자연재해는 없으나, 겨울철에는 내륙 산지의 푄 현상으로 인한 고온 건조한 바람(Bergwind)이 사막의 모래를 동반하고 해안 쪽으로 강하게 불어 피해를 입히기도 합니다.<br></p>\r\n\r\n<br>\r\n\r\n<h3 class=\"tit\" style=\"font-size: 18px; font-weight: bold;\">유의해야 할 지역</h3>\r\n<p>\r\nㅇ 나미비아는 사하라 이남 아프리카에서는 가장 치안이 좋은 나라(건물마다 경비요원 배치, 깨끗한 길거리 및 밤에도 대체로 큰 길가에는 돌아다닐수 있음)로 알려져 있으나, 수도인 빈툭(windhoek) 의 상가 등 관광객 밀집 지역 및 흑인 밀집 지역인 카투 투라(Katutura) 지역은 소매치기 등 강도 행위가 발생하니 각별한 주의를 요망합니다.<br>\r\nㅇ 나미비아 북동부 카방고(Kavango)와 카프리비(Caprivi) 지역은 치안 정세가 매우 불안하기 때문에 이곳으로의 여행은 자제하시기 바랍니다.<br>\r\nㅇ 그 밖의 다른 지역에서는 관광객들을 대상으로 한 강력범죄가 거의 발생하지 않았습니다. 하지만 최근 경범죄 발생이 증가하고 있으며 소매치기, 날치기, 차량을 이용한 절도행위 등을 유의해야 합니다.<br>\r\n</p>\r\n</div>",
-  "local_contact_html": "<div>\n<h3 class=\"tit\">대사관 연락처</h3> ※ 나미비아에는 우리대사관이 없으며, 주앙골라한국대사관이 겸임하고 있습니다.<br>\nㅇ 주소 : Condominio Zenith, Torre 1, 3&deg; Andar, Via AL 16, Talatona, Luanda, Angola<br>\nㅇ 대표번호(근무시간 중) : (244) 222-778-794<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (244) 938-880-573<br>\nㅇ E-mail : <a href=\"mailto:korembassy_angola@mofa.go.kr\">korembassy_angola@mofa.go.kr</a><br>\n<br>\n\n<h3 class=\"tit\">주재국 신고</h3> ㅇ 전국 범죄 신고 10111(빈툭시내 전용은 304)<br>\nㅇ 화재신고, 응급의료 211111<br>\n<br>\n\n<h3 class=\"tit\">관광통역 서비스</h3> ㅇ 관광경찰 10111<br>\n(범죄 신고 번화와 같으며, 관광객이라고 밝히면 관광객을 위한 경찰 파트로 연결해줌)<br>\nㅇ 관광통역 전화 서비스는 없습니다.<br>\n<br>\n\n<h3 class=\"tit\">의료기관 연락처</h3> ㅇ 주요 병원(병실 200석 이상)<br>\n\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 빈툭(Windhoek) 지역 : 빈툭 중앙병원(Windhoek Central), 빈툭 카투투라병원(Windhoek Katutura), 로버트무가베 (Robert Mugabe) 병원, 돈커후크(Donkerhoek) 병원<br>\n- 카티마물리로(Katima Mulilo) 지역 : 카티마물리로병원, 바투바자(Batubaja) 병원<br>\n- 난쿤두(Nankundu) 지역 : 카루하(Gcaruha) 병원<br>\n- 룬두(Rundu) 지역 : 룬두병원, 콰징가(Gcwatjinga) 병원<br>\n- 엔젤라(Engela) 지역 : 엔젤라병원, 에둔자(Edundja) 병원<br>\n- 오시쿠쿠(Oshikuku) 지역 : 오시쿠쿠병원, 오공고(Ogongo) 병원<br>\n- 오샤카티(Oshakati) 지역 : 오샤카티병원, 옴푼자(Ompundja) 병원<br>- 오난조퀴(Onandjokwe) 지역 : 오난조퀴병원, 은다모나(Ndamona) 병원</p></div>",
+  "accident_info_html": "<div>\r\n<h3>사건ㆍ사고의 유형</h3>\r\n<p>ㅇ 우리 교민 피해는 보고된 바 없으나, 최근 들어 소매치기, 강도 등이 증가하는 추세입니다.<br></p>\r\n\r\n<br>\r\n\r\n<h3>자연재해</h3>\r\n<p>ㅇ 특별한 자연재해는 없으나, 겨울철에는 내륙 산지의 푄 현상으로 인한 고온 건조한 바람(Bergwind)이 사막의 모래를 동반하고 해안 쪽으로 강하게 불어 피해를 입히기도 합니다.<br></p>\r\n\r\n<br>\r\n\r\n<h3>유의해야 할 지역</h3>\r\n<p>\r\nㅇ 나미비아는 사하라 이남 아프리카에서는 가장 치안이 좋은 나라(건물마다 경비요원 배치, 깨끗한 길거리 및 밤에도 대체로 큰 길가에는 돌아다닐수 있음)로 알려져 있으나, 수도인 빈툭(windhoek) 의 상가 등 관광객 밀집 지역 및 흑인 밀집 지역인 카투 투라(Katutura) 지역은 소매치기 등 강도 행위가 발생하니 각별한 주의를 요망합니다.<br>\r\nㅇ 나미비아 북동부 카방고(Kavango)와 카프리비(Caprivi) 지역은 치안 정세가 매우 불안하기 때문에 이곳으로의 여행은 자제하시기 바랍니다.<br>\r\nㅇ 그 밖의 다른 지역에서는 관광객들을 대상으로 한 강력범죄가 거의 발생하지 않았습니다. 하지만 최근 경범죄 발생이 증가하고 있으며 소매치기, 날치기, 차량을 이용한 절도행위 등을 유의해야 합니다.<br>\r\n</p>\r\n</div>",
+  "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ※ 나미비아에는 우리대사관이 없으며, 주앙골라한국대사관이 겸임하고 있습니다.<br>\nㅇ 주소 : Condominio Zenith, Torre 1, 3° Andar, Via AL 16, Talatona, Luanda, Angola<br>\nㅇ 대표번호(근무시간 중) : (244) 222-778-794<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (244) 938-880-573<br>\nㅇ E-mail : <a href=\"mailto:korembassy_angola@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">korembassy_angola@mofa.go.kr</a><br>\n<br>\n\n<h3>주재국 신고</h3> ㅇ 전국 범죄 신고 10111(빈툭시내 전용은 304)<br>\nㅇ 화재신고, 응급의료 211111<br>\n<br>\n\n<h3>관광통역 서비스</h3> ㅇ 관광경찰 10111<br>\n(범죄 신고 번화와 같으며, 관광객이라고 밝히면 관광객을 위한 경찰 파트로 연결해줌)<br>\nㅇ 관광통역 전화 서비스는 없습니다.<br>\n<br>\n\n<h3>의료기관 연락처</h3> ㅇ 주요 병원(병실 200석 이상)<br>\n\n<p>- 빈툭(Windhoek) 지역 : 빈툭 중앙병원(Windhoek Central), 빈툭 카투투라병원(Windhoek Katutura), 로버트무가베 (Robert Mugabe) 병원, 돈커후크(Donkerhoek) 병원<br>\n- 카티마물리로(Katima Mulilo) 지역 : 카티마물리로병원, 바투바자(Batubaja) 병원<br>\n- 난쿤두(Nankundu) 지역 : 카루하(Gcaruha) 병원<br>\n- 룬두(Rundu) 지역 : 룬두병원, 콰징가(Gcwatjinga) 병원<br>\n- 엔젤라(Engela) 지역 : 엔젤라병원, 에둔자(Edundja) 병원<br>\n- 오시쿠쿠(Oshikuku) 지역 : 오시쿠쿠병원, 오공고(Ogongo) 병원<br>\n- 오샤카티(Oshakati) 지역 : 오샤카티병원, 옴푼자(Ompundja) 병원<br>- 오난조퀴(Onandjokwe) 지역 : 오난조퀴병원, 은다모나(Ndamona) 병원</p></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "나미비아 사람들은 상대방과 눈을 맞추며 인사하는 것을 예의로 여기며, 어른을 공경하고 예의를 갖추는 문화를 중요하게 생각합니다. 타인의 사진을 촬영할 때는 반드시 사전에 정중하게 양해를 구하는 것이 좋습니다. 또한 식사할 때는 오른손을 주로 사용하며, 공공장소에서의 과도한 애정 행각은 자제하는 것이 바람직합니다.",
-    "business_tip": "비즈니스 관계에서는 신뢰와 인내심을 바탕으로 대면 관계를 구축하는 것이 무엇보다 중요합니다. 업무 미팅 시에는 너무 성급하게 본론으로 들어가기보다 정중한 안부 인사와 사적인 대화를 나누며 분위기를 조성하는 것이 좋습니다.",
+    "etiquette": "나미비아 사람들은 인사를 중요하게 여기므로 식당이나 상점에 들어갈 때 가벼운 인사로 시작하는 것이 좋습니다. 사진 촬영 시에는 반드시 사전에 상대방의 동의를 구해야 하며, 특히 부족 마을이나 지역 주민을 촬영할 때 더욱 주의해야 합니다. 팁 문화가 보편화되어 있어 식당이나 숙소 이용 시 총액의 10% 정도를 남기는 것이 예의입니다.",
+    "local_laws": "나미비아에서는 야생동물 보호법이 엄격하여 국립공원 내에서 차에서 내리거나 동물에게 먹이를 주는 행위는 엄격히 금지됩니다. 또한 공공장소에서의 과도한 음주가 제한될 수 있으며, 마약 소지 및 투약은 매우 무거운 처벌을 받으므로 절대 주의해야 합니다.",
     "phrases": [
-      "안녕하세요 - 몰로(Molo)",
-      "감사합니다 - 댕키(Dankie)",
-      "괜찮습니다/문제없습니다 - 게인 플레(Geen probleem)",
-      "얼마인가요? - 후르 코스 디트(Hoe kos dit)",
-      "안녕히 가세요 - 토트 시엔스(Tot siens)"
+      "안녕하세요 - 모르(Moro)",
+      "감사합니다 - 탕기(Tangki)",
+      "얼마인가요? - 오나스케 웅카(Onaske unka?)",
+      "도와주세요 - 에카와 망게(Ekawa mange)",
+      "네/아니요 - 이야(Iya) / 아예(Aye)"
     ]
   }
 }
