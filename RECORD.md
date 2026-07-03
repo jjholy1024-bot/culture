@@ -124,6 +124,12 @@ GlobalRecruit과 톤 통일, 메인 컬러 `#1E8E6E`(초록). Vanilla JS + Leafl
   - **프론트엔드**: [main.js](file:///D:/public_data/culture/main.js)에 `decodeHTMLEntities` 함수를 구현하여 단일 및 중복 이스케이프된 HTML 엔티티(`&middot;`, `&eacute;`, `&bull;`, `&ccedil;` 등)를 브라우저 단에서도 완벽히 해석하도록 처리하였습니다.
 - **캐시**: `index.html` 내 `main.js` 호출부의 캐시버스터를 `?v=20260703e`로 업데이트하였습니다.
 
+### 11. AI 생성 문화 및 법률 콘텐츠의 시각적 위계화 (5차 세션)
+- **개선**: `culture_ai` 필드(`etiquette` 및 `local_laws`)에 표시되는 AI 생성 텍스트의 포맷을 명사형 종결 어미, 핵심 키워드 볼드체, 이모지(🚨, ⚠️, 💡) 및 트리 구조 목록 형태로 리팩토링했습니다.
+- **백엔드**: [collect_data.py](file:///D:/public_data/culture/collect_data.py)의 Gemini API 프롬프트를 보완하여 시각적 위계(Visual Hierarchy) 규칙과 출력 포맷 제약 사항을 엄격히 준수하도록 수정했습니다. 또한 기존 캐시된 데이터가 구식 포맷일 경우 자동으로 무효화 및 재생성되도록 `load_existing_culture_ai` 함수를 업데이트했습니다.
+- **프론트엔드**: [main.js](file:///D:/public_data/culture/main.js)에 `parseMarkdown` 마크다운 파서 헬퍼를 직접 구현하여 마크다운 리스트 및 굵은 글씨 문법을 HTML로 깔끔하게 파싱해 렌더링되도록 처리했습니다. 지도 팝업 등에서도 첫 줄 파싱이 안정적으로 처리되도록 보완했습니다.
+- **캐시**: `index.html` 내 `main.js` 호출부의 캐시버스터를 `?v=20260703f`로 업데이트하였습니다.
+
 ---
 
 ## 참고 사항

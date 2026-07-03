@@ -13,14 +13,14 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3>\n<p>ㅇ 주소 : Embassy of the Republic of Korea, Plot 14 Ternan Avenue, Nakasero, Kampala, Uganda, P.O.Box 27278<br>\nㅇ 대표번호(근무시간 중) : +256 414-500-197<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +256 774-478-376<br>\nㅇ 이메일 : <a href=\"mailto:emb.kampala@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">emb.kampala@mofa.go.kr</a><br></p>\n<h3>주재국 신고</h3>\n<p>ㅇ 경찰 : 999 또는 112<br>\nㅇ 화재 : 0421222 또는 0714 667 752 또는 0800121222<br>\nㅇ 구급차 : 아래 의료기관에 연락<br></p>\n<h3>의료기관 연락처</h3>\n<p>[Kampala 캄팔라]</p>\n<p>ㅇ 베데스다 선교병원 : 0393 274 584<br>ㅇ Nakasero Hospital : 0312 531 400 / (외국인전용전화) 0706 346 023</p>\n<p>ㅇ International Hospital Kampala : 0312 200 400</p>\n<p>ㅇ Mulago National Referral Hospital : 0414 554 001 또는 0414 554 008</p>\n<p>ㅇ UMC Victoria Hospital : 0312 222 555</p>\n<p>ㅇ The Surgery : 0772 756 003, 031 225 6001~3<br></p>\n<p><br></p>\n<p>[Gulu 굴루] </p>\n<p>ㅇ St. Mary&#x27;s Hospital Lacor : 0471 432 310</p>\n<p>ㅇ Gulu Regional Referral Hospital : 0783 727 041</p>\n<p><br></p>\n<p>[Jinja 진자]</p>\n<p>ㅇ Buwenge Hospital : 0718 723 503</p>\n<p>ㅇ Jinja Regional Referral Hospital : 0434 256 431</p>\n<p><br></p>\n<p>[Mbarara 음바라라]</p>\n<p>ㅇ Mbarara Regional Referral Hospital : 0753034506<br></p>\n<p><br></p>\n<p>[Kumi 쿠미] <br>ㅇ Kumi Hospital : 0776 221 443</p>\n<p><br></p>\n<p>[Mbale 음발레]<br>\nㅇ Mbale Regional Referral Hospital : 0777 837 451<br>\n<br></p></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "우간다 사람들은 인사를 매우 중요하게 생각하므로 처음 만나는 사람에게 정중히 악수를 하는 것이 좋습니다. 어르신이나 높은 직위에 있는 사람에게는 두 손으로 악수하며 고개를 살짝 숙여 경의를 표하십시오. 또한, 공공장소에서 지나치게 노출이 심한 복장은 피하고 단정한 차림을 유지하는 것이 현지 문화를 존중하는 방법입니다.",
-    "local_laws": "우간다에서는 군사 시설, 정부 건물, 공항 등 국가 주요 시설에 대한 사진 촬영이 엄격히 금지되어 있으니 주의해야 합니다. 또한, 성소수자(LGBTQ+)에 대한 법적 처벌 규정이 매우 엄격하므로 공개적인 애정 표현은 삼가야 합니다. 현지인의 동의 없이 무단으로 인물 사진을 촬영하는 것은 불쾌감을 줄 수 있고 문제의 소지가 있으니 반드시 촬영 전 허락을 구하십시오.",
+    "etiquette": "💡 **우간다 현지 문화 및 예절**\n* **인사 및 대인 관계**\n    * 악수할 때 왼손 사용은 **매너 위반**\n    * 연장자 앞에서는 **정중한 태도 유지** 필수\n* **복장 및 사진 촬영**\n    * 공공장소 내 노출 심한 의상은 **삼가**\n    * 군사 시설 및 정부 청사는 **촬영 금지**\n    * 현지인 사진 촬영 전 **반드시 사전 허락** 필요",
+    "local_laws": "🚨 **안전 및 법률 주의사항**\n* **법적 처벌 대상**\n    * 성소수자 관련 행위는 **엄격한 처벌 대상**\n    * 마약류 소지 및 투약 시 **강력한 법적 제재**\n* **안전 유의**\n    * 야간 도보 이동은 **강력 자제**\n    * 치안 불안 지역 방문 전 **영사 콜센터 확인** 필수\n    * 비공식 환전은 **사기 주의** 및 법적 문제 발생 가능",
     "phrases": [
-      "안녕하세요 - 물레무(Mulembe)",
-      "감사합니다 - 웨발레(Webale)",
-      "좋아요/괜찮아요 - 울룽기(Bulungi)",
-      "도와주세요 - 은야바라(Nyabara)",
-      "얼마인가요? - 오무도 오차냐? (Omudo otya?)"
+      "안녕하세요 - 무레베(Mulebe)",
+      "감사합니다 - 웨바레(Webale)",
+      "네 - 예(Ee)",
+      "아니오 - 아바(Aba)",
+      "얼마인가요? - 오무가 카와(Omugayo kawa?)"
     ]
   }
 }

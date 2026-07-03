@@ -19,14 +19,14 @@
   "local_contact_html": "<h3>대사관 연락처</h3> ※ 보스니아헤르체고비나에는 우리대사관이 없으며, 주크로아티아대사관이 겸임하고 있습니다.<br>\nㅇ 주소 : Ksaverska cesta 111/A-B, 10000 Zagreb, Croatia<br>\nㅇ 대표번호(근무시간 중) : (385) (0)1-4821-282<br>\nㅇ 긴급 사건사고 연락처(영사안전콜센터, 서울/24시간) : 02-3210-0404 ※영사콜센터 무료전화앱: 카카오톡, 라인<br>\nㅇ 이메일 : <a href=\"mailto:croatia@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">croatia@mofa.go.k</a><br>\n<br>\n\n<h3>겸임국 신고</h3> □ 긴급상황<br>\nㅇ 경찰 : 122<br>\nㅇ 화재 : 123<br>\nㅇ 구급차 : 124<br>\nㅇ 자동차 고장신고<br>\n\n<p>- 사라예보 : 1282<br>- 바냐루카 : 1285</p><br>\n\n<h3>의료기관 연락처</h3> [병원정보]<br>\nㅇ 의료 서비스<br>\n\n<p>- 대부분의 개인 병원들은 의료비가 비슷합니다. 그러나 일부 사설 클리닉에서는 더 높은 가격을 청구할 수도 있습니다.<br>- 의료비에 대한 불이익을 방지하기 위해서 의료 서비스를 받기 전에 의료비 상담을 하는 것을 권장합니다.</p><br>\n ㅇ 사라예보 종합병원(J.U. Opća bolnica Prim. Dr. Abdulah Nakaš)<br>\n\n<p>- 연락처 : +387-(0)33-285-100<br>- 주소 : Kranjčevićeva 12, 71000 Sarajevo</p><br>\n ㅇ 사라예보 대학병원(Klinički centar univerziteta u Sarajevu) <br>\n\n<p>- 연락처 : +387-(0)33-297-000<br>- 주소 : Bolnička 25, 71000 Sarajevo</p><br>\n ㅇ 바냐루카 대학병원(Univerzitetski klinički centar Republike Srpske) <br>\n\n<p>- 연락처 : +387-(0)51-342-100<br>- 주소 : Univerzitetska bolnica Klinički centar Banja Luka Dvanaest beba bb, 78000 Banja Luka</p><br>\n ㅇ 모스타르 대학 병원(Sveučilška klinička bolnica Mostar)<br>\n\n<p>- 연락처 : +387-(0)36-336-000<br>- 주소 : Dr. Petra Rizza bb, 88000 Mostar</p><br>\n [약국정보]<br>\nㅇ 사라예보 Apoteke Sarajevo<br>\n\n<p>- 연락처 : +387-(0)33-552-130<br>- 주소 : Maršala Tita 1, 71000 Sarajevo</p><br>\nㅇ 바냐루카 Maja Apoteka<br>\n\n<p>- 연락처 : +387-(0)51-223-540<br>- 주소 : Milana Tepica 17, 78000 Banja Luka</p><br>\n ㅇ 모스타르 Apoteka Europharm<br>\n\n<p>- 연락처 : +387-(0)36-580-280<br>- 주소 : Mostarskog Bataljona b.b, 88000 Mostar</p>\n<p><br></p>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "보스니아헤르체고비나는 손님을 환대하는 문화가 강하며, 현지 가정에 초대받았을 때 작은 선물이나 꽃을 가져가는 것이 좋습니다. 커피 문화가 매우 발달해 있어 식사 후 느긋하게 커피를 즐기는 것이 일반적이며, 대화 시 종교나 전쟁과 같은 민감한 주제는 피하는 것이 예의입니다. 또한, 공공장소에서 과도한 애정 행각은 삼가고 상대방의 종교적 관습을 존중하는 태도를 유지해야 합니다.",
-    "local_laws": "전쟁의 아픔이 남아있는 국가이므로 길에서 벗어난 숲이나 들판 등 표지판이 없는 지역은 지뢰 위험이 있으니 절대 진입하지 마십시오. 또한, 공공장소에서의 과도한 음주나 노상 방뇨는 엄격히 금지되며 벌금형에 처할 수 있습니다. 여권은 항상 휴대해야 하며, 사진 촬영 시 군사 시설이나 경찰 등 보안 구역은 촬영이 엄격히 제한되므로 주의가 필요합니다.",
+    "etiquette": "💡 **문화 및 종교 예절**\n* **종교 시설 방문**\n    * 모스크 입장 시 **신발 벗기 필수** 및 여성은 **스카프로 머리 가리기**\n    * 기도 중인 신도 사진 촬영 **엄격히 금지**\n* **일상 소통 및 예의**\n    * 노인에 대한 존중 및 **좌석 양보 문화** 준수\n    * 커피 문화가 발달하여 대화 시 **충분한 시간 할애** 권장",
+    "local_laws": "🚨 **안전 및 법적 주의사항**\n* **지뢰 및 안전 지대**\n    * 산악 지대 및 외곽 지역의 **표지판 없는 구역 진입 절대 금지** (내전 당시 지뢰 위험)\n    * 반드시 **포장된 도로 이용** 및 산책로 이탈 금지\n* **사진 촬영 제한**\n    * 군사 시설 및 정부 청사 부근 **촬영 시 처벌 가능**\n    * 경찰서 등 공공 기관 앞에서의 사진 촬영 **주의**",
     "phrases": [
-      "안녕하세요 - zdravo (즈드라보)",
-      "감사합니다 - Hvala (흐발라)",
-      "죄송합니다 - Izvini (이즈비니)",
-      "얼마인가요? - Koliko košta? (콜리코 코슈타?)",
-      "도와주세요 - Molim vas, pomozite mi (몰림 바스, 포모지테 미)"
+      "안녕하세요 - 다바르 달(Dobar dan)",
+      "감사합니다 - 흐발라(Hvala)",
+      "네 / 아니요 - 다(Da) / 네(Ne)",
+      "얼마인가요? - 콜리코 코슈타?(Koliko košta?)",
+      "도와주세요 - 포모치테(Pomozite)"
     ]
   }
 }

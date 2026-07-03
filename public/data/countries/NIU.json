@@ -13,14 +13,14 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ※ 니우에는 우리대사관이 없으며, 주뉴질랜드한국대사관이 업무를 관할하고 있습니다.<br>\nㅇ 주소 : Level 20, ANZ Centre, 171 Featherston Street, Wellington 6011, New Zealand<br>\n\n<p>ㅇ 이메일 : </p>\n<p>     - 일반문의 : <a href=\"mailto:info-nz@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">info-nz@mofa.go.kr</a></p>\n<p>     - 영사 및 비자 : consular-nz@mofa.go.kr, consular2-nz@mofa.go.kr</p>\n<p>     - 정무 : sebyuk.yang@mofa.go.kr</p>\n<p>     - 경제 : economic-nz@mofa.go.kr</p>\n<p>     - 문화홍보 : jhkim69@mofa.go.kr<br>\nㅇ 대표번호(근무시간 중) : (64) 4-473-9073<br></p>ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (64) 21-0269-3271<br>\n\n<h3>현지 긴급 연락처<br></h3> ㅇ 현지 긴급 연락처\n<div>- 경찰·화재·응급 : +683-999</div>\n<div>- 니우에 경찰서 : +683-4333, police@gov.nu</div>\n<h3>의료기관 연락처</h3> ㅇ Niue Foou Hospital <br>\n\n<p>- 주소 : Kaimiti, Alofi<br>\n- 운영시간 : ▲월~목요일 8am ~ 4pm, ▲금요일 9am ~ 10am &amp; 7pm ~ 8pm, ▲주말 및 공휴일  9am ~ 10am &amp; 7pm ~ 8pm <br>- 전화번호 : +683-4100</p>\n<p><br></p></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "니우에 사람들은 매우 친절하며 서로 인사를 나누는 것을 중요하게 생각하므로, 길에서 마주치는 현지인에게 가벼운 미소와 함께 눈인사를 건네는 것이 좋습니다. 주일(일요일)에는 대부분의 주민이 교회에 가거나 휴식을 취하므로, 공공장소에서의 정숙을 유지하고 종교 활동을 존중해야 합니다. 또한, 사유지나 신성한 구역(Tapu)으로 지정된 장소는 표지판을 확인하고 함부로 출입하지 않도록 주의하세요.",
-    "local_laws": "니우에에서는 문화재나 동굴 내의 종유석을 훼손하거나 외부로 반출하는 행위가 엄격히 금지되어 있습니다. 또한, 섬 전체가 생태계 보호를 위해 엄격한 환경 규정을 두고 있으므로 쓰레기를 함부로 버리거나 야생 동물을 채집하지 않도록 각별히 유의해야 합니다.",
+    "etiquette": "💡 **현지 문화 및 에티켓**\n* **인사 및 대인 관계**\n    * 현지인과 눈을 맞추며 **미소로 인사** 필수\n    * 일요일은 **종교 활동 중심**으로 조용한 분위기 유지\n* **방문 예절**\n    * 마을이나 사유지 방문 시 **사전 허가** 필수\n    * 사진 촬영 전 현지인에게 **동의 구하기** 필수",
+    "local_laws": "🚨 **안전 및 법률 주의사항**\n* **환경 보호 및 자연 유산**\n    * 산호초 훼손 및 채취 **엄격히 금지**\n    * 해양 보호구역 내 **무단 낚시 및 채집 처벌** 대상\n* **교통 및 안전**\n    * 오토바이 및 차량 운전 시 **헬멧 착용 필수**\n    * 야간 도로 주행 시 **동물 출몰 주의**",
     "phrases": [
-      "안녕하세요 - 팍알로하(Fakaalofa lahi atu)",
-      "감사합니다 - 파카페카(Fakaaue lahi)",
-      "네 - 에(E)",
-      "아니오 - 나히(Nahi)",
-      "안녕히 가세요(떠나는 사람에게) - 킬로 모이(Kilo moi)"
+      "안녕하세요 - Fakaalofa lahi atu (파카알로파 라히 아투)",
+      "감사합니다 - Fakaaue lahi (파카아우에 라히)",
+      "예 - E (에)",
+      "아니오 - Nakai (나카이)",
+      "안녕히 가세요 - Monuina e fenoga (모누이나 에 페노가)"
     ]
   }
 }

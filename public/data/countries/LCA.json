@@ -9,18 +9,18 @@
     "partial_level": null,
     "regions": []
   },
-  "accident_info_html": "<div>\r\n<h3>자연재해</h3>\r\nㅇ 6~11월 카리브지역 허리케인 시즌이나 세인트루시아는 피해가 적음<br><br>\r\n\r\n<h3>유의해야할 지역</h3>\r\nㅇ 거리에서의 소매치기, 강간 또는 강도 사례도 자주 발생하므로, 분명한 주의를 요합니다.<br>\r\nㅇ 시내 중심가 및 외진 곳은 관광객을 대상으로 하는 범죄가 빈번히 발생하므로 방문을 자제하시고, 필요 시, 신원이 확실한 현지인과 동반 방문을 권합니다.<br>\r\nㅇ 불특정한 곳에 남겨진 음식 및 음료는 법죄와 연관될 수 있으니, 접촉을 삼가바랍니다.<br>\r\nㅇ 수상 스포츠 시, 야간 이용 및  1인 활동 금지, 공식적 스포츠로 공인된 곳을 이용하시기 바랍니다.<br></div>",
+  "accident_info_html": "",
   "local_contact_html": "<div>\r\n<h3>대사관 연락처</h3> ※ 세인트루시아에는 우리대사관이 없으며, 주트리니다드한국대사관이 겸임하고 있습니다.<br>\r\nㅇ 주소 : #36 Elizabeth Street, St. Clair, Port of Spain, Trinidad and Tobago<br>\r\nㅇ 대표번호(근무시간 중) : (1) 868-622-9081<br>\r\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (1) 868-381-8977<br>\r\nㅇ 이메일 : <a href=\"mailto:trinidad@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">trinidad@mofa.go.kr</a><br>\r\n<br>\r\n\r\n<h3>주재국 신고</h3> ㅇ 소방서 : 911<br>\r\nㅇ 경찰서 및 앰뷸런스 : 999<br>\r\n<br>\r\n\r\n<h3>관광통역서비스</h3> ㅇ St.Lucia Tourism Office<br>\r\n\r\n<p>- 주소 : Box 221, Vide Boutielle Castries, St.Lucia<br>\r\n- 홈페이지 : <a href=\"http://www.stlucia.org/\" target=\"_blank\" rel=\"noopener\">www.stlucia.org</a></p><br>\r\n\r\n<h3>의료기관 연락처</h3> ㅇ Victoria Hospital : +1-758-452-2421<br></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "세인트루시아 사람들은 인사를 중요하게 생각하므로 상점이나 길거리에서 마주치는 사람들에게 가벼운 인사말을 건네는 것이 좋습니다. 대화할 때는 너무 서두르지 않고 여유로운 태도를 유지하는 것이 예의이며, 현지인들의 일상을 존중하는 태도가 중요합니다. 교회나 격식 있는 장소를 방문할 때는 노출이 심한 옷을 피하고 단정한 복장을 착용하는 것이 바람직합니다.",
-    "local_laws": "카리브해 국가인 세인트루시아에서는 군용 복장(카무플라주 패턴의 의류)을 일반인이 착용하는 것이 엄격히 금지되어 있습니다. 또한, 해변에서 상의를 탈의하고 일광욕을 하는 행위는 법으로 금지되어 있으므로 주의해야 하며, 공공장소에서의 과도한 음주나 소란 행위는 처벌받을 수 있습니다.",
+    "etiquette": "💡 **현지 문화 및 예절 가이드**\n* **복장 규정**\n    * 호텔 외부에서 **수영복 착용 금지**\n    * 해변 외 장소에서는 **단정한 일상복 필수**\n* **사교 예절**\n    * 현지인에게 가벼운 **'Good morning/afternoon' 인사 필수**\n    * 식당 및 상점 입장 시 **정중한 인사 습관**",
+    "local_laws": "🚨 **필수 안전 및 법률 주의사항**\n* **군복 패턴 복장**\n    * 카리브해 국가 특성상 **군복 무늬 의류 착용 엄격 금지**\n    * 위반 시 **압수 및 현장 처벌** 주의\n* **약물 및 범죄 관련**\n    * 마약 소지 및 유통은 **중범죄 처벌** 대상\n    * 밤 시간대 인적이 드문 **해변 도보 이동 주의**\n* **사진 촬영**\n    * 현지인 촬영 전 **사전 동의 필수**",
     "phrases": [
-      "안녕하세요 - 굿 모닝/굿 애프터눈(Good morning / Good afternoon)",
-      "감사합니다 - 땡큐(Thank you)",
-      "어떻게 지내세요? - 하우 아 유(How are you?)",
-      "실례합니다 - 익스큐즈 미(Excuse me)",
-      "괜찮아요 - 잇츠 올라이트(It's alright)"
+      "안녕하세요 (아침) - Good Morning (굿 모닝)",
+      "감사합니다 - Thank you (땡큐)",
+      "얼마인가요? - How much? (하우 머치?)",
+      "실례합니다 - Excuse me (익스큐즈 미)",
+      "네 / 아니오 - Yes / No (예스 / 노)"
     ]
   }
 }

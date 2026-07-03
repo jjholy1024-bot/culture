@@ -15,18 +15,18 @@
       }
     ]
   },
-  "accident_info_html": "<div>\r\n<h3>사건ㆍ사고 현황</h3>\r\nㅇ 사회가 안정되어있어 살인, 강도 등의 강력범죄 피해는 거의 없습니다.<br><br>\r\n\r\n<h3>사건ㆍ사고의 유형</h3>\r\nㅇ 전체적으로 치안상태가 양호하여 특별한 여행제한지역은 없으나, 빌니우스 시내 관광지, 기차역 주변 등 일부지역에서 여행자 대상 소매치기 사례가 가끔 있습니다.<br>\r\nㅇ 손가방을 손에서 놓거나 시선을 떼지 말고, 현금 소지를 줄이고 가능한 신용카드를 사용하시기 바랍니다.<br>\r\nㅇ 야간에 거리를 배회하는 행동을 삼가하고 가능한 3-4명이 함께 이동하시기 바랍니니다.<br><br>\r\n\r\n<h3>유의해야할 지역</h3>\r\nㅇ빌니우스 시내 관광지, 기차역 주변 등 일부지역에서 여행자 대상 소매치기 사건이 가끔 발생하니 소지품 관리에 유의하시기 바랍니다.<br></div>",
+  "accident_info_html": "",
   "local_contact_html": "<h3>대사관 연락처</h3>\n<p> ※ 주리투아니아대한민국 대사관은 2024.10월에 개설되었습니다.<br>\nㅇ 주소 : Liubarto g. 33, Vilnius, Lithuania 08117<br>\nㅇ 이메일 : <a href=\"mailto:koremb_waw@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">koremb_ltu@mofa.go.kr</a><br>ㅇ 대표번호(근무시간 중) : +(370) 520 31 202</p>\n<p>ㅇ 재외동포청 영사안전콜센터 (24시간): +82-2-6747-0404 (통화요금 부과)</p>\n<p>                                                              : &#x27;영사안전콜센터 무료전화앱&#x27; 설치시 무료통화 이용가능<br></p>\n<p>ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시) : +(370) 610 76 201</p>\n<h3>주재국 신고</h3>ㅇ (화재,사고,경찰,구급차) : 112(우리나라 119와 같음)<br>\n<br>\n\n<h3>관광통역서비스</h3> [관광안내]<br>\nㅇ <a href=\"http://www.lithuania.travel/\" target=\"_blank\" rel=\"noopener\">http://www.lithuania.travel</a><br>\nㅇ <a href=\"http://tourism.lt/\" target=\"_blank\" rel=\"noopener\">http://tourism.lt</a><br>\nㅇ <a href=\"http://www.visitlithuania.net/\" target=\"_blank\" rel=\"noopener\">http://www.visitlithuania.net</a><br>\n<br>\n\n<h3>의료기관 연락처</h3> ▪ Medicinos Diagnostikos Centras(응급시 24시간 엠브란스 운용)<br>\nㅇ 주소 : V. Grybo str. 32A, LT-10318 Vilnius, Lithuania<br>\nㅇ 전화 : +370852333000, +370869800000<br>\nㅇ 웹사이트 : <a href=\"http://www.medcentras.lt/\" target=\"_blank\" rel=\"noopener\">http://www.medcentras.lt</a><br>\n<br>\n ▪ Baltic Amerika Clinic(응급시 24시간 엠브란스 운용)<br>\nㅇ 주소 : Nemencine road 54a, LT-10103 Vilnius, Lithuania<br>\nㅇ 전화 : +37052342020, 휴대폰 : +37069852655 , +37068214000<br>\nㅇ 웹사이트: <a href=\"http://www.bak.lt/\" target=\"_blank\" rel=\"noopener\">http://www.bak.lt</a><br>\n<br>\n\n<p><br></p>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "리투아니아 사람들은 처음 만나는 사람에게는 다소 내성적이지만, 친해지면 매우 친절하고 환대하는 문화를 가지고 있습니다. 실내에서는 신발을 벗는 것이 일반적인 예절이며, 방문 시 작은 꽃이나 초콜릿을 선물하는 것이 좋습니다. 식당에서는 식사 시작 전 'Skanaus!(맛있게 드세요)'라고 말하는 것이 예의입니다.",
-    "local_laws": "공공장소에서 술을 마시는 행위는 엄격히 금지되어 있으며, 이를 어길 시 높은 과태료가 부과됩니다. 또한, 리투아니아는 대중교통 이용 시 반드시 승차권을 미리 구매하여 개찰해야 하며, 검표원에게 유효한 티켓을 제시하지 못하면 즉석에서 무거운 벌금을 물게 되니 주의해야 합니다.",
+    "etiquette": "💡 **현지 문화 및 에티켓**\n* **식사 및 대화 예절**\n    * 식당에서 큰 소리로 **대화 금지**\n    * 대중교통 이용 시 조용한 **정숙 유지 필수**\n* **방문 예절**\n    * 가정집 방문 시 신발은 **현관에 벗기**\n    * 꽃 선물 시 **홀수**로 준비(짝수는 장례용으로 간주)",
+    "local_laws": "🚨 **필수 안전 법규 및 주의사항**\n* **음주 및 흡연 규제**\n    * 공공장소에서의 **음주 및 주취 소란 행위 금지**\n    * 지정된 장소 외 **길거리 흡연 적발 시 벌금 부과**\n* **치안 및 질서 유지**\n    * 야간 단독 보행 시 **소지품 분실 주의**\n    * 경찰 공무원 대상 **불손한 태도 및 도발 행위 처벌**",
     "phrases": [
-      "안녕하세요 - Labas(라바스)",
-      "감사합니다 - Ačiū(아츄)",
-      "죄송합니다 - Atsiprašau(아치프라샤우)",
-      "네 / 아니요 - Taip(타이프) / Ne(네)",
-      "얼마인가요? - Kiek tai kainuoja?(키엑 타이 카이누오야?)"
+      "안녕하세요 - 라바스(Labas)",
+      "감사합니다 - 아추(Ačiū)",
+      "죄송합니다 - 아츠프라샤우(Atsiprašau)",
+      "얼마인가요? - 키엑 카이누오야(Kiek kainuoja?)",
+      "예/아니오 - 타이프/네(Taip/Ne)"
     ]
   }
 }

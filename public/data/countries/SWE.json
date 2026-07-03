@@ -13,13 +13,13 @@
   "local_contact_html": "<div> \r\n<h3>대사관 연락처</h3> ㅇ 주소 : Laboratoriegatan 10, 102 53 Stockholm, Sweden<br>\r\n ㅇ 이메일 : <a href=\"mailto:koremb.sweden@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">koremb.sweden@mofa.go.kr</a><br>\r\n ㅇ 대표번호(근무시간 중) : (46) 8-5458-9400<br>\r\n ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (46) 73-564-1648<br>\r\n <br>\r\n \r\n<h3>주재국 신고</h3> ㅇ 경찰 : 전화 : 112 / 또는 11414<br>\r\n ㅇ 화재 시 : 전화 : 112<br>\r\n ㅇ 긴급의료지원 : 거주지 소속 공립병원 응급실로 찾아감<br>\r\n ㅇ 앰뷸런스 요청 전화 : 112<br>\r\n ㅇ 야간약국(공휴일 포함) : 중앙역 근처(전화 : +46 (08) 454 8130)<br>\r\n <br>\r\n \r\n<h3>관광통역 서비스</h3> ㅇ Stockholm Visitors Board(Guide Reservation)<br>\r\n \r\n<p>- +46 (08) 508 28 <a href=\"mailto:508/info@svb.stockholm.se\" target=\"_blank\" rel=\"noopener\">508/info@svb.stockholm.se</a></p><br>\r\n ㅇ Gothenburg<br>\r\n \r\n<p>- +46 (031) 38 42 <a href=\"mailto:00/turistinfo@goteborg.com\" target=\"_blank\" rel=\"noopener\">00/turistinfo@goteborg.com</a></p><br>\r\n ㅇ Malmo<br>\r\n \r\n<p>- +46 (0)40 34 12 <a href=\"mailto:00/malmo.turism@malmo.se\" target=\"_blank\" rel=\"noopener\">00/malmo.turism@malmo.se</a></p><br>\r\n \r\n<h3>의료기관 연락처</h3> ㅇ 단데뤼드 병원(Danderyd)<br>\r\n \r\n<p>- <a href=\"http://www.ds.se/\" target=\"_blank\" rel=\"noopener\">www.ds.se</a><br> - 전화번호 : +46 (08) 655-5000</p><br>\r\n ㅇ 카롤린스카 대학병원 <br>\r\n \r\n<p>- <a href=\"http://www.karolinska.se/\" target=\"_blank\" rel=\"noopener\">www.karolinska.se</a><br>\r\n - Huddinge : +46 (08) 5858-0000<br> - Solna : + 46 (08) 5177 -0000</p><br>\r\n ㅇ 세인트 여란병원<br>\r\n \r\n<p>- <a href=\"http://www. stgoran.se\" target=\"_blank\" rel=\"noopener\">www. stgoran.se</a><br> - +46 (08) 5870-1000</p></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "스웨덴에서는 타인의 사생활을 존중하며 줄을 서서 차례를 기다리는 질서 의식이 매우 강합니다. 실내에 들어갈 때는 신발을 벗는 것이 일반적인 예절이며, 타인과 대화할 때 개인 공간을 충분히 확보하는 것이 좋습니다. 또한 '라곰(Lagom)'이라는 문화처럼 과하지 않고 적당함을 유지하는 태도가 높게 평가받습니다.",
-    "local_laws": "스웨덴은 공공장소에서의 음주가 엄격히 제한되며, 지정된 허가 구역 외에서의 음주는 불법입니다. 또한 10시 이후에는 소음 공해에 대해 엄격하므로 이웃에게 피해가 가지 않도록 주의해야 하며, 무단횡단이나 공공장소 쓰레기 투기 등 사소한 위반에도 벌금이 부과될 수 있습니다.",
+    "etiquette": "💡 **스웨덴 생활 및 사교 예절**\n* **피카(Fika) 문화**\n    * 커피와 디저트를 즐기는 **커피 휴식 시간 필수**\n    * 동료나 친구와 친밀감을 쌓는 **중요한 사교 문화**\n* **공공장소 정숙**\n    * 대중교통 및 실내에서 **큰 소리 대화 자제**\n    * 개인의 프라이버시를 존중하는 **조용한 분위기 유지**",
+    "local_laws": "🚨 **스웨덴 필수 준수 법률 및 주의사항**\n* **음주 및 약물 관련**\n    * 공공장소에서의 **무분별한 음주 금지**\n    * 허가받지 않은 장소에서의 음주는 **범칙금 부과**\n* **환경 및 쓰레기 관리**\n    * 쓰레기 무단 투기 시 **고액 벌금형**\n    * 분리수거 규정 미준수 시 **강력 제재**\n⚠️ **대중교통 이용**\n    * 무임승차 적발 시 **막대한 추가 요금 및 벌금**",
     "phrases": [
       "안녕하세요 - 헤이(Hej)",
       "감사합니다 - 탁(Tack)",
-      "죄송합니다(실례합니다) - 운 슐딕(Ursäkta)",
-      "네/아니요 - 야/네이(Ja/Nej)",
+      "죄송합니다 - 우르섹타(Ursäkta)",
+      "네 / 아니요 - 야(Ja) / 네이(Nej)",
       "도와주세요 - 혤프 미(Hjälp mig)"
     ]
   }

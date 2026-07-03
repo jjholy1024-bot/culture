@@ -24,13 +24,13 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ㅇ 주소 : 63, Avenue de la Justice, Commune de la Gombe, Kinshasa, RDC<br>\nㅇ 대표번호(근무시간 중) : (243) 821-911-712<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +82-2-3210-0404<br>\nㅇ 이메일 : <a href=\"mailto:amb-congo@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">amb-congo@mofa.go.kr</a><br>\n<br>\n [주한 콩고민주공화국 대사관]<br>\nㅇ 주소 : 서울시 종로구 내수동 167 대우빌딩복합동 702호<br>\nㅇ 전화 : 82 (0)2 722 7958<br>\nㅇ 팩스 : 82 (0)2 722 7998<br>\n<br>\n\n<h3>주재국 신고</h3>\n\n현지연락처\n\n\n \n<p>기관</p>\n \n<p>주소</p>\n \n<p>서비스</p>\n \n<p>전화번호</p>\n\n\n\n<p>경찰서</p>\n<p>(Police d’Intervention Rapide « PIR »)</p>\n\n<p>Avenue de la Victoire proche du rond   pointKimpwanza/Kasa- vubu </p>\n\n<p>Help desk</p>\n\n<p>+243852777070<br>\n+243998533498</p>\n\n\n\n<p>CMK 앰뷸런스<br>(Centre Médical de Kinshasa)</p>\n\n<p>168, Avenue   Wagénia Face au Beach Ngobila</p>\n\n<p>Ambulance / Help desk</p>\n\n<p>+243815555864<br>\n+243814726644</p>\n\n\n<br>\n<br>\n\n<h3>의료기관 연락처</h3> ㅇ 이 지역 말라리아는 뇌성 말라리아 변종이기 때문에 발병후 3일 이내 치료를 받지 않을 경우 사망할 가능성이 매우 높습니다. 따라서, 가벼운 감기·발열 증상이 있을 경우 지체 없이 바로 병원에 가서 말라리아 감염 여부 확인 검사를 받아야 합니다.<br>\nㅇ 킨샤사 지역에서 말라리아 감염 여부 확인 검사를 받기 위한 병원으로는 아래 병원이 있습니다. (킨샤사 시내에서 약 15분 거리, 1회 검사비 2500 콩고 프랑)<br>\n\n<p>- Ngaliema Medical Centre</p>\n<p>* 주소: 4197, Avenue de la montagne, Ngaliema. Kinshasa.<br>\n* 전화: - Emergencies: 243)(0)99 990 9283 또는 243)(0)99 975 2202<br>* Reception: 243)(0)99 999 2083</p> ㅇ 킨샤사 시내에서 말라리아 감염으로 입원치료가 필요할 경우에는 아래 병원을 이용하시기 바랍니다. 킨샤사 주재 대부분의 외교단, 외국인은 아래 병원을 이용합니다.<br>\n\n<p>- Diamant</p>\n<p>* 위치: Future Tower, Bur #101, Blv. 30 Juin, Gombe. Kinshasa<br>\n* 전화: - Reception: 243)(0)81 71 21 551<br>\n* email: <a href=\"mailto:kinshasa@cliniquediamant.com\" target=\"_blank\" rel=\"noopener\">kinshasa@cliniquediamant.com</a></p> ㅇ 전염병을 옮기는 파리, 모기 등 각종 벌레를 조심하여야 하며, 의복은 반드시 다리미로 다려야 합니다. 또한 건기에 모래밭을 맨발로 걷는 것은 피하는 것이 좋습니다.<br>\nㅇ 수돗물을 마시는 것은 위험하며, 반드시 생수를 구입해서 드시기 바랍니다.<br></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "콩고민주공화국에서는 상대방을 부를 때 성함이나 직함을 사용하여 정중하게 대하는 것이 매우 중요합니다. 현지인과 대화할 때는 가벼운 미소와 함께 악수를 나누는 것이 일반적인 인사법이며, 식사 시에는 오른손을 주로 사용하는 것이 예의입니다. 공공장소에서의 애정 표현이나 큰 소리로 화를 내는 행동은 삼가는 것이 좋으며, 현지 문화를 존중하는 태도를 유지해야 합니다.",
-    "local_laws": "군사 시설, 정부 청사, 공항, 국경 지역 등에서의 사진 및 영상 촬영은 엄격히 금지되어 있으며 이를 위반할 경우 장비 압수나 구금의 위험이 있습니다. 또한, 공공장소에서 복장 규정은 엄격하지 않으나 노출이 심한 옷은 피하는 것이 좋으며, 허가받지 않은 정치적 활동이나 집회 참여는 절대 금물입니다.",
+    "etiquette": "💡 **현지 문화 및 에티켓**\n* **사진 촬영 주의**\n    * 군사 시설, 공공기관, 정부 건물 **촬영 절대 금지**\n    * 현지인 촬영 전 반드시 **사전 동의 필수**\n* **인사 및 대인 예절**\n    * 오른손으로 인사 및 물건 전달 **필수** (왼손은 부정한 손으로 간주)\n    * 연장자에 대한 **예우와 존중 중요**",
+    "local_laws": "🚨 **안전 및 현지 법률 주의사항**\n* **신분증 소지 의무**\n    * 여권 및 비자 사본 항상 **소지 필수**\n    * 검문 시 비협조적 태도는 **구금 및 처벌 주의**\n* **통행 및 외출 제한**\n    * 야간 통행 **자제** 및 인적이 드문 곳 **방문 금지**\n    * 허가되지 않은 지역 출입 시 **체포 위험**\n* **정치적 발언 금지**\n    * 현지 정치 및 정세에 대한 민감한 대화 **엄격히 금지**",
     "phrases": [
       "안녕하세요 - 봉주르(Bonjour)",
-      "감사합니다 - 메르시(Merci)",
-      "얼마인가요? - 사 쿠트 콤비앙?(Ça coûte combien?)",
-      "네 / 아니오 - 위(Oui) / 농(Non)",
+      "감사합니다 - 메르씨(Merci)",
+      "죄송합니다 - 빠르동(Pardon)",
+      "얼마인가요? - 콤비앙 쿠트(Combien coûte ?)",
       "도와주세요 - 오 세쿠르(Au secours)"
     ]
   }

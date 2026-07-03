@@ -375,10 +375,12 @@ def load_existing_culture_ai(iso3):
             with open(path, "r", encoding="utf-8") as f:
                 existing = json.load(f)
                 ai = existing.get("culture_ai")
-                # local_laws 필드가 없거나 None이면 재생성 필요 (business_tip에서 변경됨)
-                if ai and not ai.get("local_laws"):
-                    return None
-                return ai
+                # local_laws 필드가 없거나, 새로운 포맷(💡/🚨/⚠️ 이모지 시작)이 아니면 None을 반환하여 재생성 유도
+                if ai and ai.get("local_laws"):
+                    etiquette = ai.get("etiquette", "")
+                    if etiquette.startswith("💡") or etiquette.startswith("🚨") or etiquette.startswith("⚠️"):
+                        return ai
+                return None
         except Exception:
             return None
     return None
@@ -387,8 +389,31 @@ def load_existing_culture_ai(iso3):
 def generate_culture_ai(country_kr, country_en):
     prompt = f"""당신은 해외 여행자를 위한 안전·문화 가이드 작가입니다. "{country_kr}({country_en})"에 대한 다음 정보를 JSON으로 작성하세요.
 
-1. etiquette: 현지 문화·예절 핵심 정보 (한국어, 3~4문장)
-2. local_laws: 여행자가 모르고 지나치기 쉬운 현지 법률·경범죄·주의사항 (한국어, 2~3문장). 예: 특이한 금지 행위, 음주·복장 규정, 무심코 저지르기 쉬운 위반, 각국 특유의 처벌 등.
+출력 데이터는 아래의 [제약 사항 및 디자인 가이드]와 [출력 포맷 예시]를 **엄격하게** 준수해야 합니다.
+
+[제약 사항 및 디자인 가이드]
+1. 현재 전체적인 UI 레이아웃은 고정되어 있으므로, 오직 '텍스트박스 내부에 들어갈 콘텐츠의 포맷'만 변경해야 합니다. 아래 마크다운 구조를 그대로 사용하세요.
+2. 유저가 스크롤하며 가볍게 읽어도 눈에 팍 꽂히도록 '시각적 위계(Visual Hierarchy)'를 만드세요.
+3. 정보의 성격에 맞는 이모지(🚨, ⚠️, 💡)를 타이틀 앞에 적절히 배치하세요.
+4. 문장은 "~합니다", "~형태입니다" 같은 장황한 설명조 대신, "~금지", "~주의", "~필수" 등 명사형 종결 어미를 활용하여 최대한 짧고 직관적으로 끊으세요.
+5. 유저에게 리스크가 되거나(벌금, 구금, 처벌 등) 행동의 기준이 되는 핵심 키워드는 볼드체(**텍스트**)로 강조하세요.
+6. 줄바꿈은 \\n 문자를 사용하여 개행을 명확히 하세요.
+
+[출력 포맷 예시]
+[이모지] **[카테고리/핵심 타이틀]**
+* **[대분류 키워드]**
+    * 핵심 내용 요약 (리스크 및 행동 지침 중심으로 단문 작성)
+    * **강조할 단어**는 반드시 볼드 처리
+
+예시:
+💡 **사찰 및 종교 예절**
+* **사찰 출입 및 복장**
+    * 노출이 심한 옷은 **입장 금지**
+    * 불상 앞에서의 무례한 태도는 **처벌 주의**
+
+위 예시 구조에 따라, 각 항목별로 아래 필드를 채우세요:
+1. etiquette: 현지 문화·예절 핵심 정보 (위 포맷에 따라 작성, 주로 💡 이모지 활용)
+2. local_laws: 여행자가 모르고 지나치기 쉬운 현지 법률·경범죄·주의사항 (위 포맷에 따라 작성, 주로 🚨 또는 ⚠️ 이모지 활용, 벌금/구금/처벌 등 리스크 행동 지침 중심)
 3. phrases: 여행자에게 유용한 현지어 표현 5개 (각각 "한국어 뜻 - 현지어 발음(현지 문자)" 형식의 문자열 배열)
 
 반드시 아래 JSON 형식으로만 응답하세요. 마크다운 코드블록이나 다른 설명 없이 순수 JSON만 출력하세요.

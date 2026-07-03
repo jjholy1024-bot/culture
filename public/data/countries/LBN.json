@@ -24,14 +24,14 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ㅇ 주소 : Bldg.4, Elias Sarkis Road 1209, Yarzeh, Baabda, Lebanon<br>\nㅇ 대표번호(근무시간 중) : (961) 5-922-846<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (961) 81-007-491<br>\nㅇ E-mail : <a href=\"mailto:lbkor@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">lbkor@mofa.go.kr</a><br>\n<br>\n\n<h3>주재국 신고</h3> ㅇ 경찰 : 112, 01-425250 / 01-422000<br>\nㅇ 구급차(앰뷸런스) : 125(Civil Defense), 140(Red Cross)<br>\nㅇ 화재 : 175, 01-445000<br>\nㅇ 베이루트 국제공항 : 150, 01-628000<br>\nㅇ MEA 항공사 : 1330, 01-629999<br>\nㅇ 출입국당국(General Security) : 1717, 01-425610<br>\n<br>\n\n<h3>의료기관 연락처</h3> [의료체계 설명 일반]<br>\nㅇ 중동 지역 중에서는 의료시설이 비교적 발달된 편이나, Public Hospital은 염가이지만 수준이 열악하고 의사소통에 문제가 있을 수 있습니다. 사설 병원은 시설 및 서비스가 양호한 편이며 대부분 베이루트, 트리폴리 등 대도시에 집중되어 있습니다. 농촌 및 산간지역 소재 병원은 사설 병원인 경우에도 시설 및 서비스가 떨어지는 편입니다.<br>\nㅇ 대부분의 사설 병원에서는 영어, 불어 등 외국어 사용이 가능합니다.<br>\nㅇ 향정신성 약품 등 일부 약품을 제외하고는 의사 처방전 없이 일반 약국에서 약품 구입이 가능합니다.<br>\nㅇ 레바논 여행 도중에 갑자기 병원을 이용해야 할 사정이 있는 경우, 응급실을 이용할 수는 있으나, 교통사고로 인한 부상이나 심각한 질병 치료 등 예기치 못한 상황이 발생한 경우 대사관에 연락하여 안내와 도움을 받는 것이 적절합니다.<br>\n<br>\n [베이루트 소재 주요 병원(병원명, 소재지, 전화번호 순)]<br>\n\n<p>- American University Hospital(AUH) / Makdissi Street / 01-350000, 01-340460<br>\n- Hotel Dieu Hospital / Adib Ishak Street / 01-615300, 01-615400<br>\n- Rizk Hospital / Zahar street Achrafieh / 01-200800, 01-328800<br>\n- St. George Hospital / Youssef Sursock street / 01-585700, 01-581700<br>\n- Middle East Hospital / Alfred Trad Street, Ramlet El-Baida / 01-861601, 01-809555<br></p><br>\n [바브다 소재 주요병원(병원명, 소재지, 전화번호 순)]<br>\n\n<p>- St.Charles Hospital / Raihanieh Street, Feyadieh / 5-454371~2<br>- Sacre Coeur Hospital / Brasilia Street / 5-457112</p><br>\n [베카 소재 주요병원(병원명, 소재지, 전화번호 순)]<br>\n\n<p>- Lebanese-French Hospital / Haouch El Oumara / 8-810121~7<br>\n- Khoury General Hospital / Brazil Street, Zahle / 8-8070001~2<br>\n- Tal-Chiha Hospital / Zahle / 8-807782~5<br>- Mais Hospital / Ferzoul / 8-804650</p></div><br>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "레바논 사람들은 손님을 매우 환대하며, 누군가의 집에 초대받았을 때는 작은 선물이나 꽃을 준비하는 것이 예의입니다. 공공장소에서의 애정 표현은 자제하는 것이 좋으며, 특히 종교적인 장소에 방문할 때는 어깨와 무릎을 가리는 단정한 복장을 착용해야 합니다. 식사 시에는 오른손을 주로 사용하며, 대화할 때 정치나 종교와 관련된 민감한 주제는 피하는 것이 좋습니다.",
-    "local_laws": "이스라엘과 관련된 물건을 소지하거나 이스라엘 방문 기록이 여권에 남아 있을 경우 입국이 거부될 수 있으므로 주의해야 합니다. 군사 시설, 정부 기관, 검문소 등은 촬영이 엄격히 금지되어 있으며, 이를 어길 시 카메라 압수나 조사를 받을 수 있습니다. 또한 마약 관련 범죄에 대해 매우 강력하게 처벌하므로 각별히 유의해야 합니다.",
+    "etiquette": "💡 **레바논 문화 및 에티켓**\n* **종교적 예절**\n    * 이슬람 성원 방문 시 여성은 **머리 스카프(히잡) 착용 필수**\n    * 라마단 기간 낮 시간 동안 공공장소에서 **음식 섭취 및 흡연 자제**\n* **사회적 관계**\n    * 식사 초대 시 작은 선물은 **에티켓**\n    * 왼손은 불결하게 여기므로 음식 제공 및 악수는 **오른손 사용**",
+    "local_laws": "🚨 **현지 법률 및 안전 주의사항**\n* **이스라엘 관련 금기**\n    * 이스라엘 방문 기록(여권 도장 등) 발견 시 **입국 거부 및 구금 가능**\n    * 이스라엘산 물품 소지 및 이스라엘과 연관된 대화는 **엄격히 금지**\n* **사진 촬영 주의**\n    * 군사 시설, 공공기관, 검문소 사진 촬영은 **간첩 혐의로 처벌 대상**\n* **마약 및 약물**\n    * 마약 소지 및 투약 적발 시 **장기 구금 및 중형 선고**",
     "phrases": [
-      "안녕하세요 - 마르하반(Marhaban)",
+      "안녕하세요 - 마르하반(Marhaba)",
       "감사합니다 - 슈크란(Shukran)",
-      "네 - 남(Na'am)",
-      "아니요 - 라(La)",
-      "얼마인가요? - 까데 이스(Qaddeh es-se'er?)"
+      "죄송합니다 - 아피완(Afwan)",
+      "네 / 아니요 - 나암 / 라(Na'am / La)",
+      "얼마인가요? - 카데쉬 하다?(Qaddesh hada?)"
     ]
   }
 }

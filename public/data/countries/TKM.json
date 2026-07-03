@@ -19,14 +19,14 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ㅇ 주소 : Azadi Street 17a,Ashgabat, Turkmenistan<br>\nㅇ 대표번호 : (993) 12-94-72-86<br>\nㅇ 긴급연락처 : +82-2-3210-0404 (영사콜센터)<br>\nㅇ E-mail :<a href=\"mailto:korembtm@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">korembtm@mofa.go.kr</a><br>\n<br>\n\n<h3>주재국 신고</h3> ㅇ 화재 (01)<br>\nㅇ 경찰 (02)<br>\nㅇ 응급치료 (03)<br>\nㅇ 가스 사고 (04)<br>\nㅇ 전화번호 문의 (09)<br>\n<br>\n\n<h3>의료기관 연락처</h3> ㅇInternational Medical Center: 48-90-09<br>\nㅇ Gurbansoltan Eje Hospital on protection of Health of Child &amp; Mother: 43-51-91, 43-51-94<br>\nㅇ S.Niyazov Consultative Health Center: 43-85-25<br>\nㅇ International Illness Center: 48-91-14, 48-90-32<br>\nㅇ Ene Mehri Diagnostic Center for Children &amp; Women: 48-93-03<br></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "투르크메니스탄은 손님을 극진히 대접하는 문화가 있어, 현지인의 초대를 받았다면 정중히 응하고 소소한 선물을 준비하는 것이 좋습니다. 식사 시에는 빵을 바닥에 두거나 발로 밟는 행위를 금기시하며, 어른 앞에서는 예의를 갖추고 큰 소리로 떠들지 않는 것이 바람직합니다. 또한 사진 촬영 시 정부 기관이나 군사 시설은 엄격히 금지되므로 사전에 촬영 가능 여부를 확인해야 합니다.",
-    "local_laws": "국가 주요 인사나 정부 시설에 대한 불경한 언행은 엄격히 처벌받을 수 있으며, 야간 통행에 대한 주의가 필요합니다. 투르크메니스탄은 공공장소에서의 음주가 엄격히 제한되며, 허가받지 않은 장소에서의 영상 촬영이나 드론 사용은 국가 안보법 위반으로 간주될 수 있으니 각별히 유의해야 합니다.",
+    "etiquette": "💡 **현지 문화 및 사교 예절**\n* **공공장소 및 복장**\n    * 현지인의 **종교적 감정** 존중 필수\n    * 사원 방문 시 노출 자제 및 **복장 단정** 유지\n* **사진 촬영 금지**\n    * 정부 기관, 군사 시설, 경찰 관련 **촬영 엄격 금지**\n    * 현지인 촬영 시 반드시 **사전 동의** 획득",
+    "local_laws": "🚨 **법률 준수 및 여행 주의사항**\n* **체류 및 이동 제한**\n    * **여행 허가서(Permit)** 발급 필수 지역 확인\n    * 지정된 숙소 외 숙박 시 **벌금 및 추방** 위험\n* **위법 행위 경고**\n    * 마약 및 향정신성 의약품 소지 시 **중형 처벌**\n    * 야간 통행 및 음주 후 소란 행위 시 **구금 가능**\n⚠️ **환전 및 통화**\n    * 비공식 환전은 **불법**으로 간주\n    * 반드시 공식 은행 및 환전소 이용",
     "phrases": [
-      "안녕하세요 - 살람 알레이쿰(Salam Aleykum)",
-      "감사합니다 - 사그 볼링(Sag bolyň)",
-      "네 / 아니요 - 하와(Hawa) / 요크(Ýok)",
-      "얼마인가요? - 나치 파(Näçe bu?)",
-      "미안합니다 - גע시린(Geçiräýiň)"
+      "안녕하세요 - 살롬(Salam)",
+      "감사합니다 - 사그 볼(Sag bol)",
+      "네 / 아니요 - 하와 / 요크(Hawa / Ýok)",
+      "얼마인가요? - 나치카?(Näçä?)",
+      "죄송합니다 - ഗ부시 에디잉(Gözüňiňi al)"
     ]
   }
 }

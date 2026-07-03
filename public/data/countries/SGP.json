@@ -13,14 +13,14 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처 </h3> ㅇ 주소 : 47 Scotts Road #08-00 Goldbell Towers Singapore 228233<br>\n\n<p>(* 영사과는 위 같은 빌딩 #16-03,04에 있으며, MRT 이용하실 경우 Newton역 A출구 방향)</p> ㅇ 대표전화(근무시간 중) : (65) 6256-1188<br>\nㅇ 긴급연락전화(사건사고 등 긴급상황 발생 시, 24시간)  : (65) 9654-3528<br>\n\n<p>(* 일반 민원은 업무시간 중 대표전화로 문의하실 때, 보다 적절한 상담을 받으실 수 있습니다.)</p> ㅇ E-Mail : <a href=\"mailto:korembsg@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">korembsg@mofa.go.kr(대표 메일)</a><br>\n\n<p>- <a href=\"mailto:consg@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">consg@mofa.go.kr</a> (비자 영문문의)<br>\n- <a href=\"mailto:consg2@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">consg2@mofa.go.kr </a>(병역, 사건사고, 기타)<br>\n- <a href=\"mailto:consg3@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">consg3@mofa.go.kr </a>(가족관계, 국적)<br>\n- <a href=\"mailto:consg4@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">consg4@mofa.go.kr</a> (공증, 재외국민등록)<br>\n- <a href=\"mailto:consg5@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">consg5@mofa.go.kr</a> (여권, 비자)</p><br>\n\n<h3>주재국 신고</h3> ㅇ 경찰 : 999<br>\nㅇ 구급·소방차 : 995<br>\n<br>\n\n<h3>의료기관 연락처</h3> ㅇ 싱가포르 내 의료 시설은 시내 곳곳에 위치하고 있어 접근성은 용이하나, 국내와 비교 매우 비싼 의료비 부담을 예상하셔야 합니다. <br>\nㅇ 응급한 환자가 아닐 경우 가까운 클리닉으로 가서 진단을 받은 후 종합병원으로 가는 것이 좋으며, 사립병원은 국공립병원에 비해 가격이 비싼 편이나, 대기시간 등은 짧습니다.<br>\n [국공립병원]<br>\n\n<p>· Changi General Hospital : 6788-8833<br>\n   ※ 창이국제공항 근처<br>\n· Singapore General Hospital : 6222-3322<br>\n· Tan Tock Seng Hospital : 6256-6011<br>\n· Institute of Mental Health : 6389-2000<br>\n   ※ 국공립정신병원<br>\n· KK Women&#x27;s &amp; Children&#x27;s Hospital : 6225-5554<br>\n   ※ 여성/소아 전문<br>\n· National University Hospital : 6779-5555<br>\n· Alexandra Hospital : 6472-2000<br>\n· NG Teng Fong General Hospital : 6716-2000<br>\n· Yishun Community Hospital : 6807-8800<br>· Khoo Teck Puat Hospital : 6555-8000</p><br>\n [사립병원]<br>\n\n<p>· Concord International Hospital : 6933-3722<br>\n· Gleneagles Hospital : 6473 7222<br>\n· Mount Alvernia Hospital : 6347-6688<br>\n· Mount Elizabeth Hospital : 6737-2666<br>\n· Parkway East Hospital : 6377 3737<br>\n· Raffles Hospital : 6311-1111<br>· Thomson Medical Centre : 6250-2222</p> </div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "싱가포르는 다문화 국가이므로 종교적 관습을 존중하며, 사원 방문 시에는 어깨와 무릎을 가리는 복장을 갖추어야 합니다. 식사 후에는 자신의 그릇을 지정된 반납 장소에 가져다 놓는 것이 일반적인 예절입니다. 대중교통 이용 시에는 음식물 섭취가 엄격히 금지되어 있으므로 주의가 필요합니다.",
-    "local_laws": "공공장소에서 껌을 씹거나 판매하는 것은 금지되어 있으며, 길에 쓰레기를 버리거나 침을 뱉는 행위는 매우 엄격한 벌금이 부과됩니다. 또한, 밤 10시 30분부터 다음 날 오전 7시까지는 공공장소에서의 음주가 금지되니 유의하시기 바랍니다.",
+    "etiquette": "💡 **싱가포르 문화 및 예절**\n* **대중교통 이용**\n    * 열차 및 버스 내 음식물 및 음료 **섭취 금지**\n    * 두리안 등 강한 향이 나는 과물 **반입 금지**\n* **식사 및 사교**\n    * 식사 시 왼손 사용은 **비위생으로 간주**\n    * 타인에게 손가락질은 **무례한 행동으로 주의**",
+    "local_laws": "🚨 **필수 준수 법률 및 주의사항**\n* **금연 구역**\n    * 지정된 흡연구역 외 담배는 **막대한 벌금**\n    * 전자담배 소지 및 사용은 **반입 금지** 및 **처벌 대상**\n* **질서 유지**\n    * 무단횡단 시 **현장 범칙금 부과**\n    * 길거리 쓰레기 투기 및 침 뱉기는 **엄격한 처벌 대상**\n* **공공 예절**\n    * 공공장소 내 음주 후 소란은 **구금 조치 가능**",
     "phrases": [
-      "안녕하세요 - 라 헬로 (Lah Hello)",
-      "감사합니다 - 땡큐 (Thank you)",
-      "얼마인가요? - 하우 머치 (How much?)",
-      "죄송합니다 - 쏘리 (Sorry)",
-      "괜찮습니다 - 캔 캔 (Can can)"
+      "감사합니다 - 땡큐(Thank you)",
+      "죄송합니다 - 쏘리(Sorry)",
+      "이거 얼마인가요? - 하우 머치 이즈 디스?(How much is this?)",
+      "화장실이 어디인가요? - 웨어 이즈 더 토일렛?(Where is the toilet?)",
+      "도와주세요 - 헬프 미(Help me)"
     ]
   }
 }

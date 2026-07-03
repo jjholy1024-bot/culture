@@ -271,7 +271,14 @@ function buildPopupExtra(detail) {
     ? `<p class="map-popup-line">⚠️ ${partials.slice(0, 2).map(r => `${r.area || '일부 지역'}: ${r.level}`).join(' / ')}${partials.length > 2 ? ' 외' : ''}</p>`
     : '';
   const etiquette = detail.culture_ai?.etiquette || '';
-  const tip = etiquette ? etiquette.split('.')[0] + (etiquette.includes('.') ? '.' : '') : '';
+  let tip = '';
+  if (etiquette) {
+    if (etiquette.includes('\n')) {
+      tip = etiquette.split('\n')[0].replace(/\*\*/g, '').trim();
+    } else {
+      tip = etiquette.split('.')[0] + (etiquette.includes('.') ? '.' : '');
+    }
+  }
   const tipHTML = tip ? `<p class="map-popup-line">🤝 ${tip}</p>` : '';
   return partialHTML + tipHTML;
 }
@@ -483,6 +490,45 @@ async function selectCountry(iso) {
   }
 }
 
+function parseMarkdown(text) {
+  if (!text) return '';
+  // Convert **text** to <strong>text</strong>
+  let html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+  const lines = html.split('\n');
+  let inList = false;
+  let listHTML = [];
+
+  for (let line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith('*') || trimmed.startsWith('-')) {
+      if (!inList) {
+        inList = true;
+        listHTML.push('<ul style="margin: 4px 0 4px 16px; padding-left: 0; list-style-type: disc;">');
+      }
+      const isSub = line.startsWith('    ') || line.startsWith('\t');
+      const content = trimmed.substring(1).trim();
+      if (isSub) {
+        listHTML.push(`<li style="margin-left: 16px; list-style-type: circle;">${content}</li>`);
+      } else {
+        listHTML.push(`<li>${content}</li>`);
+      }
+    } else {
+      if (inList) {
+        inList = false;
+        listHTML.push('</ul>');
+      }
+      if (trimmed) {
+        listHTML.push(`<p style="margin-bottom: 6px;">${trimmed}</p>`);
+      }
+    }
+  }
+  if (inList) {
+    listHTML.push('</ul>');
+  }
+  return listHTML.join('');
+}
+
 // ─── 결과 화면 렌더링 ────────────────────────────
 function renderResult(d) {
   document.getElementById('resultFlag').src = d.flag_image || '';
@@ -529,11 +575,11 @@ function renderResult(d) {
     },
     {
       icon: '🤝', title: '문화·예절', source: 'ai',
-      body: ai?.etiquette ? `<p>${ai.etiquette}</p>` : '<p class="brief-empty">준비 중이에요.</p>',
+      body: ai?.etiquette ? parseMarkdown(ai.etiquette) : '<p class="brief-empty">준비 중이에요.</p>',
     },
     {
       icon: '⚖️', title: '현지 법률 및 주의사항', source: 'ai',
-      body: ai?.local_laws ? `<p>${ai.local_laws}</p>` : '<p class="brief-empty">준비 중이에요.</p>',
+      body: ai?.local_laws ? parseMarkdown(ai.local_laws) : '<p class="brief-empty">준비 중이에요.</p>',
     },
     {
       icon: '💬', title: '유용한 현지 표현', source: 'ai',

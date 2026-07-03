@@ -19,14 +19,14 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ㅇ 주소 : 400m norte y 200m oeste del Restaurante Rostipollos, Urbanizacion Trejos Montealegre, San Rafael de Escazu, San Jose, Costa Rica<br>\nㅇ 이메일 : <a href=\"mailto:koco@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">koco@mofa.go.kr</a><br>\nㅇ 대표번호(근무시간 중) : (506)2588-0852<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +82-2-3210-0404(외교부 영사콜센터)</div>\n<div>\n<h3>긴급상황시 현지 주요 연락처</h3>\n<p> ※ 국내에서 연락시 국가번호+(506) 입력 필요</p>\n<p><br>\nㅇ 응급의료 : 911 <br>\nㅇ 재난대응센터 : 911 또는 2210-2828<br>\nㅇ 화재신고 : 911 또는 2547-3700(소방서)<br>\nㅇ 범죄신고 : 911 또는 2586-4000(경찰서)<br>\nㅇ 자동차 사고시 보험신고 : 800-800-8000(INS)<br></p>\n<div>ㅇ 자동차 사고시 보험신고(가입 보험사 사전 확인 요망)</div>\n<div>  - INS : 800-800-8000</div>\n<div>  - Oceanica : 800-289-4546 </div>\n<div>ㅇ 관광경찰 : 911 또는 2600-5133</div>\n<div>  * 관광경찰(Policia Turistica) : 주요 관광지와 호텔에 배치되어 외국인 관광객을 대상으로 범죄 예방 및 대응 지원, 영어 통역 및 관광 관련 정보 전반 제공</div>\n<h3>지역별 주요 병원 연락처<br></h3>\n<div>\n<p> ※국내에서 연락시 국가번호(+506) 입력 필요</p>\n<p><br></p></div>\n<div>ㅇ 산호세(San José)</div>\n<div> - Hospital CIMA ：2208-1000</div>\n<div> - Hospital México :2242-6700</div>\n<div>ㅇ 알라후엘라(Alajuela)</div>\n<div> - Hospital Upala : 2470-0058</div>\n<div>ㅇ 에레디아(Heredia)</div>\n<div> - Hospital San Vicente de Paúl : 2562-8100</div>\n<div>ㅇ 카르타고(Cartago)</div>\n<div> - Hospital William Allen Taylor : 2558-1300</div>\n<div>ㅇ 과나카스테(Guanacaste)</div>\n<div> - Hospital Enrique Baltodano Briceño : 2690-2300</div>\n<div>ㅇ 리몬(Limón)</div>\n<div> - Hospital Tony Facio Castro : 2758-2222</div></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "코스타리카 사람들은 '푸라 비다(Pura Vida)'라는 인사를 즐겨 쓰는데, 이는 평온하고 행복한 삶을 추구하는 그들의 생활 철학을 상징합니다. 현지인과 대화할 때는 상대방의 눈을 맞추며 정중하게 인사하고, 공공장소에서는 지나치게 큰 소리로 떠들지 않는 것이 좋습니다. 또한 시간 약속에 다소 여유로운 편이니, 너무 급하게 서두르기보다는 현지의 느긋한 분위기에 맞추어 행동하는 것이 예의입니다.",
-    "local_laws": "코스타리카에서는 공공장소에서의 음주가 엄격히 금지되어 있으며, 이를 어길 시 벌금이 부과되거나 경찰의 제재를 받을 수 있습니다. 또한, 해변의 산호나 야생 동물을 채집하거나 훼손하는 행위는 환경 보호법 위반으로 간주되어 무거운 처벌을 받을 수 있으므로 각별히 주의해야 합니다.",
+    "etiquette": "💡 **코스타리카 문화 및 매너**\n* **인사 및 대화**\n    * '푸라 비다(Pura Vida)' 사용 권장\n    * 대화 시 **직설적인 거절은 지양**\n* **복장 및 공공장소**\n    * 해변 외 장소에서 **수영복 착용 금지**\n    * 종교 시설 방문 시 **단정한 복장 필수**",
+    "local_laws": "🚨 **필수 준수 및 처벌 주의 사항**\n* **교통 및 안전**\n    * 무단횡단 시 **범칙금 부과**\n    * 음주 운전 **엄격한 처벌 대상**\n* **법적 규제 및 환경 보호**\n    * 마약 소지 및 흡연은 **구금 및 처벌 위험**\n    * 국립공원 내 동식물 채취 및 반출 **법적 금지**\n* **신분증 소지**\n    * 여권 사본 상시 휴대 **필수**",
     "phrases": [
-      "안녕하세요/잘 지내요 - 푸라 비다(Pura Vida)",
+      "안녕하세요 - 올라(Hola)",
       "감사합니다 - 그라시아스(Gracias)",
-      "천만에요 - 콘 구스토(Con gusto)",
-      "죄송합니다 - 페르돈(Perdón)",
-      "도와주세요 - 아유다메(Ayúdame)"
+      "좋은 인생(코스타리카식 인사) - 푸라 비다(Pura Vida)",
+      "네 / 아니오 - 씨(Sí) / 노(No)",
+      "도와주세요 - 아유다메(Ayúdeme)"
     ]
   }
 }

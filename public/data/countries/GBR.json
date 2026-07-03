@@ -19,14 +19,14 @@
   "local_contact_html": "<h3>대사관 연락처</h3> ㅇ 주소 : 60 Buckingham Gate, London SW1E 6AJ<br>\nㅇ 이메일 : <a href=\"mailto:koreanembinuk@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">koreanembinuk@mofa.go.kr</a><br>\nㅇ 대표번호(근무시간 중) : (44) 20-7227-5500<br>\nㅇ 긴급 연락처(사건사고 등 긴급상황 발생 시, 24시간) : (44) 78-7650-6895<br>\n\n<div>\n<h3>긴급 연락처</h3>\n<p>ㅇ 응급환자(앰뷸런스), 경찰(일반), 화재신고는 동일하게 999으로 거시면, 교환이 사안에 따라 적합한 부서로 연결해 줍니다.<br></p>\n<h3>의료기관 연락처</h3>\n<p>ㅇ 영국의 국가 의료 서비스(National Health Service: NHS) 제도는 모든 거주자에게 무료로 제공하는 것을 원칙으로 하고 있습니다. 즉 영국에 비자를 받고 일정 기간 이상 체류하는 경우 가까운 일반의(GP: General Practitioner)에 등록을 하면 NHS 혜택을 받으실 수 있으나, 관광이나 방문 등으로 입국한 단기 체류자들에게는 진료비를 청구하고 있습니다.</p>\n<p>- 의료 상담 및 병원 정보 등은 잉글랜드 지역은 전화(111) 또는 웹사이트(<a href=\"http://www.nhs.uk\" target=\"_blank\" rel=\"noopener\">http://www.nhs.uk</a>), 스코틀랜드 지역은 전화(111) 또는 웹사이트(<a href=\"http://www.nhs24.scot\" target=\"_blank\" rel=\"noopener\">http://www.nhs24.scot</a>)를 통해 확인 가능하며 웨일즈 지역은 웹사이트(<a href=\"http://www.nhsdirect.wales.nhs.uk\" target=\"_blank\" rel=\"noopener\">http://www.nhsdirect.wales.nhs.uk</a>), 북아일랜드 지역은 웹사이트(<a href=\"http://www.hscni.net/index.php\" target=\"_blank\" rel=\"noopener\">http://www.hscni.net/index.php</a>)를 통해 확인 가능합니다.</p>\n<p><br></p>\n<p>ㅇ 단기 여행객은 사고 및 응급(Accident &amp; Emergency) 시 무료로 치료를 받을 수도 있으나, 이러한 치료를 권리로 주장할 수는 없고 사고 응급 여부에 해당하는지는 의사의 판단에 달려 있습니다. 또한 진료비 청구에 대한 규정이 각 병원마다 상이하며, 여행객이 병원 이용 시에는 진료비만으로도 200파운드(40만 원) 이상을 청구하고 있으므로, 의료비가 포함되는 여행자 보험을 가입해 두시는 것이 좋습니다.</p>\n<p><br></p>\n<p>ㅇ 병원 이용 시 가까운 GP(일반의)에 전화로 예약하고 방문하셔야 하며, 대규모 기차역 등에 설치된 NHS Walk-in Centre는 예약 없이도 진료가 가능합니다. 감기약 등 가벼운 질환에 대한 약은 의사 처방전이 없더라도 시내 중심가에 흔히 볼 수 있는 “Boots”라는 가게나 약국(Pharmacy)에서 구입하실 수 있습니다.</p>\n<p>- 의료기관 검색 사이트: <a href=\"http://www.nhs.uk/service-search\" target=\"_blank\" rel=\"noopener\">http://www.nhs.uk/service-search</a></p></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "영국인은 줄을 서서 기다리는 것을 매우 중요하게 생각하므로, 대중교통이나 상점 어디서든 새치기하지 않도록 주의해야 합니다. 또한, 공공장소에서 타인에게 불쾌감을 주는 큰 목소리의 대화는 자제하며, 상대방에게 'Excuse me', 'Please', 'Thank you'를 자주 사용하는 것이 일상적인 예의입니다. 에스컬레이터 이용 시에는 항상 왼쪽에 서서 오른쪽 길을 비워두는 것이 현지의 관습입니다.",
-    "local_laws": "영국은 공공장소에서의 음주가 허용되는 경우가 많지만, 특정 지자체의 '음주 금지 구역(Alcohol Free Zone)'에서는 술을 마시거나 소지하는 것만으로도 압수 및 벌금 처분을 받을 수 있습니다. 또한, 횡단보도가 없는 곳에서 무단횡단을 하는 것은 법적 처벌 대상은 아니나 매우 위험한 행동으로 간주되며, 대중교통 내에서의 지나친 소음은 민폐로 여겨져 제재를 받을 수 있습니다.",
+    "etiquette": "💡 **영국 문화 및 에티켓**\n* **대중교통 이용**\n    * 에스컬레이터 이용 시 **우측 통행 필수**\n    * 줄 서기 문화 준수 및 **새치기 엄격 금지**\n* **소셜 매너**\n    * 공공장소에서의 **큰 목소리 자제**\n    * 펍(Pub)에서 주문 시 **본인 차례 대기 필수**",
+    "local_laws": "🚨 **현지 법률 및 안전 주의사항**\n* **음주 및 흡연**\n    * 공공장소 및 대중교통 내 **음주 금지**\n    * 실내 및 금연 구역 **흡연 시 과태료 부과**\n* **범죄 및 질서 유지**\n    * 무단횡단 시 **교통사고 주의**\n    * 공공기물 파손 및 낙서 행위 **법적 처벌**\n    * 소매치기 다발 지역 **소지품 관리 주의**",
     "phrases": [
-      "실례합니다 - Excuse me (익스큐즈 미)",
-      "부탁합니다/주세요 - Please (플리즈)",
       "감사합니다 - Thank you (땡큐)",
-      "영수증 받을 수 있을까요? - Could I have a receipt, please? (쿠드 아이 해브 어 리시트, 플리즈?)",
-      "이거 얼마인가요? - How much is this? (하우 머치 이즈 디스?)"
+      "실례합니다 - Excuse me (익스큐즈 미)",
+      "화장실이 어디인가요? - Where is the toilet? (웨어 이즈 더 토일렛?)",
+      "이거 얼마인가요? - How much is this? (하우 머치 이즈 디스?)",
+      "도와주실 수 있나요? - Could you help me? (쿠드 유 헬프 미?)"
     ]
   }
 }

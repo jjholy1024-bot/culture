@@ -1,5 +1,16 @@
 [
   {
+    "iso_code": "JPN",
+    "country_kr": "일본",
+    "country_en": "Japan",
+    "lat": 36,
+    "lng": 138,
+    "flag_image": "public/images/JPN.gif",
+    "alert_level": "철수권고",
+    "national_level": "없음",
+    "partial_level": "철수권고"
+  },
+  {
     "iso_code": "AFG",
     "country_kr": "아프가니스탄",
     "country_en": "Afghanistan",
@@ -302,7 +313,7 @@
     "country_en": "Botswana",
     "lat": -22,
     "lng": 24,
-    "flag_image": "public/images/BWA.gif",
+    "flag_image": "https://flagcdn.com/w40/bw.png",
     "alert_level": "여행유의",
     "national_level": "여행유의",
     "partial_level": null
@@ -968,17 +979,6 @@
     "partial_level": "철수권고"
   },
   {
-    "iso_code": "JPN",
-    "country_kr": "일본",
-    "country_en": "Japan",
-    "lat": 36,
-    "lng": 138,
-    "flag_image": "public/images/JPN.gif",
-    "alert_level": "철수권고",
-    "national_level": "없음",
-    "partial_level": "철수권고"
-  },
-  {
     "iso_code": "KAZ",
     "country_kr": "카자흐스탄",
     "country_en": "Kazakhstan",
@@ -1193,7 +1193,7 @@
     "country_en": "Monaco",
     "lat": 43.73333333,
     "lng": 7.4,
-    "flag_image": "public/images/MCO.gif",
+    "flag_image": "https://flagcdn.com/w40/mc.png",
     "alert_level": "없음",
     "national_level": "없음",
     "partial_level": null
@@ -1567,7 +1567,7 @@
     "country_en": "Poland",
     "lat": 52,
     "lng": 20,
-    "flag_image": "public/images/POL.png",
+    "flag_image": "https://flagcdn.com/w40/pl.png",
     "alert_level": "여행자제",
     "national_level": "없음",
     "partial_level": "여행자제"

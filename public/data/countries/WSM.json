@@ -13,14 +13,14 @@
   "local_contact_html": "<h3>대사관 연락처</h3> ※ 사모아에는 우리대사관이 없으며, 주뉴질랜드한국대사관이 겸임하고 있습니다.<br>\n\n<p>ㅇ 주소 : Level 20, ANZ Centre, 171 Featherston Street, Wellington 6011, New Zealand<br>ㅇ 이메일 : </p>\n<p>     - 일반문의 : <a href=\"mailto:info-nz@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">info-nz@mofa.go.kr</a></p>\n<p>     - 영사 및 비자 : consular-nz@mofa.go.kr, consular2-nz@mofa.go.kr</p>\n<p>     - 정무 : sebyuk.yang@mofa.go.kr</p>\n<p>     - 경제 : economic-nz@mofa.go.kr</p>\n<p>     - 문화홍보 : jhkim69@mofa.go.kr<br>\nㅇ 대표번호(근무시간 중) : (64) 4-473-9073<br>ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (64) 21-0269-3271</p>\n<h3>현지 긴급 연락처</h3> ㅇ 경찰 : 995<br>\n ㅇ 화재 : 994<br>\n ㅇ 앰뷸런스 : 999<br>\n ㅇ 응급환자 : 996<br>\n\n<h3>관광통역 서비스</h3> ㅇ 사모아 관광청(Samoa Tourism Authority)<br>\n\n<p>- 주소 : Main beach Road, Apia, Samoa<br>\n - 업무시간 : Mon-Fri 9am-5pm Sat 8am-noon<br>\n - 전화 : (685) 63-500<br>\n - 이메일 : <a href=\"mailto:info@samoa.travel\" target=\"_blank\" rel=\"noopener\">info@samoa.travel</a></p>\n<h3>의료기관 연락처</h3> ㅇ 국립병원 : (685) 21-212<br>\n\n<p>- Tupua Tamasese Meaole National Hospital<br>\n - 전화번호 : (685) 21-212, 66-600<br> - 주소 : Ifiifi St., Motootua, Apia, Samoa</p>\n<p><br></p>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "사모아는 '파'아 사모아(Fa'a Samoa)'라는 고유의 전통문화가 강하게 자리 잡고 있으므로 마을 방문 시 원주민의 관습을 존중해야 합니다. 저녁 기도 시간인 '사(Sa)' 시간에는 마을 내 이동을 자제하고 정숙을 유지하는 것이 예의입니다. 또한, 마을 공동체 공간인 '팔레(Fale)'에 들어갈 때는 반드시 신발을 벗어야 하며, 앉을 때는 다리를 펴지 말고 양반다리를 하는 것이 좋습니다.",
-    "local_laws": "일요일은 사모아 문화에서 매우 신성한 날로 간주되어, 많은 마을에서 소음이 발생하는 활동이나 시끄러운 행위를 엄격히 금지합니다. 공공장소에서의 지나친 노출이 심한 복장은 현지인들에게 불쾌감을 줄 수 있으므로 해변 외의 장소에서는 단정한 복장을 권장합니다. 또한, 허가되지 않은 지역에서의 낚시나 산호 채취는 엄격히 금지되며 환경 보호법에 따라 무거운 벌금이 부과될 수 있습니다.",
+    "etiquette": "💡 **현지 문화 및 예절 가이드**\n* **마타이(추장) 문화 존중**\n    * 마을 방문 시 **추장** 또는 **장로**에게 허락 구하기 필수\n* **일요일 종교 활동**\n    * 일요일은 **안식일**로 정숙 유지 및 마을 내 소음 자제\n* **복장 규정**\n    * 마을 내부에서는 노출이 심한 복장 **지양** 및 단정한 옷차림 준수",
+    "local_laws": "🚨 **법률 및 안전 주의사항**\n* **음주 및 공공질서**\n    * 공공장소에서의 **무분별한 음주** 및 만취 상태 배회 시 **처벌** 가능\n* **마약 및 약물**\n    * 마약류 소지 및 투약은 **엄격히 금지**, 적발 시 **즉각 구금** 및 **중형** 처벌\n* **자연 보호법**\n    * 산호초 및 해양 생물 채취는 **환경법 위반**으로 **고액 벌금** 부과",
     "phrases": [
-      "안녕하세요(환영합니다) - 탈로파(Talofa)",
-      "감사합니다 - 파페타이 마우(Fa'afetai lava)",
-      "네 - 아이오(Ioe)",
-      "아니요 - 리아이(Leai)",
-      "안녕히 가세요(떠나는 사람에게) - 토파 소이아(Tofa soifua)"
+      "안녕하세요 - 탈로파(Talofa)",
+      "감사합니다 - 파페타이 마우아(Fa'afetai lava)",
+      "네 - 이에(Ioe)",
+      "아니오 - 레아(Leai)",
+      "죄송합니다 - 아놀로마(Anoloma)"
     ]
   }
 }

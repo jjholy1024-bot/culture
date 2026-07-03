@@ -13,14 +13,14 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ※ 카보베르데에는 우리 대사관이 없으며, 주세네갈대한민국대사관이 겸임하고 있습니다. \n<div><br></div>\n<div>ㅇ 주소 : Ambassade de la République de Corée, Immeuble Rahmane Lot 12, situé Direction Générale de l’ASECNA, Petite Corniche des Almadies, Dakar, Sénégal</div>\n<div>ㅇ 이메일</div>\n<div>  - 영사/민원 관련 E-mail : senegalconsul@mofa.go.kr</div>\n<div>  - 운영지원 업무 E-mail : senegal@mofa.go.kr</div>\n<div>  - 정무, 경제, 문화 E-mail : senegal3@mofa.go.kr</div>\n<div>  - 사증(비자)업무 E-mail : ambcoreevisa@mofa.go.kr</div>\n<div>ㅇ 대표번호(근무시간 중) : +221-33-824-06-72</div>\n<div>ㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : +221-77-639-51-09</div>ㅇ 영사안전콜센터(서울, 24시간) : +82-2-3210-0404-06-72<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생시, 24시간) : (221) 77-639-5109<br>\n<br>\n\n<h3>주요 응급기관 연락처</h3> ㅇ 경찰 신고(Police) : (+238) 132<br>\nㅇ 화재 신고 : (+238) 131 <br>\nㅇ 응급 신고(구급차) : (+238) 130<br>\nㅇ 주요 병원<br>\n\n<p>· (Santo Antao섬) Hospital Regional de Santo Antao : (+238) 221 1130 / 1337 / 1367<br>\n· (Sao Vincente섬) Hospital Central Dr.Baptista de Sousa : (+238) 231 2680<br>\n· (Sal섬) Hospital de Sal : (+238) 241 1130 / 2700<br>\n· (Santiago섬) Hospital Central de Dr.Agostinho Neto : (+238) 261 2142 / 3403 / 2234<br>· (Fogo섬) Hospital Regional de Fogo : (+238) 281 2390</p> </div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "카보베르데 사람들은 '노 스트레스(No Stress)'를 강조하는 느긋하고 친절한 문화를 가지고 있습니다. 대화를 나눌 때는 상대방의 눈을 맞추며 인사하는 것이 중요하며, 사진을 찍기 전에는 반드시 상대의 동의를 구해야 합니다. 종교적인 장소나 마을을 방문할 때는 정중하고 단정한 복장을 갖추는 것이 현지인에 대한 예의입니다.",
-    "local_laws": "해변에서 산호나 조개껍데기를 채취하여 반출하는 행위는 엄격히 금지되어 있으며 환경 보호법에 따라 처벌받을 수 있습니다. 공공장소에서의 과도한 음주나 소란 행위는 경범죄로 간주되어 현지 경찰의 제재를 받을 수 있으니 주의해야 합니다.",
+    "etiquette": "💡 **현지 문화 및 예절 가이드**\n* **사회적 인사법**\n    * 악수와 눈 맞춤은 **필수**\n    * 연장자에게는 존중을 표하는 태도 **권장**\n* **사교적 매너**\n    * 느긋한 문화이므로 서두르는 행동 **자제**\n    * 식사 시 식기 소음을 최소화하는 매너 **필수**",
+    "local_laws": "🚨 **안전 및 법률 주의사항**\n* **마약 및 약물 범죄**\n    * 마약 소지 및 유통 적발 시 **장기 구금 및 처벌**\n* **사진 촬영 주의**\n    * 군사 시설 및 정부 건물 무단 촬영 **엄격히 금지**\n* **공공질서 유지**\n    * 공공장소에서의 과도한 음주 및 난동 **현지 경찰 연행 가능**\n* **해변 및 자연 보호**\n    * 산호초 및 희귀 동식물 채취 시 **고액 벌금 부과**",
     "phrases": [
-      "안녕하세요 - 올라(Olá)",
-      "감사합니다 - 오브리가두(Obrigado/Obrigada)",
-      "네 / 아니오 - 시(Sim) / 나우(Não)",
-      "죄송합니다 - 데스쿨피(Desculpe)",
-      "얼마인가요? - 쿠아투 쿠스타?(Quanto custa?)"
+      "안녕하세요 - 봉 디아(Bom dia)",
+      "감사합니다 - 오브리가두(Obrigado)",
+      "실례합니다 - 디스쿨피(Desculpe)",
+      "얼마인가요? - 쿠안투 쿠스타?(Quanto custa?)",
+      "네 / 아니오 - 싱(Sim) / 나웅(Não)"
     ]
   }
 }

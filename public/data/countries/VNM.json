@@ -19,13 +19,13 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ㅇ 주소 : SQ4, Do Nhuan, Khu Ngaoi Giao Doan, Xuan Tao, Bac Tu Liem, Hanoi, Vietnam<br>\nㅇ 대표번호(근무시간 중) : (84) 24-3771-0404<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (84) 90-402-6126<br>\nㅇ E-mail : <a href=\"mailto:korembviet@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">korembviet@mofa.go.kr</a><br>\n<br>\n\n<h3>호치민총영사관 연락처</h3> ㅇ 주소 : 107 Nguyen Du St., Dist 1, Ho Chi Minh city, VietNam <br>\nㅇ 대표번호(근무시간 중) : (84) 28-3822-5757<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (84) 93-850-0238<br>\nㅇ E-mail : <a href=\"mailto:hcm02@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">hcm02@mofa.go.kr</a><br>\n<br>\n\n<h3>다낭총영사관 연락처</h3> ㅇ 주소 : Tang 3-4, Lo A1-2 Chuong Duong, P.Khue My, Q.Ngu Hanh Son, T.P Da Nang, Vietnam<br>\nㅇ 대표번호(근무시간 중) : (84) 23-6356-6100<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (84) 93-548-4428<br>\nㅇ E-mail : <a href=\"mailto:danang@mofa.go.kr \" target=\"_blank\" rel=\"noopener\">danang@mofa.go.kr </a><br>\n<br>\n\n<h3>주재국 신고</h3> ㅇ 범죄신고 : 113<br>\nㅇ 화재신고 : 114<br>\nㅇ 응급환자(앰뷸런스) : 115<br>\n\n<p>※ 해당 긴급전화는 대부분 베트남어로만 가능하며, 구급차 이용 요금을 지불해야 할 수 있습니다.</p> </div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "베트남에서는 타인의 머리를 만지는 것을 무례한 행동으로 간주하므로 주의해야 합니다. 식사 시 젓가락을 밥그릇에 수직으로 꽂는 것은 제사상을 연상시키므로 삼가야 하며, 사원이나 가정집에 들어갈 때는 신발을 벗는 것이 기본 예절입니다. 또한, 공공장소에서 지나친 애정 행각은 현지 정서에 맞지 않으므로 자제하는 것이 좋습니다.",
-    "local_laws": "베트남에서는 호텔 투숙 시 외국인 등록을 위해 반드시 여권과 비자를 제시해야 하며, 호텔에 머물지 않고 현지인 집에 묵을 경우 관할 경찰서에 신고해야 합니다. 또한, 공공장소에서의 도박이나 마약 관련 범죄는 매우 엄격하게 처벌받으며, 오토바이 운전 시 국제운전면허증이 있더라도 반드시 헬멧을 착용해야 합니다.",
+    "etiquette": "💡 **베트남 문화 및 에티켓**\n* **식사 및 사찰 예절**\n    * 식사 중 젓가락을 그릇에 수직으로 꽂는 행위 **금지**\n    * 사찰 방문 시 어깨와 무릎을 가리는 **단정한 복장 필수**\n    * 타인의 머리를 만지는 행위는 **매우 무례한 행동으로 간주**",
+    "local_laws": "🚨 **현지 법률 및 안전 주의사항**\n* **금지 및 처벌 항목**\n    * 공공장소에서의 **드론 촬영 사전 승인 필수**, 위반 시 **장비 압수 및 벌금**\n    * 마약류 소지 및 복용은 **중범죄로 강력 처벌 및 구금**\n    * 정치적 발언이나 현지 정부 비판은 **강제 추방 위험**\n⚠️ **교통 및 기타 주의**\n    * 오토바이 날치기 주의, **가방은 길 안쪽으로 휴대 필수**\n    * 호텔 체크인 시 외국인 **여권 제출 의무**",
     "phrases": [
       "안녕하세요 - 신 짜오(Xin chào)",
-      "감사합니다 - 씬 까먼(Xin cảm ơn)",
-      "죄송합니다 - 씬 로이(Xin lỗi)",
-      "얼마예요? - 바오 니우 띠엔(Bao nhiêu tiền?)",
+      "감사합니다 - 껌 언(Cảm ơn)",
+      "죄송합니다 - 신 로이(Xin lỗi)",
+      "얼마인가요? - 바오 니우 띠엔(Bao nhiêu tiền?)",
       "계산해주세요 - 띤 띠엔(Tính tiền)"
     ]
   }

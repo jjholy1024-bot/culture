@@ -19,8 +19,8 @@
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3>\n<p>ㅇ 주소 : Av. Del Livertador 2395, Ciudad Autonoma de Buenos Aires, (1425), Argentina<br>\nㅇ 대표번호(근무시간 중) : (54) 11-4802-8865<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (54) 911-4141-1450<br>\nㅇ E-Mail : <a href=\"mailto:argentina@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">argentina@mofa.go.kr</a><br>\n<br></p>\n<h3>주재국 신고</h3>\n<p>ㅇ 911(모든 비상, 응급전화)<br>\nㅇ 101(경찰 관련 사건사고)<br>\nㅇ 107(앰뷸런스 요청)<br>\nㅇ 100(소방서)<br>\n<br></p>\n<h3>관광통역 서비스</h3>\n<p>ㅇ 아르헨티나 관광청(<a href=\"http://www.turismo.gov.ar/\" target=\"_blank\" rel=\"noopener\">www.turismo.gov.ar</a>)<br>\nㅇ 부에노스아이레스 시 관광국 홈페이지(<a href=\"http://www.turismo.buenosaires.gob.ar/\" target=\"_blank\" rel=\"noopener\">www.turismo.buenosaires.gob.ar</a>)<br>\nㅇ 부에노스아이레스 시 지도 서비스 사이트(<a href=\"http://mapa.buenosaires.gob.ar/\" target=\"_blank\" rel=\"noopener\">http://mapa.buenosaires.gob.ar/</a>)<br>\n<br></p>\n<h3>의료기관 연락처</h3>\n<p>ㅇ Hospital Aleman(독일 병원)<br></p>\n<p>- Tel. 4827-7000<br>- Av. Pueyrredon 1640</p>\n<p><br></p>\n<p>ㅇ Korean Medical<br></p>\n<p>- Tel. 4613-5765/4611-3184<br>- Av. Nasca 388, piso 5(5층)</p>\n<p><br></p></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
-    "etiquette": "아르헨티나 사람들은 인사할 때 뺨에 가볍게 키스하는 '베소(Beso)' 문화가 일반적입니다. 저녁 식사 시간이 매우 늦어 보통 오후 9시 이후에 시작하며, 대화 중에 신체 접촉을 자주 하는 편이라 이를 무례하게 생각하지 않아도 됩니다. 현지인 집에 초대받았다면 정해진 시간보다 15~30분 정도 늦게 가는 것이 예의로 통합니다.",
-    "local_laws": "공공장소에서의 과도한 음주나 소란 행위는 엄격히 금지되며 현지 경찰의 제재를 받을 수 있습니다. 또한, 시위가 빈번한 국가이므로 정치적인 구호가 담긴 옷을 입거나 시위 현장에 함부로 가담하지 않도록 주의해야 합니다.",
+    "etiquette": "💡 **아르헨티나 문화 및 매너**\n* **인사 문화**\n    * 뺨을 맞대는 **볼 키스(Besos)**가 일상적인 인사\n    * 초면에는 악수로 충분, 친밀도에 따라 조정\n* **식사 및 사교**\n    * 저녁 식사는 보통 **오후 9시 이후** 시작\n    * 식당에서 **팁 문화**는 약 10% 수준 권장",
+    "local_laws": "🚨 **필수 안전 및 법률 주의사항**\n* **치안 경고**\n    * 스마트폰 사용 시 **날치기 주의**\n    * 인적이 드문 곳은 **야간 통행 금지**\n* **약물 및 범죄**\n    * 마약 소지 및 투약 시 **엄격한 처벌**\n    * 시위 현장 접근은 **안전상 절대 금지**\n* **여권 관리**\n    * 분실 방지를 위해 **사본 소지 필수**",
     "phrases": [
       "안녕하세요 - 올라(Hola)",
       "감사합니다 - 그라시아스(Gracias)",
