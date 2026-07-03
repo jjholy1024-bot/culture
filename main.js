@@ -407,7 +407,7 @@ function renderList() {
       <img src="${c.flag_image || ''}" alt="" loading="lazy" onerror="this.style.visibility='hidden'" />
       <div>
         <p class="country-card-name">${c.country_kr}</p>
-        <span class="alert-badge alert-${c.alert_level}">${c.alert_level}</span>
+        <span class="alert-badge alert-${c.national_level || c.alert_level || '없음'}">${c.national_level || c.alert_level || '없음'}</span>
       </div>
     </div>`).join('') : `<p class="brief-empty">아직 즐겨찾기한 국가가 없어요.</p>`;
 }
@@ -469,17 +469,17 @@ function renderResult(d) {
   document.getElementById('resultCountryName').textContent = d.country_kr;
   document.getElementById('resultFavBtn').textContent = isFav(d.iso_code) ? '❤️' : '🤍';
 
-  const level = d.travel_alert?.level || '없음';
+  const nationalLevel = d.travel_alert?.national_level || '없음';
+  const highestLevel = d.travel_alert?.level || '없음';
   const badge = document.getElementById('resultAlertBadge');
-  badge.textContent = `여행경보: ${level}`;
-  badge.className = `alert-badge alert-${level}`;
+  badge.textContent = `여행경보: ${nationalLevel}`;
+  badge.className = `alert-badge alert-${nationalLevel}`;
 
   document.getElementById('noticeLink').href = d.notice_url || 'https://www.0404.go.kr/ntnSafetyInfo/list';
 
   const regions = d.travel_alert?.regions || [];
-  const nationalLevel = d.travel_alert?.national_level || '없음';
-  const nationalNote = nationalLevel !== level
-    ? `<p class="map-popup-line" style="margin-bottom:8px;">ℹ️ 국가 전역 기준은 <strong>${nationalLevel}</strong>이며, 위 배지는 아래 일부 지역에 적용된 가장 높은 단계(${level})를 표시한 거예요.</p>`
+  const nationalNote = nationalLevel !== highestLevel
+    ? `<p class="map-popup-line" style="margin-bottom:8px;">ℹ️ 국가 전역 기준은 <strong>${nationalLevel}</strong>이지만, 일부 지역에 최고 <strong>${highestLevel}</strong> 단계의 경보가 발령되어 있어요.</p>`
     : '';
   const regionsHTML = regions.length
     ? nationalNote + `<div class="alert-region-list">${regions.map(r => `
