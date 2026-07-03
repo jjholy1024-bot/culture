@@ -28,7 +28,16 @@ const POPUP_OPTIONS = { autoPan: false };
 // 클릭 위치 대신 고정 좌표에 팝업을 연다. 그 이상 확대 시엔 클릭 위치 그대로 사용.
 // 기본값은 centroid(c.lat/c.lng)이며, 여전히 위쪽이 잘리는 국가는 아래 표에서
 // 더 낮은 위도로 개별 보정한다.
-const FIXED_POPUP_ISO = new Set(['RUS', 'CAN', 'NOR', 'USA']);
+const ZOOM_LOW_FIXED_ISO = new Set(['CAN', 'NOR']);
+
+// 러시아·미국은 위 문제에 더해, 날짜변경선(경도 ±180°)에 가까운 영토(러시아 극동,
+// 미국 알래스카 서쪽 알류샨 열도)를 클릭하면 지도에 noWrap+maxBounds가 걸려있어
+// panForPopup이 보정할 여백 자체가 없어 잘린다. 그래서 이 두 나라는 확대 정도와
+// 무관하게 "줌 2~3이거나 클릭 지점이 날짜변경선 근처일 때"만 고정 좌표를 쓰고,
+// 나머지 클릭은 그대로 클릭 위치에 연다.
+const EDGE_SAFE_ISO = new Set(['RUS', 'USA']);
+const DATELINE_THRESHOLD = 165; // |lng|가 이 값을 넘으면 날짜변경선 인접으로 간주
+
 const FIXED_POPUP_ANCHOR = {
   RUS: [52.3, 104.3], // 이르쿠츠크 — 러시아 영토 내에서 centroid(60,100)보다 남쪽인 지점
 };
@@ -285,12 +294,21 @@ async function renderMap() {
       const c = byIso[feature.properties.iso_code];
       if (!c) return;
       layer.bindPopup(popupHTML(c), POPUP_OPTIONS);
-      if (FIXED_POPUP_ISO.has(c.iso_code)) {
+      if (ZOOM_LOW_FIXED_ISO.has(c.iso_code)) {
         layer.off('click');
         layer.on('click', e => {
           // 최대 축소(zoom 2)~한 단계 확대(zoom 3)에서만 고정 좌표 사용.
           // 그 이상 확대했을 때는 클릭한 위치에 그대로 열되, panForPopup이 잘림만 보정한다.
           const latlng = mapInstance.getZoom() <= 3
+            ? (FIXED_POPUP_ANCHOR[c.iso_code] || [c.lat, c.lng])
+            : e.latlng;
+          layer.openPopup(latlng);
+        });
+      } else if (EDGE_SAFE_ISO.has(c.iso_code)) {
+        layer.off('click');
+        layer.on('click', e => {
+          const nearDateline = Math.abs(e.latlng.lng) > DATELINE_THRESHOLD;
+          const latlng = (mapInstance.getZoom() <= 3 || nearDateline)
             ? (FIXED_POPUP_ANCHOR[c.iso_code] || [c.lat, c.lng])
             : e.latlng;
           layer.openPopup(latlng);

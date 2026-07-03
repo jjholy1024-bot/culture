@@ -113,18 +113,26 @@ def fetch_world_borders(iso3_set):
     res.raise_for_status()
     raw = res.json()
 
+    # Natural Earth은 미승인/분쟁 지역을 별도 feature로 표기해 우리 197개국 마스터에
+    # 없는 ISO코드가 붙는다. 그대로 두면 지도에 색칠 안 된 구멍(서사하라, 소말릴란드)이
+    # 생기므로, 실효 지배/UN 승인 기준 모국(母國)으로 흡수시켜 함께 칠한다.
+    DISPUTED_TERRITORY_REMAP = {
+        "ESH": "MAR",  # 서사하라 → 모로코 (모리타니아 옆 색칠 누락 구간)
+        "SOL": "SOM",  # 소말릴란드 → 소말리아 (에티오피아 옆 색칠 누락 구간)
+    }
+
     def resolve_iso3(props):
         iso = props.get("ISO_A3")
-        if iso and iso != "-99":
-            return iso
-        return props.get("ADM0_A3")
+        if not iso or iso == "-99":
+            iso = props.get("ADM0_A3")
+        return DISPUTED_TERRITORY_REMAP.get(iso, iso)
 
     slim_features = []
-    seen = set()
     for feature in raw["features"]:
         iso3 = resolve_iso3(feature["properties"])
-        if iso3 in iso3_set and iso3 not in seen:
-            seen.add(iso3)
+        # 위 리매핑으로 한 국가에 폴리곤이 2개(본토+분쟁지역) 붙을 수 있으므로
+        # iso3 기준 중복 제거는 하지 않는다(모두 같은 색으로 칠해져야 함).
+        if iso3 in iso3_set:
             slim_features.append({
                 "type": "Feature",
                 "properties": {"iso_code": iso3},
@@ -133,7 +141,8 @@ def fetch_world_borders(iso3_set):
 
     with open(dest, "w", encoding="utf-8") as f:
         json.dump({"type": "FeatureCollection", "features": slim_features}, f, separators=(",", ":"))
-    print(f"  {len(slim_features)}/{len(iso3_set)} country borders saved (missing: {sorted(iso3_set - seen)})")
+    saved_iso = {f["properties"]["iso_code"] for f in slim_features}
+    print(f"  {len(slim_features)} borders saved for {len(saved_iso)}/{len(iso3_set)} countries (missing: {sorted(iso3_set - saved_iso)})")
 
 
 def iso2_to_iso3(alpha2):
