@@ -231,9 +231,14 @@ def fetch_travel_warnings():
         regions = []
         for level_name, full_field, partial_field, note_field in LEVEL_FIELDS:
             if it.get(full_field) or it.get(partial_field):
+                area = it.get(note_field) or ""
+                prev = ""
+                while area != prev:
+                    prev = area
+                    area = html.unescape(area)
                 regions.append({
                     "level": level_name,
-                    "area": it.get(note_field) or "",
+                    "area": area,
                     "partial": bool(it.get(partial_field)) and not it.get(full_field),
                 })
         def rank_to_name(rank):

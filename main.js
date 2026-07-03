@@ -216,10 +216,32 @@ async function ensureWorldBorders() {
   return WORLD_BORDERS;
 }
 
+function decodeHTMLEntities(text) {
+  if (!text) return '';
+  const textArea = document.createElement('textarea');
+  textArea.innerHTML = text;
+  let decoded = textArea.value;
+  if (decoded.includes('&')) {
+    textArea.innerHTML = decoded;
+    decoded = textArea.value;
+  }
+  return decoded;
+}
+
 async function fetchDetailCached(iso) {
   if (detailCache[iso]) return detailCache[iso];
   const res = await fetch(COUNTRY_DETAIL_URL(iso));
+  if (!res.ok) throw new Error('not found');
   const detail = await res.json();
+
+  if (detail.travel_alert && detail.travel_alert.regions) {
+    detail.travel_alert.regions.forEach(r => {
+      if (r.area) {
+        r.area = decodeHTMLEntities(r.area);
+      }
+    });
+  }
+
   detailCache[iso] = detail;
   return detail;
 }
@@ -440,9 +462,7 @@ async function selectCountry(iso) {
   history.replaceState(null, '', `?country=${iso}`);
 
   try {
-    const res = await fetch(COUNTRY_DETAIL_URL(iso));
-    if (!res.ok) throw new Error('not found');
-    const detail = await res.json();
+    const detail = await fetchDetailCached(iso);
     currentDetail = detail;
 
     // 단계별 진행 표시(연출용)
