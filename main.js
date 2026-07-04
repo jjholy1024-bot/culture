@@ -23,12 +23,19 @@ const LEVEL_RANK = { '없음': 0, '여행유의': 1, '여행자제': 2, '철수�
 // panForPopup()으로 직접 제어한다
 const POPUP_OPTIONS = { autoPan: false };
 
+function getPopupOptions(iso) {
+  if (iso === 'JPN' || iso === 'PNG' || iso === 'NZL') {
+    return { autoPan: false, className: 'popup-left' };
+  }
+  return POPUP_OPTIONS;
+}
+
 // 면적이 넓거나 극지방까지 걸쳐있는 국가는 최대 축소(zoom 2)~한 단계 확대(zoom 3) 상태에서
 // 클릭 지점에 따라 팝업이 지도 경계 밖(고위도)으로 밀려나 잘리므로, 그 두 줌 레벨에서만
 // 클릭 위치 대신 고정 좌표에 팝업을 연다. 그 이상 확대 시엔 클릭 위치 그대로 사용.
 // 기본값은 centroid(c.lat/c.lng)이며, 여전히 위쪽이 잘리는 국가는 아래 표에서
 // 더 낮은 위도로 개별 보정한다.
-const ZOOM_LOW_FIXED_ISO = new Set(['CAN', 'NOR']);
+const ZOOM_LOW_FIXED_ISO = new Set(['CAN', 'NOR', 'IDN', 'PHL']);
 
 // 러시아·미국은 위 문제에 더해, 날짜변경선(경도 ±180°)에 가까운 영토(러시아 극동,
 // 미국 알래스카 서쪽 알류샨 열도)를 클릭하면 지도에 noWrap+maxBounds가 걸려있어
@@ -55,7 +62,25 @@ function panForPopup(popup) {
     else if (pr.bottom > mr.bottom - pad)  dy = pr.bottom - mr.bottom + pad;
     if (pr.left < mr.left + pad)          dx = pr.left - mr.left - pad;
     else if (pr.right > mr.right - pad)    dx = pr.right - mr.right + pad;
-    if (dx || dy) mapInstance.panBy([dx, dy], { animate: true, duration: 0.35 });
+    
+    if (dx || dy) {
+      const currentCenter = mapInstance.getCenter();
+      const newCenterPoint = mapInstance.latLngToContainerPoint(currentCenter).subtract([dx, dy]);
+      const newCenter = mapInstance.containerPointToLatLng(newCenterPoint);
+      
+      const constrainedCenter = mapInstance._limitCenter(newCenter, mapInstance.getZoom(), mapInstance.options.maxBounds);
+      
+      if (constrainedCenter) {
+        const allowedPoint = mapInstance.latLngToContainerPoint(constrainedCenter);
+        const centerPoint = mapInstance.latLngToContainerPoint(currentCenter);
+        const allowedDx = centerPoint.x - allowedPoint.x;
+        const allowedDy = centerPoint.y - allowedPoint.y;
+        
+        if (allowedDx || allowedDy) {
+          mapInstance.panBy([allowedDx, allowedDy], { animate: true, duration: 0.35 });
+        }
+      }
+    }
   });
 }
 
@@ -345,7 +370,7 @@ async function renderMap() {
     onEachFeature: (feature, layer) => {
       const c = byIso[feature.properties.iso_code];
       if (!c) return;
-      layer.bindPopup(popupHTML(c), POPUP_OPTIONS);
+      layer.bindPopup(popupHTML(c), getPopupOptions(c.iso_code));
       if (ZOOM_LOW_FIXED_ISO.has(c.iso_code)) {
         layer.off('click');
         layer.on('click', e => {
@@ -369,6 +394,9 @@ async function renderMap() {
       layer.on('popupopen', async () => {
         const popup = layer.getPopup();
         panForPopup(popup);
+        if (c.iso_code === 'NZL') {
+          mapInstance.panTo([c.lat, c.lng], { animate: true, duration: 0.8 });
+        }
         try {
           const detail = await fetchDetailCached(c.iso_code);
           popup?.setContent(popupHTML(c, buildPopupExtra(detail)));
@@ -400,16 +428,29 @@ async function renderMap() {
         border:1.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.4);transform:translate(10px,-10px);">!</div>`,
       className: '', iconSize: [16, 16], iconAnchor: [8, 8],
     });
-    const m = L.marker([c.lat, c.lng], { icon, zIndexOffset: 500 }).bindPopup(popupHTML(c), POPUP_OPTIONS).addTo(partialIconGroup);
-    m.on('popupopen', async () => {
-      const popup = m.getPopup();
+    const m = L.marker([c.lat, c.lng], { icon, zIndexOffset: 500 }).addTo(partialIconGroup);
+    m.on('click', async () => {
+      let latlng = [c.lat, c.lng];
+      if (c.iso_code === 'RUS') {
+        if (mapInstance.getZoom() <= 3) {
+          latlng = FIXED_POPUP_ANCHOR['RUS'];
+        }
+      }
+      const popup = L.popup(getPopupOptions(c.iso_code))
+        .setLatLng(latlng)
+        .setContent(popupHTML(c));
+      mapInstance.openPopup(popup);
+
       panForPopup(popup);
+      if (c.iso_code === 'NZL') {
+        mapInstance.panTo([c.lat, c.lng], { animate: true, duration: 0.8 });
+      }
       try {
         const detail = await fetchDetailCached(c.iso_code);
-        popup?.setContent(popupHTML(c, buildPopupExtra(detail)));
+        popup.setContent(popupHTML(c, buildPopupExtra(detail)));
         panForPopup(popup);
       } catch {
-        popup?.setContent(popupHTML(c, ''));
+        popup.setContent(popupHTML(c, ''));
         panForPopup(popup);
       }
     });
