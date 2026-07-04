@@ -439,7 +439,7 @@ function renderLegend() {
   }).join('') + `
     <div class="legend-item" style="opacity:.7;cursor:default;">
       <span class="legend-dot" style="background:#D45500;border-radius:3px;width:9px;height:9px;line-height:9px;text-align:center;display:inline-flex;align-items:center;justify-content:center;font-size:8px;color:#fff;">!</span>
-      일부 지역만 경보
+      일부 지역 경보 표시
     </div>`;
 }
 
