@@ -9,7 +9,7 @@
     "partial_level": null,
     "regions": []
   },
-  "accident_info_html": "",
+  "accident_info_html": "<div>\r\n<h3>사건ㆍ사고의 유형</h3>\r\n[치안상황]<br>\r\nㅇ 동유럽과 북아프리카 지역에서 온 유랑자들이 짝을 이루어 관광객들에게 접근하여 소매치기를(절도) 하거나, 식당(호텔)과 기차역 주변 등에서 가방을 훔치는 유형의 경범죄 발생<br><br>\r\n\r\n<h3>유의해야할 지역</h3>\r\nㅇ 기차역 주변, 오슬로 시내 동쪽 지역의 이주민 거주 밀집 지역 등(특히 야간 출입 자제)<br></div>",
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ㅇ 주소 : inkognitogaten 3, 0258 oslo, Norway<br>\nㅇ 대표번호(근무시간 중) : (47) 2254-7090<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (47) 9026-3544<br>\nㅇ 이메일 : <a href=\"mailto:kornor@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">kornor@mofa.go.kr</a><br>\n<br>\n\n<h3>주재국 신고</h3> ㅇ 경찰 : 112<br>\nㅇ 화재 : 110<br>\nㅇ 앰뷸런스 : 113<br>\n<br>\n\n<h3>의료기관 연락처</h3> ㅇ 중앙역 인근 24시간 약국 : (+47) 2335-8100<br>\nㅇ 응급실 : (+47) 116-117<br></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {

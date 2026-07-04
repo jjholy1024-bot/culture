@@ -15,7 +15,7 @@
       }
     ]
   },
-  "accident_info_html": "",
+  "accident_info_html": "<div>\r\n<h3>사건ㆍ사고 현황</h3>\r\nㅇ 2020년 기준 리비아내 범죄현황 : 살인 376건, 납치 242건, 살인미수 48건, 강도 1,058건 발생<br>\r\n<p>※ 리비아 정부기능 및 공권력의 원활한 집행이 이루어지지 않아 사건사고에 대한 통계 비정기적으로 이루어지고 있음</p><br>\r\n\r\n<h3>사건ㆍ사고의 유형</h3>\r\nㅇ 내외국인을 막론한 납치, 강도, 살인, 차량강탈 등 총기를 이용한 사건사고가 빈번하게 발생하고 있으며 마약 및 주류 밀매 등의 사건도 증가하는 추세<br>\r\n<p>- 민병세력, 지역 범죄조직 등에 의한 강도, 납치, 차량강탈 등 각종 범죄가 만연</p><br>\r\n\r\n<h3>유의해야할 지역</h3>\r\nㅇ 현재 리비아 정부기능 및 공권력의 부재로 다양한 사건사고가 빈번히 발생하고 있으며 민간인도 총기를 소지하고 있는 경우가 많아 전 지역에서 안전에 극히 유의해야 함<br></div>",
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3>\n<p>[튀니지 임시사무소]<br>\nㅇ 주소 : Montazah Cote De Carthage Villa D1, 2078 Gammarth, Tunis<br>\nㅇ 대표번호(근무시간 중) : (216) 71-274-759<br>\nㅇ 긴급연락처 (사건사고 등 긴급상황 발생 시, 24시간) : (218) 91-263-9408<br>\nㅇ E-mail : <a href=\"mailto:libya@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">libya@mofa.go.kr</a></p>\n<p><br></p>\n<p><br></p></div><br>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": null

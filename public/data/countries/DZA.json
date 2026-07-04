@@ -25,7 +25,7 @@
       }
     ]
   },
-  "accident_info_html": "",
+  "accident_info_html": "<div><h3>사건ㆍ사고의 유형</h3>\r\nㅇ 소매치기와 날치기, 호텔방에서 현금이나 귀중품을 절도 당하는 사례, 야간 도보 외출 시 폭행과 소지품을 빼앗기는 사례가 보고되고 있으니 각별히 유의하여 주시기 바랍니다.<br>\r\nㅇ 입국시 신고하지 않은 외환반출 적발 사례가 있으니 유의가 필요합니다.<br><br>\r\n\r\n<h3>자연재해</h3>\r\nㅇ 주재국은 지진 다발지역으로 2003년 5월 진도 6.8의 강진이 수도 알제 근처의 부메르데스에서 발생하여 2000명 이상의 사망자와 1만여 명의 부상자가 발생하였으며, 최근까지 크고 작은 지진이 지속적으로 발생하고 있는 가운데 2021년 3월 17일 수도 동쪽 베자이아에서 진도 5.9의 강진을 비롯한 여러 차례의 여진이 발생하고, 이후 3월 25일 베자이아에서 또 진도 4.3의 지진이 발생하였습니다.<br></div>",
   "local_contact_html": "<div>\n<h3>대사관 연락처</h3> ㅇ 주소 : Ambassade de la République de Corée, 5 Chemin Mackley (El Bakri), Ben Aknoun, Alger<br>\nㅇ 대표번호(근무시간 중) : (213) 23-18-77-17/ ~19/ ~29/ ~92<br>\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (213) 770-11-44-00<br>\nㅇ E-mail : <a href=\"mailto:koemal@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">koemal@mofa.go.kr</a><br>\n<br>\n\n<h3>주재국 신고</h3> ㅇ 경찰 1548<br>\nㅇ 화재 14<br>\nㅇ 테러 신고 1590<br>\nㅇ 독극물 센터 (0) 21 - 979898<br>\nㅇ 응급의료 115 또는(0) 21 - 235050, (0) 21 - 237739<br>\nㅇ 한국에서 연락하실 경우 : 213 + 위의 번호에서 첫 번째 0을 제외하고 누를 것<br>\n\n<p>- ex) 응급의료 : 213 (0) 21 - 235050</p><br>\n\n<h3>의료기관 연락처</h3> ㅇ Clinique Al Azhar(종합병원) <br>\n\n<p>- 주소 : Djenane Achabou No.4 DZ-16020 Dely Ibrahim<br>- 연락처 : (+213) (0) 21 91 73 96/91 73 97/91 74 29/91 98 61</p></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {

@@ -15,7 +15,7 @@
       }
     ]
   },
-  "accident_info_html": "",
+  "accident_info_html": "<div>\r\n<h3>사건ㆍ사고의 유형</h3>\r\nㅇ 관광객 상대 소매치기 등 경범죄 이외 특별한 사건. 사고 없음<br>\r\n<p>- 단, 2012. 4월에 우리 관광객(학생)이 렌터카로 여행 중 차량이 전복, 탑승객 중 안전띠 미착용 학생 1명 사망</p>\r\n<br>\r\n\r\n<h3>자연재해</h3>\r\nㅇ 화산 폭발(2010년 6월), 태풍 등<br><br>\r\n\r\n<h3>유의해야 할 지역</h3>\r\nㅇ 화산 폭발이 진행 중인 아이슬란드 내륙지역<br></div>",
   "local_contact_html": "<div>\r\n<h3>대사관 연락처</h3> ※ 아이슬란드에는 우리대사관이 없으며, 주노르웨이한국대사관이 겸임하고 있습니다.<br>\r\nㅇ 주소 : inkognitogaten 3, 0258 oslo, Norway<br>\r\nㅇ 대표번호(근무시간 중) : (47) 2254-7090<br>\r\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (47) 9026-3544<br>\r\nㅇ 이메일 : <a href=\"mailto:kornor@mofa.go.kr\" target=\"_blank\" rel=\"noopener\">kornor@mofa.go.kr</a><br>\r\n<br>\r\n\r\n<h3>긴급 연락처</h3> ㅇ 사고, 화재, 범죄, 실종 등 긴급 상황 전반 : 112<br>\r\nㅇ 경찰 : +354-444-1000<br>\r\n<br>\r\n\r\n<h3>의료기관 연락처</h3> ㅇ 의료기관 안내 : 112(24시간), 1770(평일 17시~08시, 토/일 24시간)<br>\r\nㅇ 응급실 : +354-543-2000<br>\r\nㅇ 약국 : +354-533-2300(08시~24시)<br></div>",
   "notice_url": "https://www.0404.go.kr/ntnSafetyInfo/list",
   "culture_ai": {
