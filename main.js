@@ -264,24 +264,47 @@ function popupHTML(c, extra) {
       <button class="map-popup-btn" onclick="selectCountry('${c.iso_code}')">자세히 보기 →</button>
     </div>`;
 }
+function extractFirstTip(text) {
+  if (!text) return '';
+  const lines = text.split('\n');
+  for (let line of lines) {
+    const trimmed = line.trim();
+    if ((line.startsWith('    *') || line.startsWith('\t*') || line.startsWith('  *')) && trimmed.startsWith('*')) {
+      let content = trimmed.substring(1).trim();
+      return content.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    }
+  }
+  for (let line of lines) {
+    const trimmed = line.trim();
+    if (trimmed && !trimmed.startsWith('💡') && !trimmed.startsWith('🚨') && !trimmed.startsWith('⚠️')) {
+      if (trimmed.startsWith('*')) {
+        if (trimmed.match(/^\*\s*\*\*[^*]+\*\*\s*$/)) {
+          continue;
+        }
+        let content = trimmed.substring(1).trim();
+        return content.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      }
+      return trimmed.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    }
+  }
+  return '';
+}
 
 function buildPopupExtra(detail) {
   const partials = (detail.travel_alert?.regions || []).filter(r => r.partial);
   const partialHTML = partials.length
     ? `<p class="map-popup-line">⚠️ ${partials.slice(0, 2).map(r => `${r.area || '일부 지역'}: ${r.level}`).join(' / ')}${partials.length > 2 ? ' 외' : ''}</p>`
     : '';
-  const etiquette = detail.culture_ai?.etiquette || '';
-  let tip = '';
-  if (etiquette) {
-    if (etiquette.includes('\n')) {
-      tip = etiquette.split('\n')[0].replace(/\*\*/g, '').trim();
-    } else {
-      tip = etiquette.split('.')[0] + (etiquette.includes('.') ? '.' : '');
-    }
-  }
-  const tipHTML = tip ? `<p class="map-popup-line">🤝 ${tip}</p>` : '';
-  return partialHTML + tipHTML;
+
+  const etiquetteTip = extractFirstTip(detail.culture_ai?.etiquette);
+  const localLawsTip = extractFirstTip(detail.culture_ai?.local_laws);
+
+  const etiquetteHTML = etiquetteTip ? `<p class="map-popup-line">🤝 ${etiquetteTip}</p>` : '';
+  const lawsHTML = localLawsTip ? `<p class="map-popup-line">⚖️ ${localLawsTip}</p>` : '';
+
+  return partialHTML + etiquetteHTML + lawsHTML;
 }
+
 
 async function renderMap() {
   if (!mapInstance) {
