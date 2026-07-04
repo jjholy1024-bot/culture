@@ -37,16 +37,15 @@ function getPopupOptions(iso) {
 // 더 낮은 위도로 개별 보정한다.
 const ZOOM_LOW_FIXED_ISO = new Set(['CAN', 'NOR', 'IDN', 'PHL']);
 
-// 러시아·미국은 위 문제에 더해, 날짜변경선(경도 ±180°)에 가까운 영토(러시아 극동,
-// 미국 알래스카 서쪽 알류샨 열도)를 클릭하면 지도에 noWrap+maxBounds가 걸려있어
-// panForPopup이 보정할 여백 자체가 없어 잘린다. 그래서 이 두 나라는 확대 정도와
-// 무관하게 "줌 2~3이거나 클릭 지점이 날짜변경선 근처일 때"만 고정 좌표를 쓰고,
-// 나머지 클릭은 그대로 클릭 위치에 연다.
-const EDGE_SAFE_ISO = new Set(['RUS', 'USA']);
+// 러시아·미국·호주는 위 문제에 더해, 날짜변경선(경도 ±180°)에 가깝거나 영토가 매우 넓어
+// 지도 경계(maxBounds) 근처를 클릭할 때 panForPopup이 보정할 여백 자체가 없어 잘릴 수 있습니다.
+// 따라서 확대 정도와 무관하게 "줌 2~3이거나 클릭 지점이 날짜변경선 근처일 때" 고정 좌표를 사용합니다.
+const EDGE_SAFE_ISO = new Set(['RUS', 'USA', 'AUS']);
 const DATELINE_THRESHOLD = 165; // |lng|가 이 값을 넘으면 날짜변경선 인접으로 간주
 
 const FIXED_POPUP_ANCHOR = {
   RUS: [52.3, 104.3], // 이르쿠츠크 — 러시아 영토 내에서 centroid(60,100)보다 남쪽인 지점
+  AUS: [-25.0, 125.0], // 호주 대륙 서부 부근 (왼쪽 이동)
 };
 
 function panForPopup(popup) {
