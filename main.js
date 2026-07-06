@@ -393,7 +393,7 @@ async function renderMap() {
       layer.on('popupopen', async () => {
         const popup = layer.getPopup();
         panForPopup(popup);
-        if (c.iso_code === 'NZL') {
+        if (c.lat && c.lng) {
           mapInstance.panTo([c.lat, c.lng], { animate: true, duration: 0.8 });
         }
         try {
@@ -441,7 +441,7 @@ async function renderMap() {
       mapInstance.openPopup(popup);
 
       panForPopup(popup);
-      if (c.iso_code === 'NZL') {
+      if (c.lat && c.lng) {
         mapInstance.panTo([c.lat, c.lng], { animate: true, duration: 0.8 });
       }
       try {
